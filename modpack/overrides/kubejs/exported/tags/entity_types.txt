@@ -1,0 +1,823 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 6, 2023 9:51:38 AM
+
+#occultism:humans
+- #forge:villagers
+- minecraft:player
+
+#forge:horses
+- minecraft:horse
+
+#tconstruct:rare_mobs
+- minecraft:wither
+- minecraft:ender_dragon
+- minecraft:elder_guardian
+- minecraft:evoker
+- minecraft:player
+
+#botania:cocoon/common
+- minecraft:pig
+- minecraft:cow
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:sheep
+
+#forge:pigs
+- minecraft:pig
+
+#forge:parrots
+- minecraft:parrot
+
+#botania:cocoon/rare_aquatic
+- minecraft:dolphin
+
+#tconstruct:melting/show_in_default
+- minecraft:iron_golem
+- minecraft:snow_golem
+- minecraft:villager
+- minecraft:player
+
+#botania:cocoon/rare
+- minecraft:horse
+- minecraft:donkey
+- minecraft:wolf
+- minecraft:ocelot
+- minecraft:cat
+- minecraft:parrot
+- minecraft:llama
+- minecraft:fox
+- minecraft:panda
+- minecraft:turtle
+- quark:frog?
+
+#tconstruct:piggybackpack_blacklist
+
+#botania:shaded_mesa_blacklist
+- minecraft:ender_dragon
+- minecraft:wither
+- minecraft:item_frame
+- minecraft:end_crystal
+- minecraft:painting
+- botania:corporea_spark
+- botania:doppleganger
+- botania:flame_ring
+- botania:magic_landmine
+- botania:magic_missile
+- botania:mana_burst
+- botania:pink_wither
+- botania:spark
+- botania:player_mover
+
+#forge:llamas
+- minecraft:llama
+- minecraft:trader_llama
+
+#farmersdelight:dog_food_users
+- minecraft:wolf
+
+#botania:cocoon/common_aquatic
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:squid
+- quark:crab?
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- savageandravage:spore_cloud
+- savageandravage:confusion_bolt
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#forge:creepers
+- minecraft:creeper
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+- savageandravage:skeleton_villager
+
+#ars_nouveau:drygmy_blacklist
+- minecraft:iron_golem
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+- savageandravage:mischief_arrow
+
+#forge:sheep
+- minecraft:sheep
+
+#tconstruct:bacon_producer
+- minecraft:pig
+- minecraft:piglin
+- minecraft:hoglin
+
+#forge:zombies
+- minecraft:zombie
+- minecraft:zombie_villager
+- minecraft:husk
+- minecraft:drowned
+
+#minecraft:mob_cant_be_threaded
+- ttigraas:orc_disaster
+- ttigraas:armorsaurus
+- ttigraas:black_spider
+- ttigraas:evil_centipede
+- ttigraas:giant_ant
+- ttigraas:giant_bat
+- ttigraas:hell_moth
+- ttigraas:knight_spider
+- ttigraas:tempest_serpent
+- ttigraas:charybdis
+- ttigraas:shizue_izawa
+- ttigraas:ifrit
+- ttigraas:intelligent_slime
+- ttigraas:chaos_eater_entity
+- ttigraas:ifrit_clone
+- ttigraas:salamander
+- ttigraas:grave_lizard
+- ttigraas:sissie
+- ttigraas:charybdis_scale
+- ttigraas:spear_toro
+- ttigraas:hell_ball
+- ttigraas:orc_lord
+- ttigraas:spirit_protector_colossus
+- ttigraas:lesser_spirit
+- minecraft:ender_dragon
+- minecraft:elder_guardian
+- minecraft:wither_skeleton
+- ttigraas:orc_disaster
+- ttigraas:armorsaurus
+- ttigraas:black_spider
+- ttigraas:evil_centipede
+- ttigraas:giant_ant
+- ttigraas:giant_bat
+- ttigraas:hell_moth
+- ttigraas:knight_spider
+- ttigraas:tempest_serpent
+- ttigraas:charybdis
+- ttigraas:shizue_izawa
+- ttigraas:ifrit
+- ttigraas:intelligent_slime
+- ttigraas:chaos_eater_entity
+- ttigraas:ifrit_clone
+- ttigraas:salamander
+- ttigraas:grave_lizard
+- ttigraas:sissie
+- ttigraas:charybdis_scale
+- ttigraas:spear_toro
+- ttigraas:hell_ball
+- ttigraas:orc_lord
+- ttigraas:spirit_protector_colossus
+- ttigraas:lesser_spirit
+- minecraft:ender_dragon
+- minecraft:elder_guardian
+- minecraft:wither_skeleton
+
+#forge:unnamable
+- ttigraas:magic_steel_golem
+
+#minecraft:controlable_mobs
+- ttigraas:lizardman
+- ttigraas:orc
+- ttigraas:direwolf
+- ttigraas:goblin
+- ttigraas:barghest
+- ttigraas:giant_bear
+- ttigraas:one_eyed_owl
+- ttigraas:one_horned_rabbit
+- ttigraas:landfish
+- ttigraas:magic_steel_golem
+- ttigraas:lizardman
+- ttigraas:orc
+- ttigraas:direwolf
+- ttigraas:goblin
+- ttigraas:barghest
+- ttigraas:giant_bear
+- ttigraas:one_eyed_owl
+- ttigraas:one_horned_rabbit
+- ttigraas:landfish
+- ttigraas:magic_steel_golem
+
+#minecraft:subordinate_mobs
+- ttigraas:armorsaurus
+- ttigraas:barghest
+- ttigraas:direwolf
+- ttigraas:giant_bear
+- ttigraas:goblin
+- ttigraas:grave_lizard
+- ttigraas:landfish
+- ttigraas:lizardman
+- ttigraas:one_eyed_owl
+- ttigraas:one_horned_rabbit
+- ttigraas:orc
+- ttigraas:armorsaurus
+- ttigraas:barghest
+- ttigraas:direwolf
+- ttigraas:giant_bear
+- ttigraas:goblin
+- ttigraas:grave_lizard
+- ttigraas:landfish
+- ttigraas:lizardman
+- ttigraas:one_eyed_owl
+- ttigraas:one_horned_rabbit
+- ttigraas:orc
+
+#forge:squid
+- minecraft:squid
+
+#minecraft:passive_mob
+- minecraft:zombie
+- minecraft:bat
+- minecraft:cat
+- minecraft:chicken
+- minecraft:cod
+- minecraft:cow
+- minecraft:donkey
+- minecraft:dolphin
+- minecraft:fox
+- minecraft:giant
+- minecraft:horse
+- minecraft:mooshroom
+- minecraft:mule
+- minecraft:ocelot
+- minecraft:parrot
+- minecraft:pig
+- minecraft:pufferfish
+- minecraft:rabbit
+- minecraft:salmon
+- minecraft:sheep
+- minecraft:snow_golem
+- minecraft:squid
+- minecraft:turtle
+- minecraft:villager
+- minecraft:wandering_trader
+- minecraft:strider
+- minecraft:zombie
+- minecraft:bat
+- minecraft:cat
+- minecraft:chicken
+- minecraft:cod
+- minecraft:cow
+- minecraft:donkey
+- minecraft:dolphin
+- minecraft:fox
+- minecraft:giant
+- minecraft:horse
+- minecraft:mooshroom
+- minecraft:mule
+- minecraft:ocelot
+- minecraft:parrot
+- minecraft:pig
+- minecraft:pufferfish
+- minecraft:rabbit
+- minecraft:salmon
+- minecraft:sheep
+- minecraft:snow_golem
+- minecraft:squid
+- minecraft:turtle
+- minecraft:villager
+- minecraft:wandering_trader
+- minecraft:strider
+
+#forge:spiders
+- minecraft:spider
+
+#forge:golems/snow
+- minecraft:snow_golem
+
+#savageandravage:creeper_proof_types
+- minecraft:painting
+- minecraft:item_frame
+- minecraft:armor_stand
+- minecraft:falling_block
+- minecraft:leash_knot
+
+#occultism:wild_hunt
+- occultism:wild_hunt_skeleton
+- occultism:wild_hunt_wither_skeleton
+
+#extraboats:sitting_mobs
+- savageandravage:griefer
+- savageandravage:executioner
+- savageandravage:iceologer
+- savageandravage:skeleton_villager
+
+#forge:cows
+- minecraft:cow
+
+#farmersdelight:horse_feed_users
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:llama
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+- savageandravage:griefer
+- savageandravage:executioner
+- savageandravage:iceologer
+- savageandravage:trickster
+
+#occultism:afrit_allies
+- minecraft:blaze
+
+#forge:villagers
+- minecraft:villager
+
+#tconstruct:melting/hide_in_default
+- minecraft:giant
+
+#ars_nouveau:disintegration_whitelist
+
+#minecraft:human
+- minecraft:evoker
+- minecraft:illusioner
+- minecraft:pillager
+- minecraft:player
+- minecraft:player
+- minecraft:zombie
+- minecraft:villager
+- minecraft:vindicator
+- minecraft:wandering_trader
+- minecraft:witch
+- ttigraas:shizue_izawa
+- ttigraas:shizue
+- ttigraas:otherworlder
+- ttigraas:special_otherworlder
+- ttigraas:hinata_sakaguchi
+- minecraft:evoker
+- minecraft:illusioner
+- minecraft:pillager
+- minecraft:player
+- minecraft:player
+- minecraft:zombie
+- minecraft:villager
+- minecraft:vindicator
+- minecraft:wandering_trader
+- minecraft:witch
+- ttigraas:shizue_izawa
+- ttigraas:shizue
+- ttigraas:otherworlder
+- ttigraas:special_otherworlder
+- ttigraas:hinata_sakaguchi
+
+#minecraft:minecraft_mobs
+- minecraft:bat
+- minecraft:bee
+- minecraft:blaze
+- minecraft:cat
+- minecraft:cave_spider
+- minecraft:chicken
+- minecraft:cod
+- minecraft:cow
+- minecraft:creeper
+- minecraft:dolphin
+- minecraft:donkey
+- minecraft:ender_dragon
+- minecraft:drowned
+- minecraft:elder_guardian
+- minecraft:enderman
+- minecraft:endermite
+- minecraft:evoker
+- minecraft:fox
+- minecraft:ghast
+- minecraft:giant
+- minecraft:zombie
+- minecraft:guardian
+- minecraft:hoglin
+- minecraft:horse
+- minecraft:husk
+- minecraft:illusioner
+- minecraft:iron_golem
+- minecraft:llama
+- minecraft:magma_cube
+- minecraft:mooshroom
+- minecraft:mule
+- minecraft:ocelot
+- minecraft:panda
+- minecraft:parrot
+- minecraft:phantom
+- minecraft:pig
+- minecraft:piglin
+- minecraft:piglin_brute
+- minecraft:pillager
+- minecraft:polar_bear
+- minecraft:pufferfish
+- minecraft:rabbit
+- minecraft:ravager
+- minecraft:salmon
+- minecraft:sheep
+- minecraft:shulker
+- minecraft:silverfish
+- minecraft:skeleton
+- minecraft:skeleton_horse
+- minecraft:slime
+- minecraft:snow_golem
+- minecraft:zombie
+- minecraft:spider
+- minecraft:squid
+- minecraft:stray
+- minecraft:strider
+- minecraft:trader_llama
+- minecraft:tropical_fish
+- minecraft:turtle
+- minecraft:vex
+- minecraft:villager
+- minecraft:vindicator
+- minecraft:wandering_trader
+- minecraft:witch
+- minecraft:wither
+- minecraft:wither_skeleton
+- minecraft:wolf
+- minecraft:zoglin
+- minecraft:zombie
+- minecraft:zombie_horse
+- minecraft:zombie_villager
+- minecraft:zombified_piglin
+- minecraft:bat
+- minecraft:bee
+- minecraft:blaze
+- minecraft:cat
+- minecraft:cave_spider
+- minecraft:chicken
+- minecraft:cod
+- minecraft:cow
+- minecraft:creeper
+- minecraft:dolphin
+- minecraft:donkey
+- minecraft:ender_dragon
+- minecraft:drowned
+- minecraft:elder_guardian
+- minecraft:enderman
+- minecraft:endermite
+- minecraft:evoker
+- minecraft:fox
+- minecraft:ghast
+- minecraft:giant
+- minecraft:zombie
+- minecraft:guardian
+- minecraft:hoglin
+- minecraft:horse
+- minecraft:husk
+- minecraft:illusioner
+- minecraft:iron_golem
+- minecraft:llama
+- minecraft:magma_cube
+- minecraft:mooshroom
+- minecraft:mule
+- minecraft:ocelot
+- minecraft:panda
+- minecraft:parrot
+- minecraft:phantom
+- minecraft:pig
+- minecraft:piglin
+- minecraft:piglin_brute
+- minecraft:pillager
+- minecraft:polar_bear
+- minecraft:pufferfish
+- minecraft:rabbit
+- minecraft:ravager
+- minecraft:salmon
+- minecraft:sheep
+- minecraft:shulker
+- minecraft:silverfish
+- minecraft:skeleton
+- minecraft:skeleton_horse
+- minecraft:slime
+- minecraft:snow_golem
+- minecraft:zombie
+- minecraft:spider
+- minecraft:squid
+- minecraft:stray
+- minecraft:strider
+- minecraft:trader_llama
+- minecraft:tropical_fish
+- minecraft:turtle
+- minecraft:vex
+- minecraft:villager
+- minecraft:vindicator
+- minecraft:wandering_trader
+- minecraft:witch
+- minecraft:wither
+- minecraft:wither_skeleton
+- minecraft:wolf
+- minecraft:zoglin
+- minecraft:zombie
+- minecraft:zombie_horse
+- minecraft:zombie_villager
+- minecraft:zombified_piglin
+
+#minecraft:hostile_mob
+- ttigraas:orc_disaster
+- ttigraas:armorsaurus
+- ttigraas:black_spider
+- ttigraas:evil_centipede
+- ttigraas:giant_ant
+- ttigraas:giant_bat
+- ttigraas:knight_spider
+- ttigraas:tempest_serpent
+- ttigraas:charybdis
+- ttigraas:megalodon
+- ttigraas:ifrit
+- ttigraas:intelligent_slime
+- ttigraas:chaos_eater_entity
+- ttigraas:ifrit_clone
+- ttigraas:salamander
+- ttigraas:sissie
+- ttigraas:charybdis_scale
+- ttigraas:mushdoom
+- ttigraas:spear_toro
+- ttigraas:orc_lord
+- ttigraas:spirit_protector_colossus
+- minecraft:blaze
+- minecraft:cave_spider
+- minecraft:creeper
+- minecraft:drowned
+- minecraft:ender_dragon
+- minecraft:elder_guardian
+- minecraft:endermite
+- minecraft:evoker
+- minecraft:evoker_fangs
+- minecraft:ghast
+- minecraft:guardian
+- minecraft:hoglin
+- minecraft:husk
+- minecraft:illusioner
+- minecraft:magma_cube
+- minecraft:pillager
+- minecraft:shulker
+- minecraft:silverfish
+- minecraft:skeleton
+- minecraft:slime
+- minecraft:zombie
+- minecraft:stray
+- minecraft:vex
+- minecraft:vindicator
+- minecraft:witch
+- minecraft:wither
+- minecraft:wither_skeleton
+- minecraft:zombie
+- minecraft:phantom
+- minecraft:ravager
+- minecraft:piglin_brute
+- minecraft:zoglin
+- ttigraas:orc_disaster
+- ttigraas:armorsaurus
+- ttigraas:black_spider
+- ttigraas:evil_centipede
+- ttigraas:giant_ant
+- ttigraas:giant_bat
+- ttigraas:knight_spider
+- ttigraas:tempest_serpent
+- ttigraas:charybdis
+- ttigraas:megalodon
+- ttigraas:ifrit
+- ttigraas:intelligent_slime
+- ttigraas:chaos_eater_entity
+- ttigraas:ifrit_clone
+- ttigraas:salamander
+- ttigraas:sissie
+- ttigraas:charybdis_scale
+- ttigraas:mushdoom
+- ttigraas:spear_toro
+- ttigraas:orc_lord
+- ttigraas:spirit_protector_colossus
+- minecraft:blaze
+- minecraft:cave_spider
+- minecraft:creeper
+- minecraft:drowned
+- minecraft:ender_dragon
+- minecraft:elder_guardian
+- minecraft:endermite
+- minecraft:evoker
+- minecraft:evoker_fangs
+- minecraft:ghast
+- minecraft:guardian
+- minecraft:hoglin
+- minecraft:husk
+- minecraft:illusioner
+- minecraft:magma_cube
+- minecraft:pillager
+- minecraft:shulker
+- minecraft:silverfish
+- minecraft:skeleton
+- minecraft:slime
+- minecraft:zombie
+- minecraft:stray
+- minecraft:vex
+- minecraft:vindicator
+- minecraft:witch
+- minecraft:wither
+- minecraft:wither_skeleton
+- minecraft:zombie
+- minecraft:phantom
+- minecraft:ravager
+- minecraft:piglin_brute
+- minecraft:zoglin
+
+#forge:slimes
+- minecraft:slime
+- tconstruct:earth_slime
+- tconstruct:sky_slime
+- tconstruct:ender_slime
+- tconstruct:terracube
+
+#minecraft:charybdis_host
+- ttigraas:dwarf
+- ttigraas:lizardman
+- ttigraas:orc
+- ttigraas:goblin
+- ttigraas:giant_bear
+- ttigraas:elf
+- ttigraas:otherworlder
+- minecraft:evoker
+- minecraft:illusioner
+- minecraft:pillager
+- minecraft:zombie
+- minecraft:villager
+- minecraft:vindicator
+- minecraft:wandering_trader
+- minecraft:witch
+- minecraft:piglin
+- minecraft:piglin_brute
+- ttigraas:dwarf
+- ttigraas:lizardman
+- ttigraas:orc
+- ttigraas:goblin
+- ttigraas:giant_bear
+- ttigraas:elf
+- ttigraas:otherworlder
+- minecraft:evoker
+- minecraft:illusioner
+- minecraft:pillager
+- minecraft:zombie
+- minecraft:villager
+- minecraft:vindicator
+- minecraft:wandering_trader
+- minecraft:witch
+- minecraft:piglin
+- minecraft:piglin_brute
+
+#minecraft:tensura_mobs
+- ttigraas:armorsaurus
+- ttigraas:barghest
+- ttigraas:black_spider
+- ttigraas:charybdis
+- ttigraas:charybdis_cave_spawner
+- ttigraas:direwolf
+- ttigraas:direwolf_boss
+- ttigraas:dwarf
+- ttigraas:elf
+- ttigraas:evil_centipede
+- ttigraas:giant_ant
+- ttigraas:giant_bat
+- ttigraas:giant_bear
+- ttigraas:goblin
+- ttigraas:grave_lizard
+- ttigraas:hell_moth
+- ttigraas:hipokte_flytrap
+- ttigraas:ifrit_clone
+- ttigraas:intelligent_slime
+- ttigraas:knight_spider
+- ttigraas:landfish
+- ttigraas:lesser_spirit
+- ttigraas:lizardman
+- ttigraas:megalodon
+- ttigraas:mushdoom
+- ttigraas:one_eyed_owl
+- ttigraas:one_horned_rabbit
+- ttigraas:orc
+- ttigraas:orc_disaster
+- ttigraas:orc_lord
+- ttigraas:otherworlder
+- ttigraas:salamander
+- ttigraas:shizue
+- ttigraas:ifrit
+- ttigraas:shizue_izawa
+- ttigraas:sissie
+- ttigraas:spear_toro
+- ttigraas:spirit_protector_colossus
+- ttigraas:tempest_serpent
+- ttigraas:hinata_sakaguchi
+- ttigraas:special_otherworlder
+- ttigraas:magic_steel_golem
+- ttigraas:armorsaurus
+- ttigraas:barghest
+- ttigraas:black_spider
+- ttigraas:charybdis
+- ttigraas:charybdis_cave_spawner
+- ttigraas:direwolf
+- ttigraas:direwolf_boss
+- ttigraas:dwarf
+- ttigraas:elf
+- ttigraas:evil_centipede
+- ttigraas:giant_ant
+- ttigraas:giant_bat
+- ttigraas:giant_bear
+- ttigraas:goblin
+- ttigraas:grave_lizard
+- ttigraas:hell_moth
+- ttigraas:hipokte_flytrap
+- ttigraas:ifrit_clone
+- ttigraas:intelligent_slime
+- ttigraas:knight_spider
+- ttigraas:landfish
+- ttigraas:lesser_spirit
+- ttigraas:lizardman
+- ttigraas:megalodon
+- ttigraas:mushdoom
+- ttigraas:one_eyed_owl
+- ttigraas:one_horned_rabbit
+- ttigraas:orc
+- ttigraas:orc_disaster
+- ttigraas:orc_lord
+- ttigraas:otherworlder
+- ttigraas:salamander
+- ttigraas:shizue
+- ttigraas:ifrit
+- ttigraas:shizue_izawa
+- ttigraas:sissie
+- ttigraas:spear_toro
+- ttigraas:spirit_protector_colossus
+- ttigraas:tempest_serpent
+- ttigraas:hinata_sakaguchi
+- ttigraas:special_otherworlder
+- ttigraas:magic_steel_golem
+
+#minecraft:neutral_mob
+- ttigraas:dwarf
+- ttigraas:lizardman
+- ttigraas:orc
+- ttigraas:direwolf
+- ttigraas:goblin
+- ttigraas:hell_moth
+- ttigraas:shizue_izawa
+- ttigraas:grave_lizard
+- ttigraas:giant_bear
+- ttigraas:one_eyed_owl
+- ttigraas:one_horned_rabbit
+- ttigraas:landfish
+- ttigraas:elf
+- minecraft:bee
+- minecraft:dolphin
+- minecraft:enderman
+- minecraft:zombie
+- minecraft:iron_golem
+- minecraft:llama
+- minecraft:panda
+- minecraft:polar_bear
+- minecraft:trader_llama
+- minecraft:wolf
+- minecraft:spider
+- ttigraas:otherworlder
+- ttigraas:dwarf
+- ttigraas:lizardman
+- ttigraas:orc
+- ttigraas:direwolf
+- ttigraas:goblin
+- ttigraas:hell_moth
+- ttigraas:shizue_izawa
+- ttigraas:grave_lizard
+- ttigraas:giant_bear
+- ttigraas:one_eyed_owl
+- ttigraas:one_horned_rabbit
+- ttigraas:landfish
+- ttigraas:elf
+- minecraft:bee
+- minecraft:dolphin
+- minecraft:enderman
+- minecraft:zombie
+- minecraft:iron_golem
+- minecraft:llama
+- minecraft:panda
+- minecraft:polar_bear
+- minecraft:trader_llama
+- minecraft:wolf
+- minecraft:spider
+- ttigraas:otherworlder
+
+#ars_nouveau:disintegration_blacklist
+
+#forge:chicken
+- minecraft:chicken
+
+#forge:bats
+- minecraft:bat

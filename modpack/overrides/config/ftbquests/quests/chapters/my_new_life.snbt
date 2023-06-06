@@ -1,0 +1,97 @@
+{
+	id: "76F617AA48E5DFAE"
+	group: ""
+	order_index: 0
+	filename: "my_new_life"
+	title: "My new Life"
+	icon: "ttigraas:race_reroll_scroll"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Ive been Reincarnated"
+			icon: "ttigraas:retaliator"
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			size: 3.0d
+			id: "5FFFD591E3C324D9"
+			tasks: [{
+				id: "24BE5C80BF1B82DD"
+				type: "checkmark"
+				title: "Placeholder"
+			}]
+			rewards: [
+				{
+					id: "5ABD5EFC0BE42C51"
+					type: "item"
+					team_reward: false
+					item: "ttigraas:race_reroll_scroll"
+				}
+				{
+					id: "652EA76A06F99EC1"
+					type: "item"
+					item: "ttigraas:skill_reroll_scroll"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["5FFFD591E3C324D9"]
+			hide: true
+			size: 2.0d
+			id: "4D782894277C012D"
+			tasks: [{
+				id: "4A6EFA408C3DEF50"
+				type: "dimension"
+				title: "The Spiritual World"
+				icon: "minecraft:end_stone_bricks"
+				dimension: "ttigraas:spiritual_world"
+			}]
+			rewards: [{
+				id: "4A939FECFF9596D6"
+				type: "item"
+				item: "ttigraas:skill_reroll_scroll"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["5FFFD591E3C324D9"]
+			hide: false
+			size: 2.0d
+			id: "0C4D5237B9BF637D"
+			tasks: [{
+				id: "161A7116EB0FE942"
+				type: "dimension"
+				title: "My New World"
+				icon: "minecraft:grass_block"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [{
+				id: "7DDC453F95EDA8A9"
+				type: "item"
+				item: "ttigraas:skill_reroll_scroll"
+			}]
+		}
+		{
+			title: "Are u here for a spirit?"
+			x: 0.0d
+			y: 5.25d
+			dependencies: [
+				"0C4D5237B9BF637D"
+				"4D782894277C012D"
+			]
+			dependency_requirement: "one_completed"
+			size: 1.5d
+			id: "178988A862C267CC"
+			tasks: [{
+				id: "2F3309A36FA8B94F"
+				type: "dimension"
+				icon: "botania:mossy_livingrock_bricks"
+				dimension: "ttigraas:labyrinth"
+			}]
+		}
+	]
+}

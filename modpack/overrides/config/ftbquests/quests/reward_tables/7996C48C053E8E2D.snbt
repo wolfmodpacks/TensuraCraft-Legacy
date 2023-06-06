@@ -1,0 +1,12 @@
+{
+	id: "7996C48C053E8E2D"
+	order_index: 1
+	title: "Cakes"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "tconstruct:ender_cake" }
+		{ item: "tconstruct:sky_cake" }
+		{ item: "tconstruct:earth_cake" }
+	]
+}

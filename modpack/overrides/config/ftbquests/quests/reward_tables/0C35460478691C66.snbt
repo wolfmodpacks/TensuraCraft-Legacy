@@ -1,0 +1,12 @@
+{
+	id: "0C35460478691C66"
+	order_index: 0
+	title: "Food"
+	icon: "farmersdelight:dog_food"
+	loot_size: 1
+	rewards: [
+		{ item: "farmersdelight:hamburger", count: 6 }
+		{ item: "farmersdelight:sweet_berry_cookie", count: 6 }
+		{ item: "farmersdelight:chicken_soup", count: 6 }
+	]
+}

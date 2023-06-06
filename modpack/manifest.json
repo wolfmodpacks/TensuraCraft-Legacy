@@ -1,0 +1,937 @@
+{
+  "minecraft": {
+    "version": "1.16.5",
+    "modLoaders": [
+      {
+        "id": "forge-36.2.34",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "overrides": "overrides",
+  "manifestVersion": 1,
+  "version": "0.0.1",
+  "author": "Wolfie",
+  "name": "TensuraCraft Legacy",
+  "files": [
+    {
+      "projectID": 32274,
+      "fileID": 4012858,
+      "required": true,
+      "__meta": {
+        "name": "JourneyMap"
+      }
+    },
+    {
+      "projectID": 55438,
+      "fileID": 3346467,
+      "required": true,
+      "__meta": {
+        "name": "MrCrayfish's Furniture Mod"
+      }
+    },
+    {
+      "projectID": 74072,
+      "fileID": 3695126,
+      "required": true,
+      "__meta": {
+        "name": "Tinkers Construct",
+        "dependencies": [
+          74924
+        ]
+      }
+    },
+    {
+      "projectID": 74924,
+      "fileID": 3631982,
+      "required": true,
+      "__meta": {
+        "name": "Mantle",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 223852,
+      "fileID": 3776277,
+      "required": true,
+      "__meta": {
+        "name": "Storage Drawers"
+      }
+    },
+    {
+      "projectID": 224791,
+      "fileID": 3870899,
+      "required": true,
+      "__meta": {
+        "name": "Blood Magic ",
+        "dependencies": [
+          306770
+        ]
+      }
+    },
+    {
+      "projectID": 225643,
+      "fileID": 4066054,
+      "required": true,
+      "__meta": {
+        "name": "Botania",
+        "dependencies": [
+          306770,
+          309927
+        ]
+      }
+    },
+    {
+      "projectID": 228525,
+      "fileID": 4351252,
+      "required": true,
+      "__meta": {
+        "name": "Bookshelf",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 228756,
+      "fileID": 3543538,
+      "required": true,
+      "__meta": {
+        "name": "Iron Chests"
+      }
+    },
+    {
+      "projectID": 230976,
+      "fileID": 3590413,
+      "required": true,
+      "__meta": {
+        "name": "Fast Leaf Decay"
+      }
+    },
+    {
+      "projectID": 233019,
+      "fileID": 3798940,
+      "required": true,
+      "__meta": {
+        "name": "AI Improvements"
+      }
+    },
+    {
+      "projectID": 237307,
+      "fileID": 3738137,
+      "required": true,
+      "__meta": {
+        "name": "Cosmetic Armor Reworked"
+      }
+    },
+    {
+      "projectID": 238086,
+      "fileID": 3647098,
+      "required": true,
+      "__meta": {
+        "name": "KubeJS",
+        "dependencies": [
+          416294,
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 238222,
+      "fileID": 4371666,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Items (JEI)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 240630,
+      "fileID": 4526612,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Resources (JER)",
+        "dependencies": [
+          238222
+        ]
+      }
+    },
+    {
+      "projectID": 241160,
+      "fileID": 3098229,
+      "required": true,
+      "__meta": {
+        "name": "NetherPortalFix"
+      }
+    },
+    {
+      "projectID": 245755,
+      "fileID": 3515707,
+      "required": true,
+      "__meta": {
+        "name": "Waystones"
+      }
+    },
+    {
+      "projectID": 247560,
+      "fileID": 4024011,
+      "required": true,
+      "__meta": {
+        "name": "Oh The Biomes You'll Go"
+      }
+    },
+    {
+      "projectID": 248787,
+      "fileID": 3686480,
+      "required": true,
+      "__meta": {
+        "name": "AppleSkin"
+      }
+    },
+    {
+      "projectID": 250398,
+      "fileID": 4421016,
+      "required": true,
+      "__meta": {
+        "name": "Controlling"
+      }
+    },
+    {
+      "projectID": 250419,
+      "fileID": 3838362,
+      "required": true,
+      "__meta": {
+        "name": "Enchantment Descriptions",
+        "dependencies": [
+          228525
+        ]
+      }
+    },
+    {
+      "projectID": 250832,
+      "fileID": 3238352,
+      "required": true,
+      "__meta": {
+        "name": "OpenBlocks Elevator"
+      }
+    },
+    {
+      "projectID": 256717,
+      "fileID": 3658432,
+      "required": true,
+      "__meta": {
+        "name": "Clumps"
+      }
+    },
+    {
+      "projectID": 264353,
+      "fileID": 3103028,
+      "required": true,
+      "__meta": {
+        "name": "SwingThroughGrass"
+      }
+    },
+    {
+      "projectID": 267602,
+      "fileID": 3137659,
+      "required": true,
+      "__meta": {
+        "name": "ConnectedTexturesMod"
+      }
+    },
+    {
+      "projectID": 271740,
+      "fileID": 3556882,
+      "required": true,
+      "__meta": {
+        "name": "Toast Control",
+        "dependencies": [
+          283644
+        ]
+      }
+    },
+    {
+      "projectID": 280510,
+      "fileID": 3732244,
+      "required": true,
+      "__meta": {
+        "name": "AttributeFix"
+      }
+    },
+    {
+      "projectID": 283644,
+      "fileID": 4501015,
+      "required": true,
+      "__meta": {
+        "name": "Placebo",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 289412,
+      "fileID": 4297999,
+      "required": true,
+      "__meta": {
+        "name": "FTB Quests (Forge)",
+        "dependencies": [
+          404465,
+          309674,
+          404468,
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 306770,
+      "fileID": 3847029,
+      "required": true,
+      "__meta": {
+        "name": "Patchouli",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 309674,
+      "fileID": 3376819,
+      "required": true,
+      "__meta": {
+        "name": "Item Filters",
+        "explicit": false,
+        "dependencies": [
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 309927,
+      "fileID": 4419403,
+      "required": true,
+      "__meta": {
+        "name": "Curios API (Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 312353,
+      "fileID": 3665636,
+      "required": true,
+      "__meta": {
+        "name": "Artifacts",
+        "dependencies": [
+          465066,
+          309927
+        ]
+      }
+    },
+    {
+      "projectID": 313970,
+      "fileID": 3936649,
+      "required": true,
+      "__meta": {
+        "name": "Apotheosis",
+        "dependencies": [
+          283644,
+          250419,
+          306770
+        ]
+      }
+    },
+    {
+      "projectID": 314905,
+      "fileID": 3802698,
+      "required": true,
+      "__meta": {
+        "name": "FTB Ranks (Forge)",
+        "dependencies": [
+          404465,
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 314906,
+      "fileID": 4297564,
+      "required": true,
+      "__meta": {
+        "name": "FTB Chunks (Forge)",
+        "dependencies": [
+          404468,
+          404465,
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 316582,
+      "fileID": 3832960,
+      "required": true,
+      "__meta": {
+        "name": "Corpse"
+      }
+    },
+    {
+      "projectID": 324717,
+      "fileID": 3910873,
+      "required": true,
+      "__meta": {
+        "name": "Jade 🔍"
+      }
+    },
+    {
+      "projectID": 324973,
+      "fileID": 4437191,
+      "required": true,
+      "__meta": {
+        "name": "Dungeon Crawl"
+      }
+    },
+    {
+      "projectID": 327968,
+      "fileID": 3114132,
+      "required": true,
+      "__meta": {
+        "name": "GoProne"
+      }
+    },
+    {
+      "projectID": 328085,
+      "fileID": 3536025,
+      "required": true,
+      "__meta": {
+        "name": "Create",
+        "dependencies": [
+          486392
+        ]
+      }
+    },
+    {
+      "projectID": 331936,
+      "fileID": 3441028,
+      "required": true,
+      "__meta": {
+        "name": "Citadel",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 340583,
+      "fileID": 3307879,
+      "required": true,
+      "__meta": {
+        "name": "YUNG's Better Caves (Forge)",
+        "dependencies": [
+          421850
+        ]
+      }
+    },
+    {
+      "projectID": 355248,
+      "fileID": 3188216,
+      "required": true,
+      "__meta": {
+        "name": "Save My Stronghold! (Forge)"
+      }
+    },
+    {
+      "projectID": 360203,
+      "fileID": 3449429,
+      "required": true,
+      "__meta": {
+        "name": "Guard Villagers"
+      }
+    },
+    {
+      "projectID": 361026,
+      "fileID": 3861416,
+      "required": true,
+      "__meta": {
+        "name": "Occultism",
+        "dependencies": [
+          306770,
+          388172,
+          309927
+        ]
+      }
+    },
+    {
+      "projectID": 361276,
+      "fileID": 4468089,
+      "required": true,
+      "__meta": {
+        "name": "Lootr (Forge)"
+      }
+    },
+    {
+      "projectID": 373693,
+      "fileID": 3475520,
+      "required": true,
+      "__meta": {
+        "name": "Tensura Mod  -That Time I Got Reincarnated as a Slime"
+      }
+    },
+    {
+      "projectID": 377056,
+      "fileID": 3348607,
+      "required": true,
+      "__meta": {
+        "name": "Coins JE",
+        "dependencies": [
+          228525
+        ]
+      }
+    },
+    {
+      "projectID": 381736,
+      "fileID": 3560051,
+      "required": true,
+      "__meta": {
+        "name": "Savage & Ravage",
+        "dependencies": [
+          382216
+        ]
+      }
+    },
+    {
+      "projectID": 382216,
+      "fileID": 3607198,
+      "required": true,
+      "__meta": {
+        "name": "Blueprint",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 388172,
+      "fileID": 4182600,
+      "required": true,
+      "__meta": {
+        "name": "GeckoLib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 389665,
+      "fileID": 3344719,
+      "required": true,
+      "__meta": {
+        "name": "YUNG's Better Mineshafts (Forge)",
+        "dependencies": [
+          421850
+        ]
+      }
+    },
+    {
+      "projectID": 391640,
+      "fileID": 3629577,
+      "required": true,
+      "__meta": {
+        "name": "XL Packets"
+      }
+    },
+    {
+      "projectID": 398521,
+      "fileID": 3765350,
+      "required": true,
+      "__meta": {
+        "name": "Farmer's Delight"
+      }
+    },
+    {
+      "projectID": 401955,
+      "fileID": 4300733,
+      "required": true,
+      "__meta": {
+        "name": "Ars Nouveau",
+        "dependencies": [
+          306770,
+          309927
+        ]
+      }
+    },
+    {
+      "projectID": 403422,
+      "fileID": 4173800,
+      "required": true,
+      "__meta": {
+        "name": "Emotecraft (Forge)",
+        "dependencies": [
+          658587
+        ]
+      }
+    },
+    {
+      "projectID": 404465,
+      "fileID": 3553840,
+      "required": true,
+      "__meta": {
+        "name": "FTB Library (Forge)",
+        "explicit": false,
+        "dependencies": [
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 404468,
+      "fileID": 3535953,
+      "required": true,
+      "__meta": {
+        "name": "FTB Teams (Forge)",
+        "explicit": false,
+        "dependencies": [
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 407174,
+      "fileID": 3188120,
+      "required": true,
+      "__meta": {
+        "name": "Shutup Experimental Settings!"
+      }
+    },
+    {
+      "projectID": 410811,
+      "fileID": 3510643,
+      "required": true,
+      "__meta": {
+        "name": "FTB Essentials (Forge)",
+        "dependencies": [
+          404465
+        ]
+      }
+    },
+    {
+      "projectID": 416089,
+      "fileID": 4540765,
+      "required": true,
+      "__meta": {
+        "name": "Simple Voice Chat"
+      }
+    },
+    {
+      "projectID": 416294,
+      "fileID": 3525704,
+      "required": true,
+      "__meta": {
+        "name": "Rhino",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 419699,
+      "fileID": 4521290,
+      "required": true,
+      "__meta": {
+        "name": "Architectury API (Fabric/Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 421850,
+      "fileID": 3494919,
+      "required": true,
+      "__meta": {
+        "name": "YUNG's API (Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 422301,
+      "fileID": 4167327,
+      "required": true,
+      "__meta": {
+        "name": "Sophisticated Backpacks"
+      }
+    },
+    {
+      "projectID": 426558,
+      "fileID": 3467280,
+      "required": true,
+      "__meta": {
+        "name": "Alex's Mobs",
+        "dependencies": [
+          331936
+        ]
+      }
+    },
+    {
+      "projectID": 429235,
+      "fileID": 4074330,
+      "required": true,
+      "__meta": {
+        "name": "FerriteCore (Forge)"
+      }
+    },
+    {
+      "projectID": 442508,
+      "fileID": 3534647,
+      "required": true,
+      "__meta": {
+        "name": "When Dungeons Arise - Forge!"
+      }
+    },
+    {
+      "projectID": 443723,
+      "fileID": 3537560,
+      "required": true,
+      "__meta": {
+        "name": "YUNG's Better Portals (Forge)",
+        "dependencies": [
+          421850
+        ]
+      }
+    },
+    {
+      "projectID": 448233,
+      "fileID": 3760389,
+      "required": true,
+      "__meta": {
+        "name": "Entity Culling Fabric/Forge"
+      }
+    },
+    {
+      "projectID": 459701,
+      "fileID": 3780550,
+      "required": true,
+      "__meta": {
+        "name": "Catalogue"
+      }
+    },
+    {
+      "projectID": 460819,
+      "fileID": 3249059,
+      "required": true,
+      "__meta": {
+        "name": "Lazy DataFixerUpper(LazyDFU) [FORGE]"
+      }
+    },
+    {
+      "projectID": 465066,
+      "fileID": 3277762,
+      "required": true,
+      "__meta": {
+        "name": "ExpandAbility",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 465575,
+      "fileID": 3412586,
+      "required": true,
+      "__meta": {
+        "name": "YUNG's Better Strongholds (Forge)",
+        "dependencies": [
+          421850
+        ]
+      }
+    },
+    {
+      "projectID": 480006,
+      "fileID": 3303283,
+      "required": true,
+      "__meta": {
+        "name": "YUNG's Extras (Forge)",
+        "dependencies": [
+          421850
+        ]
+      }
+    },
+    {
+      "projectID": 486392,
+      "fileID": 3535459,
+      "required": true,
+      "__meta": {
+        "name": "Flywheel",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 495336,
+      "fileID": 3890172,
+      "required": true,
+      "__meta": {
+        "name": "Advanced Netherite"
+      }
+    },
+    {
+      "projectID": 499826,
+      "fileID": 3507674,
+      "required": true,
+      "__meta": {
+        "name": "Advancement Plaques [Forge]",
+        "dependencies": [
+          520110
+        ]
+      }
+    },
+    {
+      "projectID": 502561,
+      "fileID": 3943142,
+      "required": true,
+      "__meta": {
+        "name": "Equipment Compare [Forge]",
+        "dependencies": [
+          520110
+        ]
+      }
+    },
+    {
+      "projectID": 510089,
+      "fileID": 3476138,
+      "required": true,
+      "__meta": {
+        "name": "YUNG's Better Dungeons (Forge)",
+        "dependencies": [
+          421850
+        ]
+      }
+    },
+    {
+      "projectID": 520110,
+      "fileID": 3943132,
+      "required": true,
+      "__meta": {
+        "name": "Iceberg [Forge]",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 521480,
+      "fileID": 3456514,
+      "required": true,
+      "__meta": {
+        "name": "Skin Layers 3D (Fabric/Forge)"
+      }
+    },
+    {
+      "projectID": 525447,
+      "fileID": 3696645,
+      "required": true,
+      "__meta": {
+        "name": "JourneyMap Integration",
+        "dependencies": [
+          32274
+        ]
+      }
+    },
+    {
+      "projectID": 532127,
+      "fileID": 3943137,
+      "required": true,
+      "__meta": {
+        "name": "Legendary Tooltips [Forge]",
+        "dependencies": [
+          638111,
+          520110
+        ]
+      }
+    },
+    {
+      "projectID": 532727,
+      "fileID": 4435510,
+      "required": true,
+      "__meta": {
+        "name": "Library Ferret - Forge",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 536660,
+      "fileID": 3494974,
+      "required": true,
+      "__meta": {
+        "name": "YUNG's Bridges (Forge)",
+        "dependencies": [
+          421850
+        ]
+      }
+    },
+    {
+      "projectID": 556490,
+      "fileID": 4490697,
+      "required": true,
+      "__meta": {
+        "name": "Awesome Dungeon Ocean edition - Forge",
+        "dependencies": [
+          532727
+        ]
+      }
+    },
+    {
+      "projectID": 566649,
+      "fileID": 4454042,
+      "required": true,
+      "__meta": {
+        "name": "Awesome Dungeon Nether edition - Forge",
+        "dependencies": [
+          532727
+        ]
+      }
+    },
+    {
+      "projectID": 575406,
+      "fileID": 4454463,
+      "required": true,
+      "__meta": {
+        "name": "Awesome Dungeon The End edition - Forge",
+        "dependencies": [
+          532727
+        ]
+      }
+    },
+    {
+      "projectID": 615352,
+      "fileID": 4491886,
+      "required": true,
+      "__meta": {
+        "name": "Better Villages - Forge",
+        "dependencies": [
+          532727
+        ]
+      }
+    },
+    {
+      "projectID": 628345,
+      "fileID": 3809513,
+      "required": true,
+      "__meta": {
+        "name": "Entity Collision FPS Fix"
+      }
+    },
+    {
+      "projectID": 638111,
+      "fileID": 3933561,
+      "required": true,
+      "__meta": {
+        "name": "Prism [Forge]",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 639584,
+      "fileID": 4153319,
+      "required": true,
+      "__meta": {
+        "name": "Immersive Paintings [Fabric/Forge]"
+      }
+    },
+    {
+      "projectID": 658587,
+      "fileID": 4111516,
+      "required": true,
+      "__meta": {
+        "name": "playerAnimator",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 821790,
+      "fileID": 4533215,
+      "required": true,
+      "__meta": {
+        "name": "Lightspeed - Launch optimizations"
+      }
+    }
+  ]
+}

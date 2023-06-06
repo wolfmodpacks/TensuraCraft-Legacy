@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "26630867D5A0BF43", title: "HIDDEN" }
+		{ id: "6AB0955AF5DE4F88", title: "Magic stuff" }
+		{ id: "0C652128C9ECE1E5", title: "Techy Stuff" }
+	]
+}

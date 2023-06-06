@@ -1,0 +1,501 @@
+{
+	id: "17F5F790818EE5EE"
+	group: "26630867D5A0BF43"
+	order_index: 0
+	filename: "daily_quests"
+	title: "Daily Quests"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.5d
+			y: -2.0d
+			id: "4C2D308AF8A22FFB"
+			tasks: [{
+				id: "4DF11B8BB925CBCA"
+				type: "checkmark"
+				title: "Sunday"
+			}]
+			rewards: [
+				{
+					id: "69B9C02F8CC1EC9B"
+					type: "command"
+					title: "Monday"
+					command: "/ftbquests change_progress @p reset 70543DE6F4F458FD"
+					player_command: false
+				}
+				{
+					id: "1AE5DFBF16A47B2E"
+					type: "command"
+					title: "Tuesday"
+					command: "/ftbquests change_progress @p reset 16B072746A32D469"
+					player_command: false
+				}
+				{
+					id: "7F0EFA8E832A0213"
+					type: "command"
+					title: "Wednesday"
+					command: "/ftbquests change_progress @p reset 792AFA4F56728BDC"
+					player_command: false
+				}
+				{
+					id: "11DE2B2984B1DEB1"
+					type: "command"
+					title: "Thurdays"
+					command: "/ftbquests change_progress @p reset 073BB34B017F3525"
+					player_command: false
+				}
+				{
+					id: "7D883D9B34A59902"
+					type: "command"
+					title: "Friday"
+					command: "/ftbquests change_progress @p reset 1844CFE0D6BA57D5"
+					player_command: false
+				}
+				{
+					id: "1285CE204C794D4E"
+					type: "command"
+					title: "Saturday"
+					command: "/ftbquests change_progress @p reset 6A38F29ACA57A018"
+					player_command: false
+				}
+				{
+					id: "1778FF0F6F22C184"
+					type: "command"
+					icon: "ttigraas:otherworlder_spawn_egg"
+					command: "/ftbquests change_progress @p reset 13423D3806F8AE0A"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -2.0d
+			id: "70543DE6F4F458FD"
+			tasks: [{
+				id: "17E380DADC3D88EA"
+				type: "checkmark"
+				title: "Monday"
+			}]
+			rewards: [
+				{
+					id: "1368F47CE8B53A01"
+					type: "command"
+					title: "Tues"
+					command: "/ftbquests change_progress @p reset 16B072746A32D469"
+					player_command: false
+				}
+				{
+					id: "43DB312FC00FA324"
+					type: "command"
+					title: "Wed"
+					command: "/ftbquests change_progress @p reset 792AFA4F56728BDC"
+					player_command: false
+				}
+				{
+					id: "6ED01569E9FE136E"
+					type: "command"
+					title: "Thur"
+					command: "/ftbquests change_progress @p reset 073BB34B017F3525"
+					player_command: false
+				}
+				{
+					id: "2AB69EA4D9938BA8"
+					type: "command"
+					title: "Friday"
+					command: "/ftbquests change_progress @p reset 1844CFE0D6BA57D5"
+					player_command: false
+				}
+				{
+					id: "6566021AA413C1A9"
+					type: "command"
+					title: "Sat"
+					command: "/ftbquests change_progress @p reset 6A38F29ACA57A018"
+					player_command: false
+				}
+				{
+					id: "28D5E371A441ED3E"
+					type: "command"
+					title: "Sun"
+					command: "/ftbquests change_progress @p reset 4C2D308AF8A22FFB"
+					player_command: false
+				}
+				{
+					id: "1865F5F330143825"
+					type: "command"
+					icon: "minecraft:slime_ball"
+					command: "/ftbquests change_progress @p reset 3F2D8F02D5CDFB90"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			id: "16B072746A32D469"
+			tasks: [{
+				id: "57A0AE679991E26F"
+				type: "checkmark"
+				title: "Tuesday"
+			}]
+			rewards: [
+				{
+					id: "215A1B75B1462C44"
+					type: "command"
+					title: "Mond"
+					command: "/ftbquests change_progress @p reset 70543DE6F4F458FD"
+					player_command: false
+				}
+				{
+					id: "573C330F012FD660"
+					type: "command"
+					title: "Wed"
+					command: "/ftbquests change_progress @p reset 792AFA4F56728BDC"
+					player_command: false
+				}
+				{
+					id: "26B34B0EDB7EE034"
+					type: "command"
+					title: "Thur"
+					command: "/ftbquests change_progress @p reset 073BB34B017F3525"
+					player_command: false
+				}
+				{
+					id: "69DC81D6851869FC"
+					type: "command"
+					title: "Friday"
+					command: "/ftbquests change_progress @p reset 1844CFE0D6BA57D5"
+					player_command: false
+				}
+				{
+					id: "0FAF7D4C57AC202A"
+					type: "command"
+					title: "Sat"
+					command: "/ftbquests change_progress @p reset 6A38F29ACA57A018"
+					player_command: false
+				}
+				{
+					id: "5661A9099EB0565F"
+					type: "command"
+					title: "Sun"
+					command: "/ftbquests change_progress @p reset 4C2D308AF8A22FFB/ftbquests change_progress @p reset 4C2D308AF8A22FFB"
+					player_command: false
+				}
+				{
+					id: "4F4D32707F7BFB5A"
+					type: "command"
+					title: "reset sissy"
+					icon: "ttigraas:sissie_spawn_egg"
+					command: "/ftbquests change_progress @p reset 38BCE4A2094F1599"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			id: "792AFA4F56728BDC"
+			tasks: [{
+				id: "67127FA73903BB8D"
+				type: "checkmark"
+				title: "Wednesday"
+			}]
+			rewards: [
+				{
+					id: "3806BFB2D7C3FF05"
+					type: "command"
+					title: "Mondau"
+					command: "/ftbquests change_progress @p reset 70543DE6F4F458FD"
+					player_command: false
+				}
+				{
+					id: "4E585E92CD27A1C6"
+					type: "command"
+					title: "Thues"
+					command: "/ftbquests change_progress @p reset 16B072746A32D469"
+					player_command: false
+				}
+				{
+					id: "289FBB85D2271B68"
+					type: "command"
+					title: "Thurs"
+					command: "/ftbquests change_progress @p reset 073BB34B017F3525"
+					player_command: false
+				}
+				{
+					id: "063C4E60CDC04F35"
+					type: "command"
+					title: "Friday"
+					command: "/ftbquests change_progress @p reset 1844CFE0D6BA57D5"
+					player_command: false
+				}
+				{
+					id: "16A7A17A7A2673DD"
+					type: "command"
+					title: "Sat"
+					command: "/ftbquests change_progress @p reset 6A38F29ACA57A018"
+					player_command: false
+				}
+				{
+					id: "39953934D13EB75D"
+					type: "command"
+					title: "Sun"
+					command: "/ftbquests change_progress @p reset 4C2D308AF8A22FFB"
+					player_command: false
+				}
+				{
+					id: "517805C77DDA184E"
+					type: "command"
+					icon: "tconstruct:ichor_slime_crystal"
+					command: "/ftbquests change_progress @p reset 46034FCB26612900"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			id: "3B9C918F0FD97B2C"
+			tasks: [{
+				id: "319789B1C4BD599B"
+				type: "checkmark"
+				title: "Thursday"
+			}]
+			rewards: [
+				{
+					id: "2A026B0A41C516AC"
+					type: "command"
+					title: "Mon"
+					command: "/ftbquests change_progress @p reset 70543DE6F4F458FD"
+					player_command: false
+				}
+				{
+					id: "3797A55F477646B3"
+					type: "command"
+					title: "Tues"
+					command: "/ftbquests change_progress @p reset 16B072746A32D469"
+					player_command: false
+				}
+				{
+					id: "571916740E21EB48"
+					type: "command"
+					title: "Wed"
+					command: "/ftbquests change_progress @p reset 792AFA4F56728BDC"
+					player_command: false
+				}
+				{
+					id: "2B7A27CD5DD58C28"
+					type: "command"
+					title: "Frid"
+					command: "/ftbquests change_progress @p reset 1844CFE0D6BA57D5"
+					player_command: false
+				}
+				{
+					id: "49A706FD006AA8FC"
+					type: "command"
+					title: "Sat"
+					command: "/ftbquests change_progress @p reset 6A38F29ACA57A018"
+					player_command: false
+				}
+				{
+					id: "65A9FC4EC73D209B"
+					type: "command"
+					title: "Sun"
+					command: "/ftbquests change_progress @p reset 4C2D308AF8A22FFB"
+					player_command: false
+				}
+				{
+					id: "7FF432D863114BB0"
+					type: "command"
+					icon: "ttigraas:small_heal"
+					command: "/ftbquests change_progress @p reset 763703EFB5E1FDDD"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			id: "1844CFE0D6BA57D5"
+			tasks: [{
+				id: "2208E1C6471B22A1"
+				type: "checkmark"
+				title: "Friday"
+			}]
+			rewards: [
+				{
+					id: "5E4CA18388331CA4"
+					type: "command"
+					title: "Mon"
+					command: "/ftbquests change_progress @p reset 70543DE6F4F458FD"
+					player_command: false
+				}
+				{
+					id: "130D250F43A1AC35"
+					type: "command"
+					title: "Tuesday "
+					command: "/ftbquests change_progress @p reset 16B072746A32D469"
+					player_command: false
+				}
+				{
+					id: "7524A0BFB36085BC"
+					type: "command"
+					title: "Wednesday "
+					command: "/ftbquests change_progress @p reset 792AFA4F56728BDC"
+					player_command: false
+				}
+				{
+					id: "78BCFEDA4DB2A009"
+					type: "command"
+					title: "Thurdays "
+					command: "/ftbquests change_progress @p reset 073BB34B017F3525"
+					player_command: false
+				}
+				{
+					id: "647FE9F7C015D382"
+					type: "command"
+					title: "Saturday "
+					command: "/ftbquests change_progress @p reset 6A38F29ACA57A018"
+					player_command: false
+				}
+				{
+					id: "2A5C3E7FB424BD92"
+					type: "command"
+					title: "Sunday "
+					command: "/ftbquests change_progress @p reset 4C2D308AF8A22FFB"
+					player_command: false
+				}
+				{
+					id: "551512866B41A0A5"
+					type: "command"
+					icon: "farmersdelight:honey_glazed_ham_block"
+					command: "/ftbquests change_progress @p reset 7DACC760F2CCB1B8"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			id: "6A38F29ACA57A018"
+			tasks: [{
+				id: "245D21E8961B22ED"
+				type: "checkmark"
+				title: "Saturday"
+			}]
+			rewards: [
+				{
+					id: "05F5762B8CE870EE"
+					type: "command"
+					title: "Monday "
+					command: "/ftbquests change_progress @p reset 70543DE6F4F458FD"
+					player_command: false
+				}
+				{
+					id: "2589B269916B1867"
+					type: "command"
+					title: "Tuesday "
+					command: "/ftbquests change_progress @p reset 16B072746A32D469"
+					player_command: false
+				}
+				{
+					id: "79E9BDCD5DA40BC2"
+					type: "command"
+					title: "Wednesday "
+					command: "/ftbquests change_progress @p reset 792AFA4F56728BDC"
+					player_command: false
+				}
+				{
+					id: "0415364C5F853AF0"
+					type: "command"
+					title: "Thurdays "
+					command: "/ftbquests change_progress @p reset 073BB34B017F3525"
+					player_command: false
+				}
+				{
+					id: "33285BC1A2C7BFAA"
+					type: "command"
+					title: "Friday "
+					command: "/ftbquests change_progress @p reset 1844CFE0D6BA57D5"
+					player_command: false
+				}
+				{
+					id: "60ADE962D688AD9D"
+					type: "command"
+					title: "Sunday "
+					command: "/ftbquests change_progress @p reset 4C2D308AF8A22FFB"
+					player_command: false
+				}
+				{
+					id: "321C5728FA2FF966"
+					type: "command"
+					icon: "ttigraas:yellowmagicore"
+					command: "/ftbquests change_progress @p reset 77BC00114D38FAD0"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			id: "073BB34B017F3525"
+			tasks: [{
+				id: "6FFE624E4CC525B3"
+				type: "checkmark"
+				title: "Thursday2"
+			}]
+			rewards: [
+				{
+					id: "3FD61BB8D267A2E9"
+					type: "command"
+					title: "Monday "
+					command: "/ftbquests change_progress @p reset 70543DE6F4F458FD"
+					player_command: false
+				}
+				{
+					id: "77C5AF7FB4201693"
+					type: "command"
+					title: "Tuesday "
+					command: "/ftbquests change_progress @p reset 16B072746A32D469"
+					player_command: false
+				}
+				{
+					id: "622BAB65AEA3C7C8"
+					type: "command"
+					title: "Wednesday "
+					command: "/ftbquests change_progress @p reset 792AFA4F56728BDC"
+					player_command: false
+				}
+				{
+					id: "3AD2168BA6167337"
+					type: "command"
+					title: "Friday "
+					command: "/ftbquests change_progress @p reset 1844CFE0D6BA57D5"
+					player_command: false
+				}
+				{
+					id: "36E73E8C9D5C5401"
+					type: "command"
+					title: "Saturday "
+					command: "/ftbquests change_progress @p reset 6A38F29ACA57A018"
+					player_command: false
+				}
+				{
+					id: "5C637F23A00EE690"
+					type: "command"
+					title: "Sunday "
+					command: "/ftbquests change_progress @p reset 4C2D308AF8A22FFB"
+					player_command: false
+				}
+				{
+					id: "2103EAC1ABF8FF60"
+					type: "command"
+					icon: "ttigraas:big_heal"
+					command: "/ftbquests change_progress @p reset 763703EFB5E1FDDD"
+					player_command: false
+				}
+			]
+		}
+	]
+}

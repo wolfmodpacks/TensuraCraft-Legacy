@@ -1,0 +1,17 @@
+{
+	id: "66D8D20D14F4F5A7"
+	group: ""
+	order_index: 2
+	filename: "death_note"
+	title: "Death Note"
+	icon: {
+		id: "occultism:book_of_calling_djinni_manage_machine"
+		Count: 1b
+		tag: {
+			spiritName: "Cromured"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

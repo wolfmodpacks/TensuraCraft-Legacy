@@ -1,0 +1,431 @@
+{
+	id: "1DDB1F0ECC51B621"
+	group: ""
+	order_index: 3
+	filename: "kill_count"
+	title: "Kill Counts"
+	icon: "ttigraas:predator"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.0d
+			y: -0.5d
+			id: "52C73ED2C20E7FBB"
+			tasks: [{
+				id: "0E415AD8D2CD993C"
+				type: "kill"
+				title: "Wandering Villager"
+				icon: "minecraft:wandering_trader_spawn_egg"
+				entity: "minecraft:wandering_trader"
+				value: 1L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			shape: "rsquare"
+			id: "675ECC83225A785E"
+			tasks: [{
+				id: "560A82389FD68129"
+				type: "kill"
+				title: "Zombies"
+				icon: "minecraft:zombie_head"
+				entity: "minecraft:zombie"
+				value: 1L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			shape: "rsquare"
+			dependencies: ["675ECC83225A785E"]
+			id: "3850D1331AF21CE1"
+			tasks: [{
+				id: "7BB072DBE62EE86F"
+				type: "kill"
+				title: "Zombie x10"
+				icon: "minecraft:zombie_head"
+				entity: "minecraft:zombie"
+				value: 10L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			shape: "rsquare"
+			dependencies: ["3850D1331AF21CE1"]
+			id: "5FAA5CC8A607AF6D"
+			tasks: [{
+				id: "1E76476CDB2A2508"
+				type: "kill"
+				title: "Zombie x50"
+				icon: "minecraft:zombie_head"
+				entity: "minecraft:zombie"
+				value: 50L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			shape: "rsquare"
+			dependencies: ["5FAA5CC8A607AF6D"]
+			id: "16C0FF5C388AB79D"
+			tasks: [{
+				id: "1D98C21866C78E7E"
+				type: "kill"
+				title: "Zombies x100"
+				icon: "minecraft:zombie_head"
+				entity: "minecraft:zombie"
+				value: 100L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			shape: "rsquare"
+			dependencies: ["16C0FF5C388AB79D"]
+			id: "5DC6F64FECDDD37C"
+			tasks: [{
+				id: "4A930DF4D3D82A63"
+				type: "kill"
+				title: "Zombies x500"
+				icon: "minecraft:zombie_head"
+				entity: "minecraft:zombie"
+				value: 500L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["5DC6F64FECDDD37C"]
+			size: 2.0d
+			id: "23EA4ACECD9C7F1C"
+			tasks: [{
+				id: "599EF421E6E8F204"
+				type: "kill"
+				title: "Zombies x1000"
+				icon: "minecraft:zombie_head"
+				entity: "minecraft:zombie"
+				value: 1000L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			id: "10654D9E1F07A260"
+			tasks: [{
+				id: "78C3EEEE82695154"
+				type: "kill"
+				title: "Intelligent Slime"
+				icon: "tconstruct:sky_slime_ball"
+				entity: "ttigraas:intelligent_slime"
+				value: 1L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["10654D9E1F07A260"]
+			id: "792522E5D2803AB9"
+			tasks: [{
+				id: "6BAF738B1B6B4D22"
+				type: "kill"
+				title: "Intelligent Slime x10"
+				icon: "tconstruct:sky_slime_ball"
+				entity: "ttigraas:intelligent_slime"
+				value: 10L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			dependencies: ["792522E5D2803AB9"]
+			id: "5ABF8EF3AE1ABCF8"
+			tasks: [{
+				id: "7D23FFE155AE98BE"
+				type: "kill"
+				title: "Intelligent Slime x50"
+				icon: "tconstruct:sky_slime_ball"
+				entity: "ttigraas:intelligent_slime"
+				value: 50L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["5ABF8EF3AE1ABCF8"]
+			id: "502239AD05DB9D91"
+			tasks: [{
+				id: "129736580191DCD4"
+				type: "kill"
+				title: "Intelligent slime x100"
+				icon: "tconstruct:sky_slime_ball"
+				entity: "ttigraas:intelligent_slime"
+				value: 100L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["502239AD05DB9D91"]
+			size: 1.5d
+			id: "595219CF2A347CAF"
+			tasks: [{
+				id: "6484E613A35432EF"
+				type: "kill"
+				title: "Intelligent Slime x150"
+				icon: "tconstruct:sky_slime_ball"
+				entity: "ttigraas:intelligent_slime"
+				value: 150L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			id: "53A02C67FECBF8FD"
+			tasks: [{
+				id: "0BB27EFA2059A497"
+				type: "kill"
+				title: "Magic Otherworlders"
+				icon: "ttigraas:magic_sense"
+				entity: "ttigraas:special_otherworlder"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["53A02C67FECBF8FD"]
+			id: "50BD66334A9DC5A8"
+			tasks: [{
+				id: "59C6F08930832FCB"
+				type: "kill"
+				title: "Magic Otherworlder x50"
+				icon: "ttigraas:magic_sense"
+				entity: "ttigraas:special_otherworlder"
+				value: 50L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["50BD66334A9DC5A8"]
+			id: "56927F3286AF3CE5"
+			tasks: [{
+				id: "11CDF65CD503792D"
+				type: "kill"
+				title: "Magic Otherworlders x150"
+				icon: "ttigraas:magic_sense"
+				entity: "ttigraas:special_otherworlder"
+				value: 150L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["56927F3286AF3CE5"]
+			size: 1.5d
+			id: "5AEE79249B48D63B"
+			tasks: [{
+				id: "70C8EF2CE04B4FB5"
+				type: "kill"
+				title: "Magic Otherworlders x201"
+				icon: "ttigraas:magic_sense"
+				entity: "ttigraas:special_otherworlder"
+				value: 201L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			id: "29422F9EE09E5389"
+			tasks: [{
+				id: "5D899546A898A6C5"
+				type: "kill"
+				title: "Sword Otherworlders"
+				icon: "ttigraas:sword_of_tempest"
+				entity: "ttigraas:otherworlder"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["29422F9EE09E5389"]
+			id: "62F88EA8A94601F4"
+			tasks: [{
+				id: "2EEC46717F173C74"
+				type: "kill"
+				title: "Sword Otherworlders x50"
+				icon: "ttigraas:sword_of_tempest"
+				entity: "ttigraas:otherworlder"
+				value: 50L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["62F88EA8A94601F4"]
+			id: "159F5F6074D19A4D"
+			tasks: [{
+				id: "2847E8AF72A4C61C"
+				type: "kill"
+				title: "Sword Otherworlder x150"
+				icon: "ttigraas:sword_of_tempest"
+				entity: "ttigraas:otherworlder"
+				value: 150L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["159F5F6074D19A4D"]
+			id: "6C3E9FBE4F8556BB"
+			tasks: [{
+				id: "6A7072A4B078F536"
+				type: "kill"
+				title: "Sword Otherworlder x200"
+				icon: "ttigraas:sword_of_tempest"
+				entity: "ttigraas:otherworlder"
+				value: 200L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			id: "189D5858271B0D10"
+			tasks: [{
+				id: "011C39086EBA11DB"
+				type: "kill"
+				entity: "ttigraas:spirit_protector_colossus"
+				value: 1L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			id: "45E69E31A063EE07"
+			tasks: [{
+				id: "0BAA41CCD08EC322"
+				type: "kill"
+				icon: {
+					id: "ttigraas:shizue_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "ttigraas:shizue_izawa"
+				value: 1L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["45E69E31A063EE07"]
+			size: 1.5d
+			id: "33A6D051D3324B0E"
+			tasks: [{
+				id: "1D0C09E53C3C834C"
+				type: "kill"
+				icon: "ttigraas:flame_breath"
+				entity: "ttigraas:ifrit_clone"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			shape: "pentagon"
+			size: 3.0d
+			id: "5060168445B807F9"
+			tasks: [{
+				id: "0A1848067828AB15"
+				type: "kill"
+				icon: {
+					id: "ttigraas:dead_end_rainbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "ttigraas:hinata_sakaguchi"
+				value: 1L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			shape: "diamond"
+			size: 1.5d
+			id: "72A1ED81ECEC1133"
+			tasks: [{
+				id: "45D9067E84913AD3"
+				type: "kill"
+				icon: {
+					id: "ttigraas:orc_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "ttigraas:orcdisaster"
+				value: 1L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			id: "6318B40B1979915F"
+			tasks: [{
+				id: "432DA6BF7038DADA"
+				type: "kill"
+				entity: "ttigraas:orc"
+				value: 1L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["6318B40B1979915F"]
+			id: "4833D7CC6D4196F8"
+			tasks: [{
+				id: "67696A90424949B4"
+				type: "kill"
+				entity: "ttigraas:orc"
+				value: 10L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["4833D7CC6D4196F8"]
+			id: "6A671EDD737CE924"
+			tasks: [{
+				id: "38B519335C1B2FFD"
+				type: "kill"
+				entity: "ttigraas:orc"
+				value: 50L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["6A671EDD737CE924"]
+			size: 1.5d
+			id: "087CB1EDA1624EA6"
+			tasks: [{
+				id: "2565F8CCA64E73D9"
+				type: "kill"
+				entity: "ttigraas:orc"
+				value: 100L
+			}]
+		}
+	]
+}
