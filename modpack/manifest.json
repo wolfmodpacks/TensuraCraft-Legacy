@@ -740,14 +740,6 @@
       }
     },
     {
-      "projectID": 431611,
-      "fileID": 4279175,
-      "required": true,
-      "__meta": {
-        "name": "Vein Mining (Fabric/Forge/Quilt)"
-      }
-    },
-    {
       "projectID": 442508,
       "fileID": 3534647,
       "required": true,
