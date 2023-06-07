@@ -17,13 +17,8 @@ install:
   localFiles: ~
   
   installerArguments:
-    - "server"
-    - "-downloadMinecraft"
-    - "-snapshot"
-    - "-mcversion"
-    - "1.16.5"
-    - "-loader"
-    - "0.14.14"
+    - "--installServer"
+
   modpackFormat: curse
   curseForgeAPIKey: PUT YOUR API KEY HERE BEFORE LAUNCHING
 
@@ -55,7 +50,7 @@ launch:
   javaArgs:
     - "-XX:+UseG1GC"
     - "-XX:+ParallelRefProcEnabled"
-    - "-XX:MaxGCPauseMillis=100"
+    - "-XX:MaxGCPauseMillis=200"
     - "-XX:+UnlockExperimentalVMOptions"
     - "-XX:+DisableExplicitGC"
     - "-XX:+AlwaysPreTouch"
@@ -63,14 +58,16 @@ launch:
     - "-XX:G1MaxNewSizePercent=40"
     - "-XX:G1HeapRegionSize=8M"
     - "-XX:G1ReservePercent=20"
-    - "-XX:G1HeapWastePercent=5" 
-    - "-XX:G1MixedGCCountTarget=4" 
-    - "-XX:InitiatingHeapOccupancyPercent=15" 
-    - "-XX:G1MixedGCLiveThresholdPercent=90" 
-    - "-XX:G1RSetUpdatingPauseTimePercent=5" 
-    - "-XX:SurvivorRatio=32" 
-    - "-XX:+PerfDisableSharedMem" 
-    - "-XX:MaxTenuringThreshold=1" 
+    - "-XX:G1HeapWastePercent=5"
+    - "-XX:G1MixedGCCountTarget=4"
+    - "-XX:InitiatingHeapOccupancyPercent=15"
+    - "-XX:G1MixedGCLiveThresholdPercent=90"
+    - "-XX:G1RSetUpdatingPauseTimePercent=5"
+    - "-XX:SurvivorRatio=32"
+    - "-XX:+PerfDisableSharedMem"
+    - "-XX:MaxTenuringThreshold=1"
+    - "-Dfml.readTimeout=90"                        # servertimeout
+    - "-Dfml.queryResult=confirm"                   # auto /fmlconfirm
     
   spongefix: false
   ramDisk: false
@@ -79,7 +76,7 @@ launch:
   crashTimer: 60min
   preJavaArgs: ~
   forcedJavaPath: ~
-  startFile: ""
+  startFile: "forge-{{@mcversion@}}-{{@loaderversion@}}.jar"
   startCommand:
     - "-jar"
     - "{{@startFile@}}"
