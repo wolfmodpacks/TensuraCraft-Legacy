@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Wolfie",
   "name": "TensuraCraft-Legacy",
   "files": [
@@ -83,6 +83,14 @@
       }
     },
     {
+      "projectID": 227657,
+      "fileID": 3378657,
+      "required": true,
+      "__meta": {
+        "name": "Global GameRules"
+      }
+    },
+    {
       "projectID": 228525,
       "fileID": 4351252,
       "required": true,
@@ -97,6 +105,26 @@
       "required": true,
       "__meta": {
         "name": "Iron Chests"
+      }
+    },
+    {
+      "projectID": 229060,
+      "fileID": 4397363,
+      "required": true,
+      "__meta": {
+        "name": "iChunUtil",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 229061,
+      "fileID": 3802780,
+      "required": true,
+      "__meta": {
+        "name": "Back Tools",
+        "dependencies": [
+          229060
+        ]
       }
     },
     {
@@ -203,6 +231,17 @@
         "name": "Enchantment Descriptions",
         "dependencies": [
           228525
+        ]
+      }
+    },
+    {
+      "projectID": 250498,
+      "fileID": 4120133,
+      "required": true,
+      "__meta": {
+        "name": "Mowzie's Mobs",
+        "dependencies": [
+          388172
         ]
       }
     },
@@ -424,6 +463,15 @@
       }
     },
     {
+      "projectID": 348521,
+      "fileID": 3972422,
+      "required": true,
+      "__meta": {
+        "name": "Cloth Config API (Fabric/Forge)",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 355248,
       "fileID": 3188216,
       "required": true,
@@ -477,6 +525,14 @@
         "dependencies": [
           228525
         ]
+      }
+    },
+    {
+      "projectID": 377109,
+      "fileID": 4457857,
+      "required": true,
+      "__meta": {
+        "name": "Tool Stats"
       }
     },
     {
@@ -536,6 +592,18 @@
       }
     },
     {
+      "projectID": 400085,
+      "fileID": 3973166,
+      "required": true,
+      "__meta": {
+        "name": "Upgraded Netherite",
+        "explicit": false,
+        "dependencies": [
+          566700
+        ]
+      }
+    },
+    {
       "projectID": 401955,
       "fileID": 4300733,
       "required": true,
@@ -588,6 +656,14 @@
       "required": true,
       "__meta": {
         "name": "Shutup Experimental Settings!"
+      }
+    },
+    {
+      "projectID": 409221,
+      "fileID": 3299357,
+      "required": true,
+      "__meta": {
+        "name": "PlayerEx"
       }
     },
     {
@@ -664,6 +740,14 @@
       }
     },
     {
+      "projectID": 431611,
+      "fileID": 4279175,
+      "required": true,
+      "__meta": {
+        "name": "Vein Mining (Fabric/Forge/Quilt)"
+      }
+    },
+    {
       "projectID": 442508,
       "fileID": 3534647,
       "required": true,
@@ -688,6 +772,22 @@
       "required": true,
       "__meta": {
         "name": "Entity Culling Fabric/Forge"
+      }
+    },
+    {
+      "projectID": 456956,
+      "fileID": 3717506,
+      "required": true,
+      "__meta": {
+        "name": "Chipped"
+      }
+    },
+    {
+      "projectID": 457570,
+      "fileID": 4462830,
+      "required": true,
+      "__meta": {
+        "name": "Configured"
       }
     },
     {
@@ -723,6 +823,17 @@
         "name": "YUNG's Better Strongholds (Forge)",
         "dependencies": [
           421850
+        ]
+      }
+    },
+    {
+      "projectID": 466792,
+      "fileID": 3615933,
+      "required": true,
+      "__meta": {
+        "name": "Create Stuff & Additions",
+        "dependencies": [
+          328085
         ]
       }
     },
@@ -773,6 +884,18 @@
         "name": "Equipment Compare [Forge]",
         "dependencies": [
           520110
+        ]
+      }
+    },
+    {
+      "projectID": 509041,
+      "fileID": 4427121,
+      "required": true,
+      "__meta": {
+        "name": "Epic Knights: Shields, Armor and Weapons [Fabric & Forge]",
+        "dependencies": [
+          348521,
+          419699
         ]
       }
     },
@@ -866,6 +989,39 @@
         "name": "Awesome Dungeon Nether edition - Forge",
         "dependencies": [
           532727
+        ]
+      }
+    },
+    {
+      "projectID": 566700,
+      "fileID": 3969615,
+      "required": true,
+      "__meta": {
+        "name": "Upgraded Core",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 566866,
+      "fileID": 4001300,
+      "required": true,
+      "__meta": {
+        "name": "Upgraded Netherite : Items",
+        "dependencies": [
+          566700,
+          400085
+        ]
+      }
+    },
+    {
+      "projectID": 566868,
+      "fileID": 3973167,
+      "required": true,
+      "__meta": {
+        "name": "Upgraded Netherite : Ultimerite",
+        "dependencies": [
+          400085,
+          566700
         ]
       }
     },
