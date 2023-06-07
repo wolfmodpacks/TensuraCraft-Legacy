@@ -19,7 +19,7 @@
 			tasks: [{
 				id: "24BE5C80BF1B82DD"
 				type: "checkmark"
-				title: "Placeholder"
+				title: "Accept me"
 			}]
 			rewards: [
 				{
@@ -39,7 +39,6 @@
 			x: -1.0d
 			y: 3.0d
 			dependencies: ["5FFFD591E3C324D9"]
-			hide: true
 			size: 2.0d
 			id: "4D782894277C012D"
 			tasks: [{
@@ -89,6 +88,7 @@
 			tasks: [{
 				id: "2F3309A36FA8B94F"
 				type: "dimension"
+				title: "Visit The Labyrinth"
 				icon: "botania:mossy_livingrock_bricks"
 				dimension: "ttigraas:labyrinth"
 			}]
