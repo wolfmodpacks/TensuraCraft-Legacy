@@ -1,0 +1,12 @@
+{
+	id: "266FDC754C796B53"
+	group: "6AB0955AF5DE4F88"
+	order_index: 2
+	filename: "apotheosis"
+	title: "Apotheosis"
+	icon: "apotheosis:ancient_tome"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

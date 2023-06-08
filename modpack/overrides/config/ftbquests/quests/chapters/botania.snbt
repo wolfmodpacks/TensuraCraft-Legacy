@@ -234,7 +234,11 @@
 			tasks: [{
 				id: "18565DA7A59CCEA2"
 				type: "item"
-				item: "botania:lens_normal"
+				item: {
+					id: "botania:lens_normal"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{

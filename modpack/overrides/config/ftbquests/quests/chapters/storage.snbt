@@ -1,0 +1,835 @@
+{
+	id: "3F22B27B768A7F75"
+	group: "0C652128C9ECE1E5"
+	order_index: 2
+	filename: "storage"
+	title: "Storage?"
+	icon: "ironchest:crystal_chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Make Any chest"
+			x: 0.0d
+			y: 0.0d
+			id: "482469F1D40D843B"
+			tasks: [{
+				id: "784080A08B1488AE"
+				type: "item"
+				title: "Any #forge:chests"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "229A2795EDDC7DF0"
+					type: "item"
+					item: {
+						id: "ironchest:copper_chest"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "08F5961E8CF5A66F"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["482469F1D40D843B"]
+			id: "356BE2F76F612E78"
+			tasks: [{
+				id: "58BF48FF3DC4F4A8"
+				type: "item"
+				item: {
+					id: "ironchest:iron_chest"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6D2BD5CF1A564146"
+					type: "item"
+					item: {
+						id: "ironchest:wood_to_iron_chest_upgrade"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "5787092F760B1182"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["356BE2F76F612E78"]
+			id: "19865CF7EAF9713F"
+			tasks: [{
+				id: "3BB2E38BEA21D777"
+				type: "item"
+				item: {
+					id: "ironchest:gold_chest"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7EBC3A783565CAE6"
+					type: "item"
+					item: {
+						id: "ironchest:iron_to_gold_chest_upgrade"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "20652360A503E3D8"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["19865CF7EAF9713F"]
+			id: "53F828F0C144A7A9"
+			tasks: [{
+				id: "2B6763CB3BB7DA2F"
+				type: "item"
+				item: {
+					id: "ironchest:diamond_chest"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7809B84B69A2F9A9"
+					type: "item"
+					item: {
+						id: "ironchest:gold_to_diamond_chest_upgrade"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "19A6980777007582"
+					type: "xp"
+					xp: 15
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["53F828F0C144A7A9"]
+			id: "10C9CD318EC62FF0"
+			tasks: [{
+				id: "356D6E9C5D068F00"
+				type: "item"
+				item: {
+					id: "ironchest:crystal_chest"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "229128B135E7DC99"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "11158F4714431C24"
+					type: "item"
+					item: {
+						id: "ironchest:diamond_to_crystal_chest_upgrade"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			dependencies: ["53F828F0C144A7A9"]
+			id: "12795230AF1B1ABF"
+			tasks: [{
+				id: "38441A2F166FFA54"
+				type: "item"
+				item: {
+					id: "ironchest:obsidian_chest"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "10DE47A4864D71B4"
+					type: "item"
+					item: {
+						id: "ironchest:dirt_chest"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "700585F8E32DC82E"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			title: "U Found a Secret!"
+			x: 0.0d
+			y: -2.0d
+			hide_text_until_complete: false
+			secret: true
+			id: "7E2AA9375BB4C4C0"
+			tasks: [{
+				id: "7EAB6BB60737D07C"
+				type: "item"
+				item: {
+					id: "ironchest:dirt_chest"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2314602D614936D2"
+					type: "item"
+					item: {
+						id: "coins:coin_diamond"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "25FA7D96474E3EF0"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "74D3D4B2D7A454BD"
+			tasks: [{
+				id: "0C4B83A505799675"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_1"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1D7A98DE72697620"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1803BB2F0C59F925"
+					type: "item"
+					item: {
+						id: "coins:coin_gold"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["74D3D4B2D7A454BD"]
+			id: "7ABF4A63420C3C2F"
+			tasks: [{
+				id: "5B7A79738C4C8F82"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_2"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B04BC4D241B3927"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["7ABF4A63420C3C2F"]
+			id: "775B76409D90CC24"
+			tasks: [{
+				id: "0C910C0B2FEC7553"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_3"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "242C0D86D4AA0C9F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "085737BEA1D410C5"
+					type: "item"
+					item: {
+						id: "coins:coin_gold"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			dependencies: ["775B76409D90CC24"]
+			id: "34DE26E6AE56CDBD"
+			tasks: [{
+				id: "0328CCD9C968EFB5"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_4"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "740A1F5166CEE0DC"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["34DE26E6AE56CDBD"]
+			id: "6A4703A4D86B3DF3"
+			tasks: [{
+				id: "53BF7E952CBCF774"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_5"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "47052A7BC7B7D03B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6DB2B81EE2AAA4B1"
+					type: "item"
+					item: {
+						id: "coins:coin_gold"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["6A4703A4D86B3DF3"]
+			id: "6C214F3250850E65"
+			tasks: [{
+				id: "207B6CB356A727C9"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_6"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "0BF890ECBA0E7E87"
+				type: "item"
+				item: {
+					id: "coins:coin_platinum"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["6C214F3250850E65"]
+			id: "632A40D42C919751"
+			tasks: [{
+				id: "5F62B8474567F902"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_7"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3393D3ECC0BA4FF0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4BC2AB8B390FA0D6"
+					type: "item"
+					item: {
+						id: "coins:coin_pile_platinum"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "3791D3E517EDEFFE"
+			tasks: [{
+				id: "7782D9DFA1ABD1BA"
+				type: "item"
+				title: "Backpack"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								ForgeCaps: {
+									"customnpcs:itemscripteddata": { }
+								}
+								id: "sophisticatedbackpacks:backpack"
+								Count: 1b
+								tag: {
+									borderColor: 10329495
+									clothColor: 10329495
+								}
+							}
+							{
+								ForgeCaps: {
+									"customnpcs:itemscripteddata": { }
+								}
+								id: "sophisticatedbackpacks:backpack"
+								Count: 1b
+								tag: {
+									borderColor: 6192150
+									clothColor: 6192150
+								}
+							}
+							{
+								ForgeCaps: {
+									"customnpcs:itemscripteddata": { }
+								}
+								id: "sophisticatedbackpacks:backpack"
+								Count: 1b
+								tag: {
+									borderColor: 4673362
+									clothColor: 4673362
+								}
+							}
+							{
+								ForgeCaps: {
+									"customnpcs:itemscripteddata": { }
+								}
+								id: "sophisticatedbackpacks:backpack"
+								Count: 1b
+								tag: {
+									borderColor: 11546150
+									clothColor: 11546150
+								}
+							}
+							{
+								ForgeCaps: {
+									"customnpcs:itemscripteddata": { }
+								}
+								id: "sophisticatedbackpacks:backpack"
+								Count: 1b
+								tag: {
+									borderColor: 3949738
+									clothColor: 3949738
+								}
+							}
+							{
+								ForgeCaps: {
+									"customnpcs:itemscripteddata": { }
+								}
+								id: "sophisticatedbackpacks:backpack"
+								Count: 1b
+								tag: {
+									borderColor: 1908001
+									clothColor: 1908001
+								}
+							}
+							{
+								ForgeCaps: {
+									"customnpcs:itemscripteddata": { }
+								}
+								id: "sophisticatedbackpacks:backpack"
+								Count: 1b
+								tag: {
+									borderColor: 2895973
+									clothColor: 12439408
+								}
+							}
+							{
+								ForgeCaps: {
+									"customnpcs:itemscripteddata": { }
+								}
+								id: "sophisticatedbackpacks:backpack"
+								Count: 1b
+								tag: {
+									borderColor: 1481884
+									clothColor: 1481884
+								}
+							}
+							{
+								ForgeCaps: {
+									"customnpcs:itemscripteddata": { }
+								}
+								id: "sophisticatedbackpacks:backpack"
+								Count: 1b
+								tag: {
+									borderColor: 8991416
+									clothColor: 8991416
+								}
+							}
+							{
+								ForgeCaps: {
+									"customnpcs:itemscripteddata": { }
+								}
+								id: "sophisticatedbackpacks:backpack"
+								Count: 1b
+								tag: {
+									borderColor: 8439583
+									clothColor: 8439583
+								}
+							}
+							{
+								ForgeCaps: {
+									"customnpcs:itemscripteddata": { }
+								}
+								id: "sophisticatedbackpacks:backpack"
+								Count: 1b
+								tag: {
+									borderColor: 16701501
+									clothColor: 16701501
+								}
+							}
+							{
+								ForgeCaps: {
+									"customnpcs:itemscripteddata": { }
+								}
+								id: "sophisticatedbackpacks:backpack"
+								Count: 1b
+								tag: {
+									inventorySlots: 27
+									borderColor: 3847130
+									upgradeSlots: 1
+									contentsUuid: [I;
+										1590578821
+										1562791922
+										-1514266661
+										-875695136
+									]
+									clothColor: 3847130
+								}
+							}
+							{
+								ForgeCaps: {
+									"customnpcs:itemscripteddata": { }
+								}
+								id: "sophisticatedbackpacks:backpack"
+								Count: 1b
+								tag: {
+									borderColor: 13061821
+									clothColor: 13061821
+								}
+							}
+							{
+								ForgeCaps: {
+									"customnpcs:itemscripteddata": { }
+								}
+								id: "sophisticatedbackpacks:backpack"
+								Count: 1b
+								tag: {
+									borderColor: 16351261
+									clothColor: 16351261
+								}
+							}
+							{
+								ForgeCaps: {
+									"customnpcs:itemscripteddata": { }
+								}
+								id: "sophisticatedbackpacks:backpack"
+								Count: 1b
+								tag: {
+									borderColor: 16383998
+									clothColor: 16383998
+								}
+							}
+							{
+								ForgeCaps: {
+									"customnpcs:itemscripteddata": { }
+								}
+								id: "sophisticatedbackpacks:backpack"
+								Count: 1b
+							}
+						]
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "420D1B6A8ECF71C8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "63DA8E772C45E182"
+					type: "item"
+					item: {
+						id: "coins:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["3791D3E517EDEFFE"]
+			id: "30E8E85553488111"
+			tasks: [{
+				id: "42C7B60BD992905B"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:iron_backpack"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "68FF23942AE1951F"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			dependencies: ["30E8E85553488111"]
+			id: "3ED9ECA928EB34F5"
+			tasks: [{
+				id: "1597F3F5B922D460"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:gold_backpack"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "21826ED13B631D62"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7EC3905B8EDEAC78"
+					type: "item"
+					item: {
+						id: "coins:coin_iron"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			dependencies: ["3ED9ECA928EB34F5"]
+			id: "2D4168D81CFF4D2F"
+			tasks: [{
+				id: "22C2B05890950EE6"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:diamond_backpack"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F9E83563CC76DBA"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			dependencies: ["2D4168D81CFF4D2F"]
+			id: "183B45050E7F4B8B"
+			tasks: [{
+				id: "02BBCC290ACC5C0E"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:netherite_backpack"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "53F8CA4B19BA928F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7DB213FA3AC3A3EA"
+					type: "item"
+					item: {
+						id: "coins:coin_pile_platinum"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+	]
+}

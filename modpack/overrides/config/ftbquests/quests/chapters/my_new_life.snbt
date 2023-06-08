@@ -92,6 +92,11 @@
 				icon: "botania:mossy_livingrock_bricks"
 				dimension: "ttigraas:labyrinth"
 			}]
+			rewards: [{
+				id: "45D961C988916EA4"
+				type: "item"
+				item: "ttigraas:race_reroll_scroll"
+			}]
 		}
 	]
 }

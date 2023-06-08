@@ -296,5 +296,242 @@
 				}
 			]
 		}
+		{
+			x: -1.5d
+			y: -1.0d
+			id: "7A954671E92B39DD"
+			tasks: [{
+				id: "1D3C4E3AA9DEC456"
+				type: "item"
+				title: "Wood log"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2EF49E9252D4DD9D"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "4BA6F9E9D6773D2B"
+					type: "item"
+					item: {
+						id: "minecraft:leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "1F298A8FD5B8D163"
+					type: "item"
+					item: {
+						id: "minecraft:leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "6B186409E1C18D07"
+					type: "item"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["7A954671E92B39DD"]
+			id: "2F87FFB9C995619A"
+			tasks: [{
+				id: "43D877B9FCCF4DE8"
+				type: "item"
+				title: "Crafting Table"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:workbenches"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "210B2FB9DE909931"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "456C2BBB40769EC1"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "7E4C0BE5AC8C302F"
+					type: "item"
+					item: {
+						id: "minecraft:golden_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"Use these Levels to Level up ur character using PlayerEX"
+				"As well use ur coins on the shop (This is only for our server)"
+			]
+			dependencies: ["2F87FFB9C995619A"]
+			id: "29E8D942FF478005"
+			tasks: [{
+				id: "4269B93EF8DC3968"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:cobblestone"
+				value: 25L
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "1A2317C01E6F34CE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "14B2F25BD9E7BF46"
+					type: "item"
+					item: {
+						id: "coins:coin_iron"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["29E8D942FF478005"]
+			id: "3FA3398194A9B332"
+			tasks: [{
+				id: "12C364E02887EAF9"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:iron_ore"
+				value: 10L
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "54D4E1FB79FB948F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "65A4A869DE99F62A"
+					type: "item"
+					item: {
+						id: "coins:coin_iron"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["3FA3398194A9B332"]
+			id: "0069C70DDAF22105"
+			tasks: [{
+				id: "508BBA353A568827"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:diamond_ore"
+				value: 5L
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "4E7167B48FAC8BC8"
+					type: "item"
+					item: {
+						id: "coins:coin_diamond"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "55BEC1FA954855CF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
 	]
 }

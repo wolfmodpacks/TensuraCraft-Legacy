@@ -1,0 +1,653 @@
+{
+	id: "78615EDDC86D5A72"
+	group: "0C652128C9ECE1E5"
+	order_index: 1
+	filename: "tinker_construct"
+	title: "Tinker Construct"
+	icon: "tconstruct:smeltery_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "tconstruct:crafting_station"
+				Count: 1b
+				tag: {
+					texture: "minecraft:stripped_oak_log"
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			shape: "diamond"
+			size: 3.0d
+			id: "3F34C2434B4F72B7"
+			tasks: [{
+				id: "64D4D9436DBB38B8"
+				type: "checkmark"
+				title: "Welcome to Tinkers"
+			}]
+			rewards: [
+				{
+					id: "1D1D01283F4E9B7E"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "68C06E3379D4856E"
+					type: "item"
+					item: {
+						id: "tconstruct:crafting_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_log"
+						}
+					}
+				}
+				{
+					id: "2AE6E12B88CDCB05"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Wooden Tools"
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["3F34C2434B4F72B7"]
+			id: "2E911A24C035243E"
+			tasks: [
+				{
+					id: "23EB3AA354CB9D66"
+					type: "item"
+					title: "Wooden Pickaxe"
+					item: {
+						id: "tconstruct:pickaxe"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:mining_speed": 2.0f
+								"tconstruct:attack_damage": 0.0f
+								"tconstruct:harvest_level": 0.0f
+								"tconstruct:durability": 60.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 3s
+								}
+								{
+									name: "tconstruct:piercing"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "483CD8ECF578B38D"
+					type: "item"
+					title: "Wooden Axe"
+					item: {
+						id: "tconstruct:hand_axe"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:attack_speed": 0.9f
+								"tconstruct:mining_speed": 2.0f
+								"tconstruct:attack_damage": 6.0f
+								"tconstruct:harvest_level": 0.0f
+								"tconstruct:durability": 60.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 3s
+								}
+								{
+									name: "tconstruct:axe_transform_hidden"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "76A2F6E2A084AEFE"
+					type: "item"
+					item: {
+						id: "tconstruct:sword"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.5f
+								"tconstruct:durability": 1.1f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.6f
+								"tconstruct:mining_speed": 1.0f
+								"tconstruct:attack_damage": 3.0f
+								"tconstruct:harvest_level": 0.0f
+								"tconstruct:durability": 66.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 3s
+								}
+								{
+									name: "tconstruct:silky_shears"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "1E3BB8A1B0AE3CE4"
+					type: "item"
+					item: {
+						id: "tconstruct:kama"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.75f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.8f
+								"tconstruct:mining_speed": 2.0f
+								"tconstruct:attack_damage": 0.75f
+								"tconstruct:harvest_level": 0.0f
+								"tconstruct:durability": 60.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 3s
+								}
+								{
+									name: "tconstruct:shears"
+									level: 1s
+								}
+								{
+									name: "tconstruct:harvest"
+									level: 1s
+								}
+								{
+									name: "tconstruct:hoe_transform_hidden"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "24A97DE5B00CBAB0"
+					type: "item"
+					item: {
+						id: "tconstruct:mattock"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:secondary_mining": 0.65f
+								"tconstruct:mining_speed": 1.1f
+								"tconstruct:attack_damage": 1.1f
+								"tconstruct:durability": 1.25f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 0.9f
+								"tconstruct:secondary_mining": 0.65f
+								"tconstruct:attack_damage": 1.6500001f
+								"tconstruct:harvest_level": 0.0f
+								"tconstruct:durability": 75.0f
+								"tconstruct:mining_speed": 2.2f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 3s
+								}
+								{
+									name: "tconstruct:knockback"
+									level: 1s
+								}
+								{
+									name: "tconstruct:shovel_transform_hidden"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "38F8C8F28D63F78E"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "16F7D642A9F2BAC6"
+					type: "item"
+					item: "coins:coin_iron"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["3F34C2434B4F72B7"]
+			id: "6688CECA36E968F8"
+			tasks: [{
+				id: "220B9F54685FF491"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "0D51E7C4144D4E18"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 15
+				}
+				{
+					id: "0A7C569CF4F9A208"
+					type: "xp"
+					xp: 15
+				}
+			]
+		}
+		{
+			title: "Multy Block Structure 1"
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["6688CECA36E968F8"]
+			id: "4F6487322E7DF98E"
+			tasks: [
+				{
+					id: "60F24FEDAFE1D114"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "2F42456F9DCB89A6"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "05651D090A35F502"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "0435DD2BDE751899"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "485EDAADFACB4CB7"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+			]
+			rewards: [
+				{
+					id: "3C9AD1E8414DE859"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 5
+				}
+				{
+					id: "26ECE8589510FA43"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "18021EB96BD6AFA7"
+					type: "item"
+					item: "coins:coin_iron"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Multy Block 2"
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["4F6487322E7DF98E"]
+			id: "476F7C35353417AF"
+			tasks: [
+				{
+					id: "5EC693331FFFC225"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "092A2AEECBD2452E"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "5B264E8FABD075EE"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "557C0F092169C875"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "0E14441993E2F860"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "2A04D96064EE618F"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 10
+				}
+				{
+					id: "4DEC446ABA529FB3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "59E0762D7C05A883"
+					type: "item"
+					item: "coins:coin_gold"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			dependencies: [
+				"476F7C35353417AF"
+				"2E911A24C035243E"
+			]
+			id: "3CC7E8A9B1F833AF"
+			tasks: [{
+				id: "2C502CE9F71C1785"
+				type: "item"
+				item: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: {
+						texture: "tconstruct:tinkers_bronze_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["3CC7E8A9B1F833AF"]
+			id: "7D095264251C1661"
+			tasks: [
+				{
+					id: "2C00921A017DD579"
+					type: "item"
+					item: {
+						id: "tconstruct:sledge_hammer"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.4f
+								"tconstruct:attack_damage": 1.35f
+								"tconstruct:durability": 4.0f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 0.75f
+								"tconstruct:mining_speed": 3.0800002f
+								"tconstruct:attack_damage": 6.75f
+								"tconstruct:harvest_level": 3.0f
+								"tconstruct:durability": 3020.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:maintained"
+									level: 4s
+								}
+								{
+									name: "tconstruct:smite"
+									level: 2s
+								}
+								{
+									name: "tconstruct:two_handed"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:tinkers_bronze"
+								"tconstruct:tinkers_bronze"
+								"tconstruct:tinkers_bronze"
+								"tconstruct:tinkers_bronze"
+							]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:durability": 3020
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+				}
+				{
+					id: "4BD32CF6CD5CD031"
+					type: "item"
+					item: {
+						id: "tconstruct:vein_hammer"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.3f
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:durability": 5.0f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.1f
+								"tconstruct:mining_speed": 2.3100002f
+								"tconstruct:attack_damage": 5.0f
+								"tconstruct:harvest_level": 3.0f
+								"tconstruct:durability": 3775.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:maintained"
+									level: 4s
+								}
+								{
+									name: "tconstruct:piercing"
+									level: 2s
+								}
+								{
+									name: "tconstruct:two_handed"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:tinkers_bronze"
+								"tconstruct:tinkers_bronze"
+								"tconstruct:tinkers_bronze"
+								"tconstruct:tinkers_bronze"
+							]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:durability": 3775
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+				}
+				{
+					id: "0DEF21E9782B33BC"
+					type: "item"
+					item: {
+						id: "tconstruct:scythe"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.45f
+								"tconstruct:durability": 2.5f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 0.8f
+								"tconstruct:mining_speed": 3.4650002f
+								"tconstruct:attack_damage": 3.0f
+								"tconstruct:harvest_level": 3.0f
+								"tconstruct:durability": 1887.5f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:maintained"
+									level: 4s
+								}
+								{
+									name: "tconstruct:silky_aoe_shears"
+									level: 1s
+								}
+								{
+									name: "tconstruct:harvest"
+									level: 1s
+								}
+								{
+									name: "tconstruct:hoe_transform_hidden"
+									level: 1s
+								}
+								{
+									name: "tconstruct:two_handed"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:tinkers_bronze"
+								"tconstruct:tinkers_bronze"
+								"tconstruct:tinkers_bronze"
+								"tconstruct:tinkers_bronze"
+							]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:durability": 1887
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "266A2A8F4EED0CDA"
+					type: "item"
+					item: "tconstruct:tinkers_bronze_ingot"
+					count: 10
+				}
+				{
+					id: "39C6B0B1665AFA95"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1963D39D5F2F03CC"
+					type: "item"
+					item: "coins:coin_platinum"
+				}
+			]
+		}
+	]
+}
