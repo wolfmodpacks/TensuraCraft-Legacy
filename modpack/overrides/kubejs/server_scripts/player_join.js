@@ -1,6 +1,7 @@
 onEvent('player.logged_in', (event) => {
     if(!event.player.stages.has('reincarnation')) {
         event.player.stages.add('reincarnation')
+        event.player.give('ftbquests:book')
         event.server.runCommand(`/execute as ${event.player.name} run isekai`)
     }
     dailyQuests(event)
