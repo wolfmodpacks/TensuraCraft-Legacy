@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Wolfie",
   "name": "TensuraCraft-Legacy",
   "files": [
@@ -199,6 +199,17 @@
       }
     },
     {
+      "projectID": 245506,
+      "fileID": 3949019,
+      "required": true,
+      "__meta": {
+        "name": "MineColonies",
+        "dependencies": [
+          298744
+        ]
+      }
+    },
+    {
       "projectID": 245755,
       "fileID": 3515707,
       "required": true,
@@ -335,6 +346,14 @@
           404468,
           419699
         ]
+      }
+    },
+    {
+      "projectID": 298744,
+      "fileID": 3894957,
+      "required": true,
+      "__meta": {
+        "name": "Structurize"
       }
     },
     {
