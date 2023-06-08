@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Wolfie",
   "name": "TensuraCraft-Legacy",
   "files": [
@@ -49,6 +49,14 @@
       "__meta": {
         "name": "Mantle",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 221826,
+      "fileID": 3791072,
+      "required": true,
+      "__meta": {
+        "name": "Custom NPCs"
       }
     },
     {
@@ -168,8 +176,7 @@
       "fileID": 4371666,
       "required": true,
       "__meta": {
-        "name": "Just Enough Items (JEI)",
-        "explicit": false
+        "name": "Just Enough Items (JEI)"
       }
     },
     {
@@ -259,6 +266,17 @@
       "required": true,
       "__meta": {
         "name": "Clumps"
+      }
+    },
+    {
+      "projectID": 264231,
+      "fileID": 4434014,
+      "required": true,
+      "__meta": {
+        "name": "Ice and Fire: Dragons",
+        "dependencies": [
+          331936
+        ]
       }
     },
     {
@@ -400,14 +418,6 @@
       }
     },
     {
-      "projectID": 316582,
-      "fileID": 3832960,
-      "required": true,
-      "__meta": {
-        "name": "Corpse"
-      }
-    },
-    {
       "projectID": 324717,
       "fileID": 3910873,
       "required": true,
@@ -449,6 +459,14 @@
       "__meta": {
         "name": "Citadel",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 335673,
+      "fileID": 3765084,
+      "required": true,
+      "__meta": {
+        "name": "Dank Storage"
       }
     },
     {
@@ -623,6 +641,17 @@
         "name": "Emotecraft (Forge)",
         "dependencies": [
           658587
+        ]
+      }
+    },
+    {
+      "projectID": 403499,
+      "fileID": 3163628,
+      "required": true,
+      "__meta": {
+        "name": "JEI Professions",
+        "dependencies": [
+          238222
         ]
       }
     },
@@ -1018,6 +1047,14 @@
       }
     },
     {
+      "projectID": 574856,
+      "fileID": 4568759,
+      "required": true,
+      "__meta": {
+        "name": "Rubidium"
+      }
+    },
+    {
       "projectID": 575406,
       "fileID": 4454463,
       "required": true,
@@ -1025,6 +1062,18 @@
         "name": "Awesome Dungeon The End edition - Forge",
         "dependencies": [
           532727
+        ]
+      }
+    },
+    {
+      "projectID": 580129,
+      "fileID": 4525489,
+      "required": true,
+      "__meta": {
+        "name": "Quests Additions (Forge)",
+        "dependencies": [
+          289412,
+          419699
         ]
       }
     },
