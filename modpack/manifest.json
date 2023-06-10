@@ -280,6 +280,14 @@
       }
     },
     {
+      "projectID": 257356,
+      "fileID": 3909053,
+      "required": true,
+      "__meta": {
+        "name": "In Control!"
+      }
+    },
+    {
       "projectID": 264231,
       "fileID": 4434014,
       "required": true,
@@ -543,6 +551,14 @@
       "required": true,
       "__meta": {
         "name": "Lootr (Forge)"
+      }
+    },
+    {
+      "projectID": 361579,
+      "fileID": 3767277,
+      "required": true,
+      "__meta": {
+        "name": "spark"
       }
     },
     {
