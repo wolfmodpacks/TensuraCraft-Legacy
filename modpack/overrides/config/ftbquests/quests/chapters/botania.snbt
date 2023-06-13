@@ -20,6 +20,25 @@
 				title: "Welcome to Nature"
 				icon: "botania:gray_mystical_flower"
 			}]
+			rewards: [
+				{
+					id: "61746469D7E54202"
+					type: "item"
+					item: {
+						id: "coins:coin_copper"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 5
+				}
+				{
+					id: "7FE7FBF8980B6A4D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -32,6 +51,17 @@
 				advancement: "botania:main/flower_pickup"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "06685E35C7B538AD"
+				type: "item"
+				item: {
+					id: "coins:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: 2.0d
@@ -42,6 +72,17 @@
 				id: "3A5724AE0FB5DF06"
 				type: "item"
 				item: "botania:flower_bag"
+			}]
+			rewards: [{
+				id: "52AC3172ACEC89A6"
+				type: "item"
+				item: {
+					id: "coins:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -54,6 +95,17 @@
 				type: "item"
 				item: "botania:apothecary_default"
 			}]
+			rewards: [{
+				id: "3DFB65397F95DEA7"
+				type: "item"
+				item: {
+					id: "coins:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: -2.0d
@@ -64,6 +116,17 @@
 				id: "36B6DA686E18B597"
 				type: "item"
 				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "1D69F486EBD1C7AA"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -76,6 +139,17 @@
 				type: "item"
 				item: "botania:livingwood"
 			}]
+			rewards: [{
+				id: "19B2E36E7011EC9B"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: 1.0d
@@ -86,6 +160,18 @@
 				id: "29EC8A72DD05A168"
 				type: "item"
 				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "2E7F2AC4C3E734D8"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 3
 			}]
 		}
 		{
@@ -105,6 +191,18 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "302E9107C885FB97"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 3
+			}]
 		}
 		{
 			x: -4.0d
@@ -115,6 +213,18 @@
 				id: "786947E6C39F6B3C"
 				type: "item"
 				item: "botania:livingrock"
+			}]
+			rewards: [{
+				id: "3B21CD9507154ABB"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 3
 			}]
 		}
 		{
@@ -127,6 +237,17 @@
 				type: "item"
 				item: "botania:mana_pool"
 			}]
+			rewards: [{
+				id: "3E6BAF5164984C7C"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: -4.0d
@@ -137,6 +258,17 @@
 				id: "0B1B2F17614B66ED"
 				type: "item"
 				item: "botania:manasteel_ingot"
+			}]
+			rewards: [{
+				id: "0A7EDF97DCE1FAF9"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -150,6 +282,17 @@
 				advancement: "botania:main/generating_flower"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "2A5DCB66B42778F3"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: 3.5d
@@ -161,6 +304,17 @@
 				type: "advancement"
 				advancement: "botania:main/functional_flower"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "010FC170A3BC047E"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -214,6 +368,18 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "428F325B2CCBA4A1"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 3
+			}]
 		}
 		{
 			x: 0.0d
@@ -224,6 +390,17 @@
 				id: "65CE3D12C42915FC"
 				type: "item"
 				item: "botania:hourglass"
+			}]
+			rewards: [{
+				id: "1D8C6DBC53542F04"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -240,6 +417,18 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "1E4E59EAB79D2302"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 5
+			}]
 		}
 		{
 			x: 0.5d
@@ -250,6 +439,17 @@
 				id: "6E6A775D5133E714"
 				type: "item"
 				item: "botania:mana_tablet"
+			}]
+			rewards: [{
+				id: "4A8562D91718B68C"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -262,6 +462,17 @@
 				type: "item"
 				item: "botania:mana_diamond"
 			}]
+			rewards: [{
+				id: "3EB50635B992EDDB"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: -4.5d
@@ -273,6 +484,17 @@
 				type: "item"
 				item: "botania:runic_altar"
 			}]
+			rewards: [{
+				id: "1E6509DF98EFC010"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: -2.5d
@@ -283,6 +505,17 @@
 				id: "3365E68DB9918D6E"
 				type: "item"
 				item: "botania:spark"
+			}]
+			rewards: [{
+				id: "6C10CBC2E8D96A9B"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -299,6 +532,17 @@
 				type: "item"
 				item: "botania:terra_plate"
 			}]
+			rewards: [{
+				id: "491B205634CC1264"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: -4.0d
@@ -309,6 +553,17 @@
 				id: "482D27A0449623F5"
 				type: "item"
 				item: "botania:rune_mana"
+			}]
+			rewards: [{
+				id: "5DC2BAF5226307A6"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -321,6 +576,17 @@
 				type: "item"
 				item: "botania:brewery"
 			}]
+			rewards: [{
+				id: "6A19C231F071ECDA"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: 2.5d
@@ -332,6 +598,17 @@
 				type: "item"
 				item: "botania:terrasteel_ingot"
 			}]
+			rewards: [{
+				id: "422DEAC74E519FD4"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: 3.0d
@@ -342,6 +619,17 @@
 				id: "66F543F9A99F4012"
 				type: "item"
 				item: "botania:natura_pylon"
+			}]
+			rewards: [{
+				id: "0AAA2CADB04B046E"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -357,6 +645,17 @@
 				type: "item"
 				item: "botania:alfheim_portal"
 			}]
+			rewards: [{
+				id: "2DDD1394CFC54711"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: 6.5d
@@ -367,6 +666,17 @@
 				id: "2D1F1069257E4247"
 				type: "item"
 				item: "botania:glimmering_livingwood"
+			}]
+			rewards: [{
+				id: "7E1F0DCC2703CA50"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -382,6 +692,18 @@
 				type: "item"
 				item: "botania:elementium_ingot"
 			}]
+			rewards: [{
+				id: "40260406E48217CB"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 5
+			}]
 		}
 		{
 			x: 7.5d
@@ -392,6 +714,17 @@
 				id: "783B56E4B25E7A7F"
 				type: "item"
 				item: "botania:pixie_dust"
+			}]
+			rewards: [{
+				id: "57826FCEC9B6FB75"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -407,6 +740,18 @@
 				type: "item"
 				item: "botania:gaia_pylon"
 				count: 4L
+			}]
+			rewards: [{
+				id: "6902D20E26A74F21"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 4
 			}]
 		}
 		{
@@ -465,6 +810,17 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "0AA9B82E88A84DE3"
+				type: "item"
+				item: {
+					id: "coins:coin_platinum"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 	]
 }

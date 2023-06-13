@@ -1,0 +1,48 @@
+{
+	id: "5C567979B5139D69"
+	group: "26630867D5A0BF43"
+	order_index: 1
+	filename: "ranks"
+	title: "Ranks"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "0DC609971CC978CB"
+			tasks: [{
+				id: "743F7CF7B071DF1F"
+				type: "advancement"
+				advancement: "ttigraas:demon_lord"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "29B59D602CAA6797"
+				type: "command"
+				team_reward: false
+				command: "/ftbranks add @p demon"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "01EAC49C5C5E8ABD"
+			tasks: [{
+				id: "129A9BB2477FF5B5"
+				type: "advancement"
+				advancement: "ttigraas:the_brave_one"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3A005FDAC3757F59"
+				type: "command"
+				team_reward: false
+				command: "/ftbranks add @p hero"
+				player_command: false
+			}]
+		}
+	]
+}

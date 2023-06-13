@@ -20,6 +20,17 @@
 				entity: "minecraft:wandering_trader"
 				value: 1L
 			}]
+			rewards: [{
+				id: "352FE9B72A8BDCE7"
+				type: "item"
+				item: {
+					id: "coins:coin_diamond"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: -5.0d
@@ -33,6 +44,17 @@
 				icon: "minecraft:zombie_head"
 				entity: "minecraft:zombie"
 				value: 1L
+			}]
+			rewards: [{
+				id: "748D0F5A3FD75A47"
+				type: "item"
+				item: {
+					id: "coins:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -49,6 +71,18 @@
 				entity: "minecraft:zombie"
 				value: 10L
 			}]
+			rewards: [{
+				id: "1A06604EAE76C68A"
+				type: "item"
+				item: {
+					id: "coins:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 10
+			}]
 		}
 		{
 			x: -1.0d
@@ -63,6 +97,18 @@
 				icon: "minecraft:zombie_head"
 				entity: "minecraft:zombie"
 				value: 50L
+			}]
+			rewards: [{
+				id: "5A90B646D50845D7"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 20
 			}]
 		}
 		{
@@ -79,6 +125,18 @@
 				entity: "minecraft:zombie"
 				value: 100L
 			}]
+			rewards: [{
+				id: "6E2C683AC1A414EE"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 30
+			}]
 		}
 		{
 			x: 3.0d
@@ -93,6 +151,18 @@
 				icon: "minecraft:zombie_head"
 				entity: "minecraft:zombie"
 				value: 500L
+			}]
+			rewards: [{
+				id: "6F0295DF236EE5CF"
+				type: "item"
+				item: {
+					id: "coins:coin_platinum"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 15
 			}]
 		}
 		{
@@ -110,6 +180,18 @@
 				entity: "minecraft:zombie"
 				value: 1000L
 			}]
+			rewards: [{
+				id: "74F9F34BB9A941DC"
+				type: "item"
+				item: {
+					id: "coins:coin_diamond"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 10
+			}]
 		}
 		{
 			x: -5.0d
@@ -122,6 +204,18 @@
 				icon: "tconstruct:sky_slime_ball"
 				entity: "ttigraas:intelligent_slime"
 				value: 1L
+			}]
+			rewards: [{
+				id: "674AD5F92397A7BC"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 5
 			}]
 		}
 		{
@@ -137,6 +231,18 @@
 				entity: "ttigraas:intelligent_slime"
 				value: 10L
 			}]
+			rewards: [{
+				id: "6E8737EECF7C1C9A"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 20
+			}]
 		}
 		{
 			x: -1.0d
@@ -151,6 +257,18 @@
 				entity: "ttigraas:intelligent_slime"
 				value: 50L
 			}]
+			rewards: [{
+				id: "414550D4F6EA5468"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 3
+			}]
 		}
 		{
 			x: 1.0d
@@ -164,6 +282,18 @@
 				icon: "tconstruct:sky_slime_ball"
 				entity: "ttigraas:intelligent_slime"
 				value: 100L
+			}]
+			rewards: [{
+				id: "140A1A738B96C1FD"
+				type: "item"
+				item: {
+					id: "coins:coin_platinum"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 15
 			}]
 		}
 		{
@@ -181,6 +311,18 @@
 				entity: "ttigraas:intelligent_slime"
 				value: 150L
 			}]
+			rewards: [{
+				id: "1997750488C7A17B"
+				type: "item"
+				item: {
+					id: "coins:coin_diamond"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 5
+			}]
 		}
 		{
 			x: -3.0d
@@ -193,6 +335,17 @@
 				icon: "ttigraas:magic_sense"
 				entity: "ttigraas:special_otherworlder"
 				value: 1L
+			}]
+			rewards: [{
+				id: "21EB7AB1D1FAA369"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_copper"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -208,6 +361,17 @@
 				entity: "ttigraas:special_otherworlder"
 				value: 50L
 			}]
+			rewards: [{
+				id: "555CDEB23E3BEFB3"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: 1.0d
@@ -221,6 +385,18 @@
 				icon: "ttigraas:magic_sense"
 				entity: "ttigraas:special_otherworlder"
 				value: 150L
+			}]
+			rewards: [{
+				id: "6A1AC8F3A8BD1560"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 5
 			}]
 		}
 		{
@@ -238,6 +414,18 @@
 				entity: "ttigraas:special_otherworlder"
 				value: 201L
 			}]
+			rewards: [{
+				id: "7117BA444193BC59"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 10
+			}]
 		}
 		{
 			x: -3.0d
@@ -250,6 +438,17 @@
 				icon: "ttigraas:sword_of_tempest"
 				entity: "ttigraas:otherworlder"
 				value: 1L
+			}]
+			rewards: [{
+				id: "295B0E524A505190"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_copper"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -265,6 +464,17 @@
 				entity: "ttigraas:otherworlder"
 				value: 50L
 			}]
+			rewards: [{
+				id: "67205F5F06724EC0"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: 1.0d
@@ -278,6 +488,18 @@
 				icon: "ttigraas:sword_of_tempest"
 				entity: "ttigraas:otherworlder"
 				value: 150L
+			}]
+			rewards: [{
+				id: "287386B84A0E9D5C"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 5
 			}]
 		}
 		{
@@ -293,6 +515,18 @@
 				entity: "ttigraas:otherworlder"
 				value: 200L
 			}]
+			rewards: [{
+				id: "2D82ABA9D980238B"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 10
+			}]
 		}
 		{
 			x: -5.0d
@@ -303,6 +537,17 @@
 				type: "kill"
 				entity: "ttigraas:spirit_protector_colossus"
 				value: 1L
+			}]
+			rewards: [{
+				id: "2640FB1AA294AB13"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_diamond"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -322,6 +567,17 @@
 				entity: "ttigraas:shizue_izawa"
 				value: 1L
 			}]
+			rewards: [{
+				id: "3FB0E321CFE6BB7D"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_platinum"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: -3.0d
@@ -336,6 +592,17 @@
 				icon: "ttigraas:flame_breath"
 				entity: "ttigraas:ifrit_clone"
 				value: 1L
+			}]
+			rewards: [{
+				id: "0B128A574CD2CD5F"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_diamond"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -357,6 +624,25 @@
 				entity: "ttigraas:hinata_sakaguchi"
 				value: 1L
 			}]
+			rewards: [
+				{
+					id: "2A07E0F40369E6AB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7A241119BF73D37B"
+					type: "item"
+					item: {
+						id: "coins:coin_pile_diamond"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 2
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -377,6 +663,18 @@
 				entity: "ttigraas:orcdisaster"
 				value: 1L
 			}]
+			rewards: [{
+				id: "6E05EDABFA1DA616"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_platinum"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 2
+			}]
 		}
 		{
 			x: 5.0d
@@ -387,6 +685,11 @@
 				type: "kill"
 				entity: "ttigraas:orc"
 				value: 1L
+			}]
+			rewards: [{
+				id: "7DAB040AD037AF4C"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -400,6 +703,17 @@
 				entity: "ttigraas:orc"
 				value: 10L
 			}]
+			rewards: [{
+				id: "09BE971CDADF1757"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_copper"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: 5.0d
@@ -411,6 +725,17 @@
 				type: "kill"
 				entity: "ttigraas:orc"
 				value: 50L
+			}]
+			rewards: [{
+				id: "69017DF3223E0DD2"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -425,6 +750,162 @@
 				type: "kill"
 				entity: "ttigraas:orc"
 				value: 100L
+			}]
+			rewards: [{
+				id: "7C91C861F425C5BC"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			id: "79582E7C931F4277"
+			tasks: [{
+				id: "7C30C83277940011"
+				type: "kill"
+				entity: "ars_nouveau:wilden_hunter"
+				value: 1L
+			}]
+			rewards: [{
+				id: "5D58801E8054C5B2"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_copper"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			dependencies: ["79582E7C931F4277"]
+			id: "4EF2100387629177"
+			tasks: [{
+				id: "35FA8446B593B33A"
+				type: "kill"
+				entity: "ars_nouveau:wilden_hunter"
+				value: 10L
+			}]
+			rewards: [{
+				id: "2051BED7617649C0"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_copper"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			dependencies: ["4EF2100387629177"]
+			id: "2668AA552B24E857"
+			tasks: [{
+				id: "5E72F9B58179452C"
+				type: "kill"
+				entity: "ars_nouveau:wilden_hunter"
+				value: 50L
+			}]
+			rewards: [{
+				id: "19EFEDCE7B8319E3"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			dependencies: ["2668AA552B24E857"]
+			id: "0DD115ABDD0D60F6"
+			tasks: [{
+				id: "702A58BB67B1E1CA"
+				type: "kill"
+				entity: "ars_nouveau:wilden_hunter"
+				value: 100L
+			}]
+			rewards: [{
+				id: "340430C47B5630CB"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			dependencies: ["0DD115ABDD0D60F6"]
+			id: "448A1A4DDA7F5DA4"
+			tasks: [{
+				id: "20CEF2FC966D0DDA"
+				type: "kill"
+				entity: "ars_nouveau:wilden_hunter"
+				value: 500L
+			}]
+			rewards: [{
+				id: "67CF4CBE761E7735"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			shape: "hexagon"
+			dependencies: ["448A1A4DDA7F5DA4"]
+			size: 2.0d
+			id: "1E414A128978FE7C"
+			tasks: [{
+				id: "15EBF0D6448B8759"
+				type: "kill"
+				entity: "ars_nouveau:wilden_hunter"
+				value: 1000L
+			}]
+			rewards: [{
+				id: "0F5F2B7EBCCB932F"
+				type: "item"
+				item: {
+					id: "coins:coin_pile_platinum"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 5
 			}]
 		}
 	]

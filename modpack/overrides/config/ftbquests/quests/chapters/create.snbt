@@ -19,6 +19,17 @@
 				item: "create:andesite_alloy"
 				count: 32L
 			}]
+			rewards: [{
+				id: "0E478D43D75DDD69"
+				type: "item"
+				item: {
+					id: "coins:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: 0.0d
@@ -29,6 +40,17 @@
 				id: "07EF1D4F3AE2A50E"
 				type: "item"
 				item: "create:goggles"
+			}]
+			rewards: [{
+				id: "137FABE877B5FDAF"
+				type: "item"
+				item: {
+					id: "coins:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -48,6 +70,18 @@
 					item: "create:stressometer"
 				}
 			]
+			rewards: [{
+				id: "098F6462FBFB369E"
+				type: "item"
+				item: {
+					id: "coins:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 2
+			}]
 		}
 		{
 			x: 2.0d
@@ -58,6 +92,11 @@
 				id: "6BB54729B741BDA7"
 				type: "item"
 				item: "create:crafting_blueprint"
+			}]
+			rewards: [{
+				id: "315D4194BDDBFAB1"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
 		}
 		{
@@ -77,6 +116,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "59E1E38AA6DD4502"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: 4.0d
@@ -87,6 +131,11 @@
 				id: "3A3A19DC4557C3E1"
 				type: "item"
 				item: "create:schematic_and_quill"
+			}]
+			rewards: [{
+				id: "60944F0BCDD8548F"
+				type: "xp"
+				xp: 10
 			}]
 		}
 		{
@@ -106,6 +155,11 @@
 					item: "create:schematic_table"
 				}
 			]
+			rewards: [{
+				id: "71C92382BA7A0490"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -2.5d
@@ -117,6 +171,17 @@
 				type: "item"
 				item: "create:shaft"
 				count: 16L
+			}]
+			rewards: [{
+				id: "700FCA9CEAF47592"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -130,6 +195,17 @@
 				item: "create:cogwheel"
 				count: 16L
 			}]
+			rewards: [{
+				id: "010F88572EABF4E7"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: -4.5d
@@ -141,6 +217,17 @@
 				type: "item"
 				item: "create:large_cogwheel"
 				count: 8L
+			}]
+			rewards: [{
+				id: "4F7DAF4FFF750AEC"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -154,6 +241,17 @@
 				item: "create:water_wheel"
 				count: 4L
 			}]
+			rewards: [{
+				id: "044CAB3D3041FABD"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: -7.5d
@@ -164,6 +262,17 @@
 				id: "37E1F49E57F0327B"
 				type: "item"
 				item: "create:andesite_casing"
+			}]
+			rewards: [{
+				id: "6618C721A7B0E6D7"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -179,6 +288,17 @@
 				type: "item"
 				item: "create:gearbox"
 			}]
+			rewards: [{
+				id: "31A07D6D1881B000"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: -10.5d
@@ -189,6 +309,11 @@
 				id: "771CB551067C4114"
 				type: "item"
 				item: "create:encased_chain_drive"
+			}]
+			rewards: [{
+				id: "679482C9F6093128"
+				type: "xp"
+				xp: 10
 			}]
 		}
 		{
@@ -201,6 +326,11 @@
 				type: "item"
 				item: "create:rope_pulley"
 			}]
+			rewards: [{
+				id: "1B7432A706BFDC81"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -9.5d
@@ -211,6 +341,11 @@
 				id: "624D7BADB949658D"
 				type: "item"
 				item: "create:encased_fan"
+			}]
+			rewards: [{
+				id: "09FF307F53D7BAA7"
+				type: "xp"
+				xp: 10
 			}]
 		}
 		{
@@ -223,6 +358,11 @@
 				type: "item"
 				item: "create:clutch"
 			}]
+			rewards: [{
+				id: "44180A7F8A5AC1E8"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -13.0d
@@ -234,6 +374,11 @@
 				type: "item"
 				item: "create:gearshift"
 			}]
+			rewards: [{
+				id: "4289A2064211789E"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -10.5d
@@ -244,6 +389,11 @@
 				id: "7776E4017288FA5E"
 				type: "item"
 				item: "create:adjustable_chain_gearshift"
+			}]
+			rewards: [{
+				id: "6C33B90014AC165A"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -257,6 +407,17 @@
 				item: "create:polished_rose_quartz"
 				count: 8L
 			}]
+			rewards: [{
+				id: "27C7747EF6C4573D"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: 4.0d
@@ -267,6 +428,17 @@
 				id: "6F02CF6BAFB0E34C"
 				type: "item"
 				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "63269A1394422322"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -279,6 +451,11 @@
 				type: "item"
 				item: "create:mechanical_drill"
 			}]
+			rewards: [{
+				id: "168CA0FDB4C392CA"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -10.5d
@@ -289,6 +466,11 @@
 				id: "1D32E6FFB09E4247"
 				type: "item"
 				item: "create:mechanical_saw"
+			}]
+			rewards: [{
+				id: "0961C0FEF1EB80BD"
+				type: "xp"
+				xp: 10
 			}]
 		}
 		{
@@ -301,6 +483,11 @@
 				type: "item"
 				item: "create:mechanical_plough"
 			}]
+			rewards: [{
+				id: "284ECD87BFF8EA30"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -8.5d
@@ -311,6 +498,11 @@
 				id: "6934340FD6C491C1"
 				type: "item"
 				item: "create:mechanical_harvester"
+			}]
+			rewards: [{
+				id: "3A0EEA7FBED877EA"
+				type: "xp"
+				xp: 10
 			}]
 		}
 		{
@@ -330,6 +522,11 @@
 					item: "create:gantry_shaft"
 				}
 			]
+			rewards: [{
+				id: "180F5C1499FF5F5F"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -4.5d
@@ -340,6 +537,17 @@
 				id: "53300383B5A6DE93"
 				type: "item"
 				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "2D56E3176393F63E"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -359,6 +567,18 @@
 					item: "create:basin"
 				}
 			]
+			rewards: [{
+				id: "49DEA6802E992909"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 2
+			}]
 		}
 		{
 			x: -2.5d
@@ -369,6 +589,18 @@
 				id: "2043FE360A4544C8"
 				type: "item"
 				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "7D30072963AD62A7"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 2
 			}]
 		}
 		{
@@ -384,6 +616,18 @@
 				type: "item"
 				item: "create:brass_ingot"
 			}]
+			rewards: [{
+				id: "7A72904D8612444B"
+				type: "item"
+				item: {
+					id: "create:brass_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 16
+			}]
 		}
 		{
 			x: 0.0d
@@ -394,6 +638,17 @@
 				id: "537E757D3651429E"
 				type: "item"
 				item: "create:brass_casing"
+			}]
+			rewards: [{
+				id: "341801CEFE0A1CF6"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -407,6 +662,17 @@
 				item: "create:mechanical_crafter"
 				count: 21L
 			}]
+			rewards: [{
+				id: "455B41354E583098"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: 4.0d
@@ -417,6 +683,17 @@
 				id: "31860340A0E2E34C"
 				type: "item"
 				item: "create:crushing_wheel"
+			}]
+			rewards: [{
+				id: "525553E51B49F684"
+				type: "item"
+				item: {
+					id: "coins:coin_platinum"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -429,6 +706,17 @@
 				type: "item"
 				item: "create:mechanical_arm"
 			}]
+			rewards: [{
+				id: "7D37CF06D26F5AC6"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: 0.0d
@@ -439,6 +727,17 @@
 				id: "5471F9899A0BFA3B"
 				type: "item"
 				item: "create:portable_storage_interface"
+			}]
+			rewards: [{
+				id: "187F17C528B7E6E9"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -458,6 +757,17 @@
 					item: "create:brass_tunnel"
 				}
 			]
+			rewards: [{
+				id: "5C4320233279FC2C"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: -4.5d
@@ -468,6 +778,18 @@
 				id: "303EF6FE82D2FCE3"
 				type: "item"
 				item: "create:copper_casing"
+			}]
+			rewards: [{
+				id: "6911B359CCAB4DA7"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 4
 			}]
 		}
 		{
@@ -480,6 +802,11 @@
 				type: "item"
 				item: "create:portable_fluid_interface"
 			}]
+			rewards: [{
+				id: "6AF1F1D6C05F213E"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -4.5d
@@ -490,6 +817,18 @@
 				id: "5FCA9759E77C3AC2"
 				type: "item"
 				item: "create:spout"
+			}]
+			rewards: [{
+				id: "4669D177C1C55E55"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 5
 			}]
 		}
 		{
@@ -502,6 +841,11 @@
 				type: "item"
 				item: "create:hose_pulley"
 			}]
+			rewards: [{
+				id: "6F96CD6028FE4A78"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: 2.0d
@@ -513,6 +857,17 @@
 				type: "item"
 				item: "create:chute"
 			}]
+			rewards: [{
+				id: "63FAD705038C91A4"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: 2.0d
@@ -523,6 +878,17 @@
 				id: "1D01707BB2910609"
 				type: "item"
 				item: "create:smart_chute"
+			}]
+			rewards: [{
+				id: "6E63655166B38DE0"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -540,6 +906,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "720EF2A5EFE0698E"
+				type: "xp"
+				xp: 10
 			}]
 		}
 		{
@@ -596,6 +967,11 @@
 				type: "item"
 				item: "create:fluid_tank"
 			}]
+			rewards: [{
+				id: "26646475E510F121"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -5.5d
@@ -606,6 +982,11 @@
 				id: "3E5C426FC5CAA214"
 				type: "item"
 				item: "create:item_drain"
+			}]
+			rewards: [{
+				id: "4C9652F9B1C2A469"
+				type: "xp"
+				xp: 10
 			}]
 		}
 		{
@@ -618,6 +999,11 @@
 				type: "item"
 				item: "create:blaze_cake"
 			}]
+			rewards: [{
+				id: "30428E92ACD12EA2"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -4.5d
@@ -628,6 +1014,11 @@
 				id: "4643B61028BE272E"
 				type: "item"
 				item: "create:sweet_roll"
+			}]
+			rewards: [{
+				id: "0F21A770B1D85B79"
+				type: "xp"
+				xp: 10
 			}]
 		}
 		{
@@ -640,6 +1031,11 @@
 				type: "item"
 				item: "create:bar_of_chocolate"
 			}]
+			rewards: [{
+				id: "746861F8B08DA6E9"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -6.5d
@@ -650,6 +1046,11 @@
 				id: "1BA573C645757745"
 				type: "item"
 				item: "create:honeyed_apple"
+			}]
+			rewards: [{
+				id: "0C4D2845BE89CF40"
+				type: "xp"
+				xp: 10
 			}]
 		}
 		{
@@ -662,6 +1063,17 @@
 				type: "item"
 				item: "create:powdered_obsidian"
 			}]
+			rewards: [{
+				id: "6A87AEC586DCF255"
+				type: "item"
+				item: {
+					id: "coins:coin_platinum"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: 4.0d
@@ -672,6 +1084,17 @@
 				id: "25150DB49A42F628"
 				type: "item"
 				item: "create:precision_mechanism"
+			}]
+			rewards: [{
+				id: "650450C11DF91E08"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
@@ -684,6 +1107,17 @@
 				type: "item"
 				item: "create:rotation_speed_controller"
 			}]
+			rewards: [{
+				id: "79E0360C998639C5"
+				type: "item"
+				item: {
+					id: "coins:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: 2.0d
@@ -695,6 +1129,17 @@
 				type: "item"
 				item: "create:nixie_tube"
 			}]
+			rewards: [{
+				id: "6542D872D2486A7C"
+				type: "item"
+				item: {
+					id: "coins:coin_iron"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 		{
 			x: -4.5d
@@ -705,6 +1150,17 @@
 				id: "2439E5DACC4218F4"
 				type: "item"
 				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "57CBC489593D8C6F"
+				type: "item"
+				item: {
+					id: "coins:coin_copper"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 		{
