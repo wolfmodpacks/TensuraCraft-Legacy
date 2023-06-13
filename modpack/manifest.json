@@ -180,6 +180,14 @@
       }
     },
     {
+      "projectID": 238891,
+      "fileID": 3502320,
+      "required": true,
+      "__meta": {
+        "name": "Dynamic Surroundings"
+      }
+    },
+    {
       "projectID": 240630,
       "fileID": 4526612,
       "required": true,
@@ -461,6 +469,17 @@
       }
     },
     {
+      "projectID": 325851,
+      "fileID": 3965718,
+      "required": true,
+      "__meta": {
+        "name": "Illagers+",
+        "dependencies": [
+          655678
+        ]
+      }
+    },
+    {
       "projectID": 327968,
       "fileID": 3114132,
       "required": true,
@@ -525,6 +544,14 @@
       }
     },
     {
+      "projectID": 358578,
+      "fileID": 3460553,
+      "required": true,
+      "__meta": {
+        "name": "DisenchantingForge"
+      }
+    },
+    {
       "projectID": 360203,
       "fileID": 3449429,
       "required": true,
@@ -570,6 +597,14 @@
       }
     },
     {
+      "projectID": 373774,
+      "fileID": 3484171,
+      "required": true,
+      "__meta": {
+        "name": "Rare Ice (Forge/Fabric)"
+      }
+    },
+    {
       "projectID": 377056,
       "fileID": 3348607,
       "required": true,
@@ -586,6 +621,14 @@
       "required": true,
       "__meta": {
         "name": "Tool Stats"
+      }
+    },
+    {
+      "projectID": 381597,
+      "fileID": 3641844,
+      "required": true,
+      "__meta": {
+        "name": "Regrowth"
       }
     },
     {
@@ -922,6 +965,14 @@
       }
     },
     {
+      "projectID": 496698,
+      "fileID": 3412084,
+      "required": true,
+      "__meta": {
+        "name": "Castle in the Sky"
+      }
+    },
+    {
       "projectID": 499826,
       "fileID": 3507674,
       "required": true,
@@ -1146,6 +1197,15 @@
       "required": true,
       "__meta": {
         "name": "Immersive Paintings [Fabric/Forge]"
+      }
+    },
+    {
+      "projectID": 655678,
+      "fileID": 3925019,
+      "required": true,
+      "__meta": {
+        "name": "LiteWolfCore",
+        "explicit": false
       }
     },
     {
