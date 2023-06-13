@@ -382,6 +382,17 @@
       }
     },
     {
+      "projectID": 309516,
+      "fileID": 3239647,
+      "required": true,
+      "__meta": {
+        "name": "Bountiful (Forge)",
+        "dependencies": [
+          351264
+        ]
+      }
+    },
+    {
       "projectID": 309674,
       "fileID": 3376819,
       "required": true,
@@ -527,11 +538,40 @@
       }
     },
     {
+      "projectID": 342584,
+      "fileID": 4312565,
+      "required": true,
+      "__meta": {
+        "name": "Collective",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 345854,
+      "fileID": 4074109,
+      "required": true,
+      "__meta": {
+        "name": "Villager Names",
+        "dependencies": [
+          342584
+        ]
+      }
+    },
+    {
       "projectID": 348521,
       "fileID": 3972422,
       "required": true,
       "__meta": {
         "name": "Cloth Config API (Fabric/Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 351264,
+      "fileID": 3675495,
+      "required": true,
+      "__meta": {
+        "name": "Kotlin for Forge",
         "explicit": false
       }
     },
@@ -991,6 +1031,17 @@
         "name": "Equipment Compare [Forge]",
         "dependencies": [
           520110
+        ]
+      }
+    },
+    {
+      "projectID": 504908,
+      "fileID": 3398020,
+      "required": true,
+      "__meta": {
+        "name": "Traveler's Titles (Forge)",
+        "dependencies": [
+          421850
         ]
       }
     },
