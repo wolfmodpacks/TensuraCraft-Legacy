@@ -7,7 +7,7 @@ modpack:
 install:
   mcVersion: 1.16.5
   loaderVersion: 36.2.34
-  modpackUrl: https://mediafilez.forgecdn.net/files/4573/690/TensuraCraft-Legacy-v0.0.5.zip
+  modpackUrl: https://mediafilez.forgecdn.net/files/4589/745/TensuraCraft-Legacy-v0.1.1.zip
   installerUrl: https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.34/forge-1.16.5-36.2.34-installer.jar
 
   ignoreFiles:
