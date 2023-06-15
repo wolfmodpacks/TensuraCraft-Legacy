@@ -32,6 +32,22 @@
       }
     },
     {
+      "projectID": 60089,
+      "fileID": 3202662,
+      "required": true,
+      "__meta": {
+        "name": "Mouse Tweaks"
+      }
+    },
+    {
+      "projectID": 69118,
+      "fileID": 3215383,
+      "required": true,
+      "__meta": {
+        "name": "Morpheus"
+      }
+    },
+    {
       "projectID": 74072,
       "fileID": 3695126,
       "required": true,
@@ -370,6 +386,14 @@
       "required": true,
       "__meta": {
         "name": "Structurize"
+      }
+    },
+    {
+      "projectID": 306187,
+      "fileID": 3423633,
+      "required": true,
+      "__meta": {
+        "name": "Featured Servers"
       }
     },
     {
@@ -806,6 +830,17 @@
       }
     },
     {
+      "projectID": 407206,
+      "fileID": 3570671,
+      "required": true,
+      "__meta": {
+        "name": "Chat Heads",
+        "dependencies": [
+          348521
+        ]
+      }
+    },
+    {
       "projectID": 409221,
       "fileID": 3299357,
       "required": true,
@@ -1069,6 +1104,14 @@
       }
     },
     {
+      "projectID": 517272,
+      "fileID": 3704774,
+      "required": true,
+      "__meta": {
+        "name": "Simple Shops"
+      }
+    },
+    {
       "projectID": 520110,
       "fileID": 3943132,
       "required": true,
@@ -1266,6 +1309,14 @@
       "__meta": {
         "name": "playerAnimator",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 663477,
+      "fileID": 4025350,
+      "required": true,
+      "__meta": {
+        "name": "Let Me Despawn"
       }
     },
     {
