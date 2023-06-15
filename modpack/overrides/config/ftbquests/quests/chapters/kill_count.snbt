@@ -555,16 +555,16 @@
 			y: 2.5d
 			id: "45E69E31A063EE07"
 			tasks: [{
-				id: "0BAA41CCD08EC322"
+				id: "3C64E37B4D3DAFD5"
 				type: "kill"
 				icon: {
-					id: "ttigraas:shizue_sword"
+					id: "ttigraas:sword_of_tempest"
 					Count: 1b
-					tag: {
-						Damage: 0
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
 					}
 				}
-				entity: "ttigraas:shizue_izawa"
+				entity: "ttigraas:shizue"
 				value: 1L
 			}]
 			rewards: [{
@@ -583,14 +583,13 @@
 			x: -3.0d
 			y: 2.5d
 			shape: "diamond"
-			dependencies: ["45E69E31A063EE07"]
 			size: 1.5d
 			id: "33A6D051D3324B0E"
 			tasks: [{
 				id: "1D0C09E53C3C834C"
 				type: "kill"
 				icon: "ttigraas:flame_breath"
-				entity: "ttigraas:ifrit_clone"
+				entity: "ttigraas:ifrit"
 				value: 1L
 			}]
 			rewards: [{

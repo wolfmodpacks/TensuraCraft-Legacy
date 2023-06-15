@@ -49,9 +49,9 @@
 	#No comment
 	im_rimuru = false
 	#No comment
-	instant_reincarnate = false
+	instant_reincarnate = true
 	#Whether the player should keep items in their inventory after death
-	keep_inventory = false
+	keep_inventory = true
 	#Whether to log admin commands to server log
 	log_admin_commands = true
 	#No comment

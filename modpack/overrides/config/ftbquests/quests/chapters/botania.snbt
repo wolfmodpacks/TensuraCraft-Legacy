@@ -810,17 +810,30 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "0AA9B82E88A84DE3"
-				type: "item"
-				item: {
-					id: "coins:coin_platinum"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
+			rewards: [
+				{
+					id: "0AA9B82E88A84DE3"
+					type: "item"
+					item: {
+						id: "coins:coin_platinum"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
 					}
 				}
-			}]
+				{
+					id: "175F6070E152C201"
+					type: "item"
+					item: {
+						id: "ttigraas:race_reroll_scroll"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
 		}
 	]
 }

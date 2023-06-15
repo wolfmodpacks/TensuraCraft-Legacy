@@ -1063,17 +1063,30 @@
 				type: "item"
 				item: "create:powdered_obsidian"
 			}]
-			rewards: [{
-				id: "6A87AEC586DCF255"
-				type: "item"
-				item: {
-					id: "coins:coin_platinum"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
+			rewards: [
+				{
+					id: "6A87AEC586DCF255"
+					type: "item"
+					item: {
+						id: "coins:coin_platinum"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
 					}
 				}
-			}]
+				{
+					id: "1EE14717991112A7"
+					type: "item"
+					item: {
+						id: "ttigraas:race_reroll_scroll"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 4.0d

@@ -446,7 +446,7 @@
 				id: "4269B93EF8DC3968"
 				type: "questsadditions:break"
 				block_type: 0
-				block: "minecraft:cobblestone"
+				block: "minecraft:stone"
 				value: 25L
 				checkItem: false
 			}]
@@ -530,6 +530,17 @@
 					id: "55BEC1FA954855CF"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+				{
+					id: "258CD045581D7131"
+					type: "item"
+					item: {
+						id: "ttigraas:race_reroll_scroll"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
 				}
 			]
 		}
