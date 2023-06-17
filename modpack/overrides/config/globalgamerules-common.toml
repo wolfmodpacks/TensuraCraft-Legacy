@@ -17,7 +17,7 @@
 	#Whether entities that are not mobs should have drops
 	do_entity_drops = true
 	#Whether fire should spread and naturally extinguish
-	do_fire_tick = true
+	do_fire_tick = false
 	#Players respawn immediately without showing the death screen
 	do_immediate_respawn = false
 	#Whether phantoms can spawn in the nighttime
@@ -98,7 +98,7 @@
 	#Range: > 0
 	soul_amount = 10000
 	#No comment
-	spatial_spectator = true
+	spatial_spectator = false
 	#No comment
 	#Range: > 0
 	spawn_distance = 10000
