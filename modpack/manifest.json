@@ -463,6 +463,14 @@
       }
     },
     {
+      "projectID": 314904,
+      "fileID": 3482306,
+      "required": true,
+      "__meta": {
+        "name": "FTB Backups (Forge)"
+      }
+    },
+    {
       "projectID": 314905,
       "fileID": 3802698,
       "required": true,
@@ -608,6 +616,14 @@
       }
     },
     {
+      "projectID": 357540,
+      "fileID": 3505181,
+      "required": true,
+      "__meta": {
+        "name": "Inventory HUD+"
+      }
+    },
+    {
       "projectID": 358578,
       "fileID": 3460553,
       "required": true,
@@ -650,6 +666,14 @@
       "required": true,
       "__meta": {
         "name": "spark"
+      }
+    },
+    {
+      "projectID": 363703,
+      "fileID": 3781324,
+      "required": true,
+      "__meta": {
+        "name": "Goblin Traders"
       }
     },
     {
@@ -860,6 +884,14 @@
       }
     },
     {
+      "projectID": 411797,
+      "fileID": 3507648,
+      "required": true,
+      "__meta": {
+        "name": "Decoration and Furniture"
+      }
+    },
+    {
       "projectID": 416089,
       "fileID": 4540765,
       "required": true,
@@ -1009,6 +1041,14 @@
         "dependencies": [
           328085
         ]
+      }
+    },
+    {
+      "projectID": 470193,
+      "fileID": 3510357,
+      "required": true,
+      "__meta": {
+        "name": "Connectivity[Forge/Fabric]"
       }
     },
     {
