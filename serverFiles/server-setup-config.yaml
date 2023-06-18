@@ -13,8 +13,21 @@ install:
   ignoreFiles:
     - mods/optifine*.jar
     - resources/**
+
   additionalFiles:
-  localFiles: ~
+    - url: https://mediafilez.forgecdn.net/files/3498/533/shutdowner-2.1.jar
+      destination: mods/shutdowner-2.1.jar
+    - url: https://mediafilez.forgecdn.net/files/3789/454/logprot-1.16-1.6.jar
+      destination: mods/logprot-1.16-1.6.jar
+    - url: https://mediafilez.forgecdn.net/files/4453/876/smoothchunk1.16.5-2.0.jar
+      destination: mods/smoothchunk1.16.5-2.0.jar
+    - url: https://mediafilez.forgecdn.net/files/4583/202/chunksending-1.16.5-2.5.jar
+      destination: mods/chunksending-1.16.5-2.5.jar
+
+  localFiles:
+    - from: setup/server_restarter.js
+      to: kubejs/server_scripts/server_restarter.js
+  
   
   installerArguments:
     - "--installServer"
