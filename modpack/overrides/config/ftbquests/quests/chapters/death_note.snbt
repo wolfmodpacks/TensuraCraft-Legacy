@@ -11,7 +11,6 @@
 			spiritName: "Cromured"
 		}
 	}
-	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -24,15 +23,9 @@
 			tasks: [{
 				id: "2119186BF9A4742F"
 				type: "kill"
-				icon: {
-					id: "minecraft:dragon_head"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
-					}
-				}
+				icon: "minecraft:dragon_head"
 				entity: "minecraft:ender_dragon"
-				value: 1L
+				value: 10L
 			}]
 			rewards: [
 				{
@@ -54,7 +47,7 @@
 				{
 					id: "0C80D8779B6EB0A6"
 					type: "xp_levels"
-					xp_levels: 20
+					xp_levels: 50
 				}
 			]
 		}
