@@ -1,0 +1,62 @@
+{
+	id: "7437049E0AE0FEF2"
+	group: "26630867D5A0BF43"
+	order_index: 2
+	filename: "weekly_quests"
+	title: "Weekly Quests"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -0.5d
+			id: "1500506F82714397"
+			tasks: [{
+				id: "0836F0C61966A4F5"
+				type: "checkmark"
+				title: "Week 1"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			id: "06867479A8E090E7"
+			tasks: [{
+				id: "0D46FDA655A2FDBB"
+				type: "checkmark"
+				title: "Week 2"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			id: "14D133B835CE66C4"
+			tasks: [{
+				id: "0B8F714F8315AE2A"
+				type: "checkmark"
+				title: "Week 3"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			id: "265B2DDF798A1BE4"
+			tasks: [{
+				id: "383887FDF7AF131C"
+				type: "checkmark"
+				title: "Week 4"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			id: "091C67754CB63B44"
+			tasks: [{
+				id: "7F709BF23FEA6594"
+				type: "checkmark"
+				title: "Week 5"
+			}]
+		}
+	]
+}

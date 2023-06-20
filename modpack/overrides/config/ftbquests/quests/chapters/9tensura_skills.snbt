@@ -1,0 +1,1685 @@
+{
+	id: "5ABD5EDFCD7C6011"
+	group: ""
+	order_index: 4
+	filename: "9tensura_skills"
+	title: "&9Tensura Skills"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.5d
+			y: 0.0d
+			id: "414FCF0E9FC6ABD5"
+			tasks: [{
+				id: "0F674E5762CD1C28"
+				type: "advancement"
+				advancement: "ttigraas:reincarnated"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7AB0B34BBF466C2B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "793FE48C5D611F0F"
+					type: "item"
+					item: {
+						id: "coins:coin_platinum"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["414FCF0E9FC6ABD5"]
+			id: "4F1D567CBBBD7993"
+			tasks: [{
+				id: "5B0FBBC468DC4440"
+				type: "advancement"
+				advancement: "ttigraas:extra_skill"
+				criterion: ""
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["414FCF0E9FC6ABD5"]
+			id: "3FB21BDB700C65F3"
+			tasks: [{
+				id: "07E543B3FE541C07"
+				type: "advancement"
+				advancement: "ttigraas:unique_skill"
+				criterion: ""
+			}]
+		}
+		{
+			x: 14.5d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "5A70495657CA2F0C"
+			tasks: [{
+				id: "0716F7EA72182B5F"
+				type: "advancement"
+				advancement: "ttigraas:sloth_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5D87222DE39A5F91"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "52AD36C18E03C651"
+			tasks: [{
+				id: "0F35452C4DD547A4"
+				type: "advancement"
+				advancement: "ttigraas:wrath_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "346C34DE893A3D15"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "41D965AC760C5309"
+			tasks: [{
+				id: "1173B8FD4646B884"
+				type: "advancement"
+				advancement: "ttigraas:gluttony_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6EB0DF38694D108A"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 14.0d
+			y: 4.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "61F60A961D8D9C6A"
+			tasks: [{
+				id: "51D398E31030D985"
+				type: "advancement"
+				advancement: "ttigraas:envy_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "722DEDF9587C1ACD"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 6.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "6E905B638F0597E9"
+			tasks: [{
+				id: "725EB36A6B1F1767"
+				type: "advancement"
+				advancement: "ttigraas:lust_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3B579794113A25CD"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 5.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "5372E229E32455BD"
+			tasks: [{
+				id: "38CA1EEACFCD3B4B"
+				type: "advancement"
+				advancement: "ttigraas:greed_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "494494CC56FA1CE6"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "72D18E01044B4D33"
+			tasks: [{
+				id: "1EC967674114C774"
+				type: "advancement"
+				advancement: "ttigraas:pride_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "16B27D7117384CA7"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "3D062186B656D774"
+			tasks: [{
+				id: "13302C83F1E3AF3A"
+				type: "advancement"
+				advancement: "ttigraas:analyst_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5DE04E61BA3E01DA"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 8.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "69F2C7E9267EEF4E"
+			tasks: [{
+				id: "7558933DF7381EA8"
+				type: "advancement"
+				advancement: "ttigraas:planner_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5599C35A4E3428D7"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 7.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "2DF48E047B0F07B4"
+			tasks: [{
+				id: "40C82C868B40EFC3"
+				type: "advancement"
+				advancement: "ttigraas:dilettante_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2ECDCB107D908C43"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 8.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "53B03A2B45AB36C9"
+			tasks: [{
+				id: "5842D9ED88199B8C"
+				type: "advancement"
+				advancement: "ttigraas:investigator_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "022733A1C4DE4283"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "6AB40460442258BD"
+			tasks: [{
+				id: "70D92B7FC9F497A2"
+				type: "advancement"
+				advancement: "ttigraas:mathematcian_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0B7288D9AE379F68"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 18.0d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "55EBF1D245EC14FA"
+			tasks: [{
+				id: "2A6915A13D1B0DA0"
+				type: "advancement"
+				advancement: "ttigraas:usurper_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "43D38219A893676A"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "4B766B56B04D0632"
+			tasks: [{
+				id: "7CFC00F384A4C088"
+				type: "advancement"
+				advancement: "ttigraas:great_wiseman_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "149FA7E9C25EEEE6"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "70B46757DE3C3258"
+			tasks: [{
+				id: "079D35CC5A1B21A5"
+				type: "advancement"
+				advancement: "ttigraas:great_sage_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "063F633A8E4D516D"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 7.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "021C2E9EC60F215F"
+			tasks: [{
+				id: "50544553386A2E62"
+				type: "advancement"
+				advancement: "ttigraas:researcher_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7A75F9B18977BB3F"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "24C634B0AC86D227"
+			tasks: [{
+				id: "434E4EE5A9A350CC"
+				type: "advancement"
+				advancement: "ttigraas:godly_craftsman_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2CF86E4577C955EC"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 13.5d
+			y: -5.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "3A290515483E100E"
+			tasks: [{
+				id: "11D3F04098311C87"
+				type: "advancement"
+				advancement: "ttigraas:puppeteer_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3EA2AC96538E1C4F"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -6.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "2CC4F3ACC02766D6"
+			tasks: [{
+				id: "0795A92545F75FEC"
+				type: "advancement"
+				advancement: "ttigraas:ruler_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2D0BDACE27392818"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -8.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "40E3ED291BDFE0E1"
+			tasks: [{
+				id: "513D2D7E6EC1C767"
+				type: "advancement"
+				advancement: "ttigraas:degenerate_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "465B6AF27945B93F"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -8.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "4641E69B0BC078A0"
+			tasks: [{
+				id: "0DD7F6645FFB9217"
+				type: "advancement"
+				advancement: "ttigraas:manufacturer_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "03FECDE0858B8652"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -7.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "1A3D82BB2CCD7792"
+			tasks: [{
+				id: "6AFC427AAAC67D9C"
+				type: "advancement"
+				advancement: "ttigraas:predator_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3A54AC414728651E"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -6.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "3C4D52CDB66A5D83"
+			tasks: [{
+				id: "1CC8546ABA757EEB"
+				type: "advancement"
+				advancement: "ttigraas:starved_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "79DF898CC0260795"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -7.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "27919E59ED22825A"
+			tasks: [{
+				id: "1808863E20267424"
+				type: "advancement"
+				advancement: "ttigraas:gourmet_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "026DCEB2673FA3A4"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 13.0d
+			y: -5.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "3D4D116683FE62F0"
+			tasks: [{
+				id: "5A51D6963102D3F5"
+				type: "advancement"
+				advancement: "ttigraas:martial_master_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "328BE8A5407E5CDE"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -4.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "54A262AEF2D767E1"
+			tasks: [{
+				id: "522AC606FE42D0BE"
+				type: "advancement"
+				advancement: "ttigraas:shadow_striker_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2B82F9EE1BADE5CD"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "01F392EC49728188"
+			tasks: [{
+				id: "1C40BDAD5FC30D05"
+				type: "advancement"
+				advancement: "ttigraas:generalissimo_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "35D5001C4D9E4082"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 14.5d
+			y: -4.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "6F521E3D6E673C47"
+			tasks: [{
+				id: "5B944DE0052FB5D1"
+				type: "advancement"
+				advancement: "ttigraas:lion_heart_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "622F5DA5E7D04D16"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 15.5d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "39D7E2AD40ADA461"
+			tasks: [{
+				id: "2BE11CE45200AB2D"
+				type: "advancement"
+				advancement: "ttigraas:oppressor_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "006FCC574F21BA6B"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 16.0d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "6948BB2CA0FBAB48"
+			tasks: [{
+				id: "1BB13E799FCCD413"
+				type: "advancement"
+				advancement: "ttigraas:retaliator_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1108DC6E55F6BBFF"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 17.5d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "5E5EB1AC895FEA5D"
+			tasks: [{
+				id: "6C3BF345169608A3"
+				type: "advancement"
+				advancement: "ttigraas:serverer_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1200DAFC56FA737C"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 17.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "589A8CD4BE72BE21"
+			tasks: [{
+				id: "1DD79F276286B9F3"
+				type: "advancement"
+				advancement: "ttigraas:berserker_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "64E20B935174EF89"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 16.5d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "6F5AE43CFF5D4700"
+			tasks: [{
+				id: "5AC729D730DEA50C"
+				type: "advancement"
+				advancement: "ttigraas:master_medic_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "23C32E0103242E90"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 18.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "49A859792D585BA5"
+			tasks: [{
+				id: "2EF499A72523448A"
+				type: "advancement"
+				advancement: "ttigraas:survivor_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "58821322A25A55BB"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 18.0d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "7F812B61D9DBCEC8"
+			tasks: [{
+				id: "498304DD6ADA462A"
+				type: "advancement"
+				advancement: "ttigraas:traveler_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "716C203A0CB890C1"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 17.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "5DAD5F13B8DCB14D"
+			tasks: [{
+				id: "02E7226D4B640864"
+				type: "advancement"
+				advancement: "ttigraas:perceiver_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7F9B13F40E7177E3"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 17.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "77E97E3ECA3ACA6A"
+			tasks: [{
+				id: "229740FF81B0CC51"
+				type: "advancement"
+				advancement: "ttigraas:musician_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4857227EA999E8DA"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 16.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "3E9B3BBB07A87668"
+			tasks: [{
+				id: "48D8FFE078F3A71B"
+				type: "advancement"
+				advancement: "ttigraas:spearhead_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3DC13DFF75459609"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 16.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["3FB21BDB700C65F3"]
+			id: "2FE2D6C4729A1772"
+			tasks: [{
+				id: "737C3BCC369B70EC"
+				type: "advancement"
+				advancement: "ttigraas:the_chosen_one_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "50E688BE3851F38E"
+				type: "random"
+				title: "Random Loot"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			dependencies: ["514423B2893331AB"]
+			id: "7394019DB7BA7F58"
+			tasks: [{
+				id: "6B8A4A608987D0A1"
+				type: "advancement"
+				advancement: "ttigraas:the_potential_hero"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7F9B8E9E5504F817"
+					type: "random"
+					table_id: 4818154804125978781L
+				}
+				{
+					id: "2D356BDC0B18DD44"
+					type: "item"
+					item: {
+						id: "coins:coin_platinum"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			dependencies: ["7394019DB7BA7F58"]
+			id: "4F0AB282D8F88851"
+			tasks: [{
+				id: "380F53CF1CB8AB07"
+				type: "advancement"
+				advancement: "ttigraas:the_heros_egg"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7A848BDC91C9AB53"
+					type: "random"
+					table_id: 4818154804125978781L
+				}
+				{
+					id: "3107652C349874AA"
+					type: "item"
+					item: {
+						id: "coins:coin_gold"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -8.5d
+			dependencies: ["4F0AB282D8F88851"]
+			id: "76275C529641D9C8"
+			tasks: [{
+				id: "188604BBBE5C5B08"
+				type: "advancement"
+				advancement: "ttigraas:the_brave_one"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4EB07186A6AC796A"
+					type: "random"
+					table_id: 4818154804125978781L
+				}
+				{
+					id: "5CB39930E4B660E3"
+					type: "item"
+					item: {
+						id: "coins:coin_gold"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["414FCF0E9FC6ABD5"]
+			id: "141E317BE3702C3C"
+			tasks: [{
+				id: "2BBDEB01E98B5F88"
+				type: "advancement"
+				advancement: "ttigraas:ruler_of_the_skies"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "05DD7BFAC44C5B43"
+					type: "random"
+					table_id: 4818154804125978781L
+				}
+				{
+					id: "497DC59AF948E800"
+					type: "item"
+					item: {
+						id: "coins:coin_gold"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["141E317BE3702C3C"]
+			id: "6F6F041A3485FC34"
+			tasks: [{
+				id: "03030B6E66253E6D"
+				type: "advancement"
+				advancement: "ttigraas:veldoras_child"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3D8C4F2F5CA1709A"
+					type: "random"
+					table_id: 4818154804125978781L
+				}
+				{
+					id: "2E69A901C5423FDA"
+					type: "item"
+					item: {
+						id: "coins:coin_gold"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["414FCF0E9FC6ABD5"]
+			id: "3DC96470C055AA6B"
+			tasks: [{
+				id: "37733487487493C1"
+				type: "advancement"
+				advancement: "ttigraas:potion_1_0_0"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "06E32413F86BE902"
+					type: "random"
+					table_id: 4818154804125978781L
+				}
+				{
+					id: "1FA27FE312593CCA"
+					type: "item"
+					item: {
+						id: "coins:coin_gold"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			dependencies: ["3DC96470C055AA6B"]
+			id: "468A33C607938A36"
+			tasks: [{
+				id: "7CF5DBB155719A14"
+				type: "advancement"
+				advancement: "ttigraas:the_best_potion"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "61E009D1208E6FE8"
+					type: "random"
+					table_id: 4818154804125978781L
+				}
+				{
+					id: "44F288ED824C8727"
+					type: "item"
+					item: {
+						id: "coins:coin_gold"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["414FCF0E9FC6ABD5"]
+			id: "15A1A2C2E10E5BBE"
+			tasks: [{
+				id: "3B4D03B162A2C9D9"
+				type: "advancement"
+				advancement: "ttigraas:labyrinth_of_the_spirit"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2BE0DF6593C74B0A"
+					type: "random"
+					table_id: 4818154804125978781L
+				}
+				{
+					id: "71FA69304207B2BE"
+					type: "item"
+					item: {
+						id: "coins:coin_gold"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			dependencies: ["15A1A2C2E10E5BBE"]
+			id: "20B67F7A3F97D0ED"
+			tasks: [{
+				id: "472FA8E375D991C7"
+				type: "advancement"
+				advancement: "ttigraas:labyrinth_conquerer"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6E81F0232ADF8B89"
+					type: "random"
+					table_id: 4818154804125978781L
+				}
+				{
+					id: "660C0A5535C6C671"
+					type: "item"
+					item: {
+						id: "coins:coin_gold"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			dependencies: ["20B67F7A3F97D0ED"]
+			id: "514423B2893331AB"
+			tasks: [{
+				id: "6AF1252B0CB008A2"
+				type: "advancement"
+				advancement: "ttigraas:spirit_master"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6D11F4AEC48DBEB2"
+					type: "random"
+					table_id: 4818154804125978781L
+				}
+				{
+					id: "49EAD010BADE87F9"
+					type: "item"
+					item: {
+						id: "coins:coin_platinum"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			dependencies: ["514423B2893331AB"]
+			id: "7EE9CCA8519045B2"
+			tasks: [{
+				id: "10AAA6C76106C523"
+				type: "advancement"
+				advancement: "ttigraas:genius_like_ramiris"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "47D74477B7EDE394"
+					type: "random"
+					table_id: 4818154804125978781L
+				}
+				{
+					id: "4A3E1AFA9BA9D000"
+					type: "item"
+					item: {
+						id: "coins:coin_platinum"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			dependencies: ["514423B2893331AB"]
+			id: "4C0BDE3EF21C34EE"
+			tasks: [{
+				id: "6081254A609C18FD"
+				type: "advancement"
+				advancement: "ttigraas:the_successor_of_the_flame"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "560DF59F6B16E86F"
+					type: "random"
+					table_id: 4818154804125978781L
+				}
+				{
+					id: "0CEDA54DD830A7C3"
+					type: "item"
+					item: {
+						id: "coins:coin_diamond"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["414FCF0E9FC6ABD5"]
+			id: "43F543162A603C66"
+			tasks: [{
+				id: "33B9E1D4BA25834E"
+				type: "advancement"
+				advancement: "ttigraas:the_living_disaster"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "157D3570874EBF1E"
+					type: "random"
+					table_id: 4818154804125978781L
+				}
+				{
+					id: "4D73F40FC8395037"
+					type: "item"
+					item: {
+						id: "coins:coin_gold"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["414FCF0E9FC6ABD5"]
+			id: "6C0F43CF7A47B9B8"
+			tasks: [{
+				id: "213A8A288BC94622"
+				type: "advancement"
+				advancement: "ttigraas:demon_seed"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "229C63E7AAFCA4F4"
+					type: "random"
+					table_id: 4818154804125978781L
+				}
+				{
+					id: "645850D3D0C0DABE"
+					type: "item"
+					item: {
+						id: "coins:coin_gold"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			dependencies: ["6C0F43CF7A47B9B8"]
+			id: "75F2A0E7D5B15FFA"
+			tasks: [{
+				id: "698F07E416F57798"
+				type: "advancement"
+				advancement: "ttigraas:demon_lord"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "043AB79A9296A7D2"
+					type: "random"
+					table_id: 4818154804125978781L
+				}
+				{
+					id: "361B8194EFE17B24"
+					type: "item"
+					item: {
+						id: "coins:coin_gold"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["6C0F43CF7A47B9B8"]
+			id: "795B4B8946BE3B95"
+			tasks: [{
+				id: "3E0CAD7D46C23751"
+				type: "advancement"
+				advancement: "ttigraas:merciless"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5ED48920D84163C6"
+					type: "random"
+					table_id: 4818154804125978781L
+				}
+				{
+					id: "1DB7D2393ACC1FD5"
+					type: "item"
+					item: {
+						id: "coins:coin_gold"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "225CA686E2A100C5"
+			tasks: [{
+				id: "6292B7A67ED082FC"
+				type: "advancement"
+				advancement: "ttigraas:earth_manipulation_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3D132B97D2038E0C"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "5EE3C614F82A87B6"
+			tasks: [{
+				id: "5ECDC04DE4C878F1"
+				type: "advancement"
+				advancement: "ttigraas:magic_sense_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "72A1C07371AFE99B"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "603E2ABF75707976"
+			tasks: [{
+				id: "40A74028FB2345A4"
+				type: "advancement"
+				advancement: "ttigraas:molecular_manipulation_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "42DB0F7441931946"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "20ED34630B89E65B"
+			tasks: [{
+				id: "5C28C83BF3136071"
+				type: "advancement"
+				advancement: "ttigraas:magic_jamming_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2CD69348066C71FB"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "3A88E659DD2B4C91"
+			tasks: [{
+				id: "03CC2FAA8C22A79C"
+				type: "advancement"
+				advancement: "ttigraas:magic_manipulation_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "110343190533C354"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "33E3CA389F85A356"
+			tasks: [{
+				id: "05885DA103E27817"
+				type: "advancement"
+				advancement: "ttigraas:sage_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "086D20793E4A1A1B"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "184B9EE30E7D09BD"
+			tasks: [{
+				id: "4569E98E62E0C9C3"
+				type: "advancement"
+				advancement: "ttigraas:perfect_memory_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "29371A295FAF65F7"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "177E6B2792C88C46"
+			tasks: [{
+				id: "0CE57FB7A2B7F13C"
+				type: "advancement"
+				advancement: "ttigraas:water_current_control_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4789BF6C0B6CDF37"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "43614B7334F5F2F7"
+			tasks: [{
+				id: "12584FA0DE2BD5D9"
+				type: "advancement"
+				advancement: "ttigraas:water_blade_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "431180345D3BA90C"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -9.5d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "6D2D140F7A7CBCE7"
+			tasks: [{
+				id: "45700D217456F2CD"
+				type: "advancement"
+				advancement: "ttigraas:hydraulic_propulsion_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "269EF5EDC8D62A4D"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -10.0d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "2BE95B1C6F69C889"
+			tasks: [{
+				id: "2749C760D463F313"
+				type: "advancement"
+				advancement: "ttigraas:water_manipulation_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1D8C0D9AEDDB2C27"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "316359B0C0B64B47"
+			tasks: [{
+				id: "449DCC6121CD37CD"
+				type: "advancement"
+				advancement: "ttigraas:shadow_step_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1425DC3FB5670339"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "6D37C79467333978"
+			tasks: [{
+				id: "6E57C70A67D1086E"
+				type: "advancement"
+				advancement: "ttigraas:spatial_travel_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6C27353C81EED336"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -9.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "2931BA8470FFDFC7"
+			tasks: [{
+				id: "35E2045F06A1FDD1"
+				type: "advancement"
+				advancement: "ttigraas:teleportation_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "417111CE736120E6"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "5764BCEE91A2D256"
+			tasks: [{
+				id: "393B0AACAE7A0765"
+				type: "advancement"
+				advancement: "ttigraas:fire_manipulation_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7744DA142017ABD9"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "0F79CC08BADD1C2A"
+			tasks: [{
+				id: "48705B173C7BBC7E"
+				type: "advancement"
+				advancement: "ttigraas:black_flame_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5D0F7E0D8328070D"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "26AF6B5427E927E1"
+			tasks: [{
+				id: "6C1D25CD76DB67F6"
+				type: "advancement"
+				advancement: "ttigraas:black_lightning_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2FB7D8DBA9F78D9C"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "4C4654713ACC6F83"
+			tasks: [{
+				id: "25A7FF2CE812571F"
+				type: "advancement"
+				advancement: "ttigraas:black_thunder_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "39341A58BD876A23"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "064991A4A990585E"
+			tasks: [{
+				id: "12039866974DC608"
+				type: "advancement"
+				advancement: "ttigraas:death_storm_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2F419C032FB57E1A"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "28BFD70D0DD6EC82"
+			tasks: [{
+				id: "3267F1C0206B4B08"
+				type: "advancement"
+				advancement: "ttigraas:wind_manipulation_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "679A2F89B1CB9EB0"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["4F1D567CBBBD7993"]
+			id: "733E10A5D2A2DAA9"
+			tasks: [{
+				id: "40B9A8EB7D830704"
+				type: "advancement"
+				advancement: "ttigraas:gravity_manipulation_ad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "794F2264D0E54365"
+				type: "random"
+				title: "Random Loots"
+				table_id: 2604856958091933172L
+			}]
+		}
+	]
+}

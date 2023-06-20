@@ -64,8 +64,8 @@
 		}
 		{
 			title: "Wooden Tools"
-			x: -3.5d
-			y: 0.0d
+			x: -7.5d
+			y: 3.5d
 			dependencies: ["3F34C2434B4F72B7"]
 			id: "2E911A24C035243E"
 			tasks: [
@@ -336,9 +336,11 @@
 		}
 		{
 			title: "Multy Block Structure 1"
-			x: 3.0d
-			y: 2.0d
-			dependencies: ["6688CECA36E968F8"]
+			x: 3.5d
+			y: 5.0d
+			description: ["Craft 1 of each of the required blocks"]
+			dependencies: ["49AFDAD35F31F331"]
+			dependency_requirement: "one_completed"
 			id: "4F6487322E7DF98E"
 			tasks: [
 				{
@@ -389,9 +391,11 @@
 		}
 		{
 			title: "Multy Block 2"
-			x: 0.0d
-			y: 2.0d
-			dependencies: ["4F6487322E7DF98E"]
+			x: 0.5d
+			y: 7.0d
+			description: ["Craft or get 1 of each of the required blocks"]
+			dependencies: ["6BE27FA2CB570928"]
+			dependency_requirement: "one_completed"
 			id: "476F7C35353417AF"
 			tasks: [
 				{
@@ -442,10 +446,10 @@
 		}
 		{
 			x: -3.5d
-			y: 4.0d
+			y: 9.0d
 			dependencies: [
 				"476F7C35353417AF"
-				"2E911A24C035243E"
+				"038C9D6303558C71"
 			]
 			id: "3CC7E8A9B1F833AF"
 			tasks: [{
@@ -459,10 +463,28 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "59A8246537FED1E8"
+					type: "item"
+					item: {
+						id: "coins:coin_platinum"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "227C915FB2297B41"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
-			x: 0.0d
-			y: 4.0d
+			x: -1.0d
+			y: 10.0d
 			dependencies: ["3CC7E8A9B1F833AF"]
 			id: "7D095264251C1661"
 			tasks: [
@@ -646,6 +668,234 @@
 					id: "1963D39D5F2F03CC"
 					type: "item"
 					item: "coins:coin_platinum"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			description: ["Make the book called puny smelting and read it"]
+			dependencies: [
+				"6688CECA36E968F8"
+				"220B9F54685FF491"
+			]
+			id: "49AFDAD35F31F331"
+			tasks: [{
+				id: "1AC59D2B75D9FB63"
+				type: "advancement"
+				title: "Smeltry Recurit"
+				advancement: "tconstruct:smeltery/puny_smelting"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4102929833670E27"
+				type: "item"
+				item: {
+					id: "tconstruct:seared_bricks"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			description: ["Make a basic smeltery"]
+			dependencies: ["4F6487322E7DF98E"]
+			id: "59DDB7A748CCE204"
+			tasks: [{
+				id: "4C2150D5FCB926D4"
+				type: "advancement"
+				title: "Basic Meltery"
+				advancement: "tconstruct:smeltery/melter"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2216F5549D6CC326"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_drain"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "4EB97300E9BC5864"
+					type: "item"
+					item: {
+						id: "tconstruct:scorched_table"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "48558018D2164954"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_fuel_tank"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Smeltry 101"
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["59DDB7A748CCE204"]
+			id: "6BE27FA2CB570928"
+			tasks: [{
+				id: "3BB72F880E8788BF"
+				type: "advancement"
+				advancement: "tconstruct:smeltery/mighty_smelting"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "03DC518DB4136D24"
+					type: "item"
+					item: {
+						id: "minecraft:lava_bucket"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 3
+				}
+				{
+					id: "72B975851DE82FE7"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_bricks"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 12
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 7.0d
+			dependencies: ["2E911A24C035243E"]
+			id: "038C9D6303558C71"
+			tasks: [{
+				id: "59DD4EA9C482B61C"
+				type: "advancement"
+				title: "Traveler"
+				advancement: "tconstruct:tools/travelers_gear"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "65339D0DD2CE3F4E"
+					type: "item"
+					item: {
+						id: "coins:coin_gold"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 5
+				}
+				{
+					id: "215832E69B7DC003"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 10.5d
+			dependencies: ["7D095264251C1661"]
+			id: "5A85319485393021"
+			tasks: [{
+				id: "7224C61D2B0C0630"
+				type: "advancement"
+				title: "Tool forge"
+				advancement: "tconstruct:smeltery/tool_forge"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "54B6F6D7C4D19FB6"
+					type: "item"
+					item: {
+						id: "ttigraas:race_reroll_scroll"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "5361CC72F6EDE108"
+					type: "item"
+					item: {
+						id: "coins:coin_platinum"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			secret: true
+			id: "41D37818425D04DE"
+			tasks: [{
+				id: "34326F56450AFD82"
+				type: "advancement"
+				title: "Secret: All the Upgrades"
+				advancement: "tconstruct:tools/upgrade_slots"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "542FC23F4D013DB8"
+					type: "item"
+					item: {
+						id: "ttigraas:skill_reroll_scroll"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "759DBA2CE7A73F1D"
+					type: "item"
+					item: {
+						id: "coins:coin_diamond"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "65CAC1014E4F9F0D"
+					type: "xp"
+					xp: 100
 				}
 			]
 		}

@@ -1,0 +1,55 @@
+{
+	id: "42DD864444C5509D"
+	order_index: 4
+	title: "GenericT"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "ttigraas:raw_magic_steel"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "ttigraas:magic_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "ttigraas:magic_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "ttigraas:flint_and_magic_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+	]
+}

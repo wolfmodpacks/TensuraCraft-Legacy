@@ -3,7 +3,7 @@
     "version": "1.16.5",
     "modLoaders": [
       {
-        "id": "forge-36.2.34",
+        "id": "forge-36.2.39",
         "primary": true
       }
     ]
@@ -132,31 +132,19 @@
       }
     },
     {
-      "projectID": 229060,
-      "fileID": 4397363,
-      "required": true,
-      "__meta": {
-        "name": "iChunUtil",
-        "explicit": false
-      }
-    },
-    {
-      "projectID": 229061,
-      "fileID": 3802780,
-      "required": true,
-      "__meta": {
-        "name": "Back Tools",
-        "dependencies": [
-          229060
-        ]
-      }
-    },
-    {
       "projectID": 230976,
       "fileID": 3590413,
       "required": true,
       "__meta": {
         "name": "Fast Leaf Decay"
+      }
+    },
+    {
+      "projectID": 232131,
+      "fileID": 3330403,
+      "required": true,
+      "__meta": {
+        "name": "Default Options"
       }
     },
     {
@@ -712,6 +700,34 @@
       }
     },
     {
+      "projectID": 377794,
+      "fileID": 3318948,
+      "required": true,
+      "__meta": {
+        "name": "Dungeons Plus",
+        "dependencies": [
+          378802
+        ]
+      }
+    },
+    {
+      "projectID": 378802,
+      "fileID": 3498310,
+      "required": true,
+      "__meta": {
+        "name": "Structure Gel API",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 380136,
+      "fileID": 3132033,
+      "required": true,
+      "__meta": {
+        "name": "Shulker's Faithful Factories (Previously Cobbler)"
+      }
+    },
+    {
       "projectID": 381597,
       "fileID": 3641844,
       "required": true,
@@ -843,6 +859,14 @@
         "dependencies": [
           419699
         ]
+      }
+    },
+    {
+      "projectID": 405076,
+      "fileID": 4029362,
+      "required": true,
+      "__meta": {
+        "name": "Epic Fight"
       }
     },
     {
@@ -1063,6 +1087,14 @@
       }
     },
     {
+      "projectID": 482265,
+      "fileID": 3492735,
+      "required": true,
+      "__meta": {
+        "name": "Trofers"
+      }
+    },
+    {
       "projectID": 486392,
       "fileID": 3535459,
       "required": true,
@@ -1158,14 +1190,6 @@
       "__meta": {
         "name": "Iceberg [Forge]",
         "explicit": false
-      }
-    },
-    {
-      "projectID": 521480,
-      "fileID": 3456514,
-      "required": true,
-      "__meta": {
-        "name": "Skin Layers 3D (Fabric/Forge)"
       }
     },
     {
@@ -1295,6 +1319,14 @@
           289412,
           419699
         ]
+      }
+    },
+    {
+      "projectID": 608235,
+      "fileID": 3920142,
+      "required": true,
+      "__meta": {
+        "name": "YDM's Weapon Master"
       }
     },
     {

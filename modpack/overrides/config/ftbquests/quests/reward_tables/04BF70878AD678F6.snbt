@@ -1,0 +1,217 @@
+{
+	id: "04BF70878AD678F6"
+	order_index: 5
+	title: "RandomShot"
+	icon: {
+		id: "minecraft:barrel"
+		Count: 1b
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": { }
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "coins:coin_pile_copper"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "ttigraas:skill_reroll_scroll"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "coins:coin_copper"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			count: 10
+		}
+		{
+			item: {
+				id: "coins:coin_platinum"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "coins:coin_diamond"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "ttigraas:orichalcum_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "ttigraas:medium_heal"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "ttigraas:redmagicore"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "decoration_mod:computer"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "decoration_mod:display_unit"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:whoopee_cushion"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:vampiric_glove"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "farmersdelight:chicken_soup"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "farmersdelight:cooked_rice"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "farmersdelight:egg_sandwich"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			count: 32
+		}
+		{
+			item: {
+				id: "farmersdelight:smoked_ham"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			count: 32
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:backpack"
+				Count: 1b
+				tag: {
+					inventorySlots: 27
+					borderColor: 16383998
+					upgradeSlots: 1
+					contentsUuid: [I;
+						830564997
+						-210090082
+						-1564912222
+						-672347871
+					]
+					clothColor: 16383998
+				}
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:blobfish"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "farmersdelight:steak_and_potatoes"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "decoration_mod:trash_can"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+	]
+}

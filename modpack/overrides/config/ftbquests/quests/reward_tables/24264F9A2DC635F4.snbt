@@ -1,0 +1,65 @@
+{
+	id: "24264F9A2DC635F4"
+	order_index: 3
+	title: "ESkills"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "ttigraas:tempest_slime_ball"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			count: 5
+		}
+		{
+			item: {
+				id: "ttigraas:diamond_slime_statue"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "ttigraas:gold_slime_statue"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "ttigraas:iron_slime_statue"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "ttigraas:silk"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			count: 32
+		}
+		{
+			item: {
+				id: "ttigraas:hipokte_grass_item"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+	]
+}

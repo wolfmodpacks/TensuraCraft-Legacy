@@ -14,5 +14,2318 @@
 	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			size: 3.0d
+			id: "253027F7D9E8DC9A"
+			tasks: [{
+				id: "2119186BF9A4742F"
+				type: "kill"
+				icon: {
+					id: "minecraft:dragon_head"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2A05A670CAE13A8F"
+					type: "random"
+					table_id: 342115824155654390L
+				}
+				{
+					id: "3703153B386D35DA"
+					type: "item"
+					item: {
+						id: "coins:coin_pile_diamond"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "0C80D8779B6EB0A6"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			shape: "rsquare"
+			size: 2.0d
+			id: "4B87DCF471C8D9E3"
+			tasks: [{
+				id: "00ACE20FF0B2C858"
+				type: "kill"
+				icon: {
+					id: "ttigraas:dead_end_rainbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:hinata_sakaguchi"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "4AEF3B668C1E4641"
+					type: "item"
+					item: {
+						id: "coins:coin_diamond"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "0A70105EB08B163F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "11D70A2E4A24339E"
+					type: "random"
+					table_id: 342115824155654390L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "rsquare"
+			size: 2.0d
+			id: "70E749287CD80899"
+			tasks: [{
+				id: "0F22B9324813E177"
+				type: "kill"
+				icon: {
+					id: "mowziesmobs:wrought_axe"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				value: 2L
+			}]
+			rewards: [
+				{
+					id: "4B4B5498A0F907E3"
+					type: "random"
+					table_id: 342115824155654390L
+				}
+				{
+					id: "02D7B42CD8001397"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0E87BCD86F44A43F"
+					type: "item"
+					item: {
+						id: "coins:coin_diamond"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			shape: "rsquare"
+			size: 2.0d
+			id: "5A1AF2BD7B88D4FA"
+			tasks: [{
+				id: "4DDA7ABC46A06157"
+				type: "kill"
+				icon: {
+					id: "mowziesmobs:barakoa_mask_faith"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "mowziesmobs:barako"
+				value: 2L
+			}]
+			rewards: [
+				{
+					id: "230CDEEC65E096F9"
+					type: "random"
+					table_id: 342115824155654390L
+				}
+				{
+					id: "2759642B4B7F3454"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3F8DAA58DC3F7665"
+					type: "item"
+					item: {
+						id: "coins:coin_diamond"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			shape: "rsquare"
+			size: 2.0d
+			id: "2697E07711EF1F44"
+			tasks: [{
+				id: "3378B31FC689E32E"
+				type: "kill"
+				icon: {
+					id: "iceandfire:frost_troll_leather_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "mowziesmobs:frostmaw"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "56BBA09B56296576"
+					type: "random"
+					table_id: 342115824155654390L
+				}
+				{
+					id: "252790AC9499E839"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "50F93CE320CD65A5"
+					type: "item"
+					item: {
+						id: "coins:coin_diamond"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			shape: "rsquare"
+			id: "6BE4D2EADBD49EC4"
+			tasks: [{
+				id: "05AA0E52CB333127"
+				type: "kill"
+				icon: {
+					id: "curios:crown"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "illagers_plus:illager_king"
+				value: 1L
+			}]
+			rewards: [{
+				id: "42C68E2FD924C36B"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			shape: "rsquare"
+			id: "6374FEF5657C642A"
+			tasks: [{
+				id: "6017C77E49C194D0"
+				type: "kill"
+				icon: {
+					id: "ttigraas:generalissimo"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "illagers_plus:illager_general"
+				value: 5L
+			}]
+			rewards: [{
+				id: "62B03199F222366C"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			shape: "rsquare"
+			id: "50969C2737D0DC9F"
+			tasks: [{
+				id: "39CF3431E6FA9EBB"
+				type: "kill"
+				icon: {
+					id: "magistuarmory:longbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "illagers_plus:archer"
+				value: 10L
+			}]
+			rewards: [{
+				id: "62E26412430683D3"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			shape: "rsquare"
+			id: "220AB8D694CC7D8C"
+			tasks: [{
+				id: "705D427CAC7066ED"
+				type: "kill"
+				icon: {
+					id: "ttigraas:berserker"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "illagers_plus:berserker"
+				value: 5L
+			}]
+			rewards: [{
+				id: "6D4B22F744EBB3F9"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			shape: "rsquare"
+			id: "06B45854A92AE068"
+			tasks: [{
+				id: "2E022E4363428A8E"
+				type: "kill"
+				icon: {
+					id: "minecraft:experience_bottle"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "illagers_plus:enchanter"
+				value: 10L
+			}]
+			rewards: [{
+				id: "0D286406A5B93CF9"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			shape: "rsquare"
+			id: "3863A04FFFE2EE4E"
+			tasks: [{
+				id: "186E354D982C44B3"
+				type: "kill"
+				icon: {
+					id: "ttigraas:dark_iron_orc_armor"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "illagers_plus:black_iron_golem"
+				value: 1L
+			}]
+			rewards: [{
+				id: "657A3C14A92FE6D9"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.5d
+			shape: "rsquare"
+			id: "225BF876CCDFB0C9"
+			tasks: [{
+				id: "66CC29ED721E03B5"
+				type: "kill"
+				icon: {
+					id: "tconstruct:necrotic_bone"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "illagers_plus:necromancer"
+				value: 10L
+			}]
+			rewards: [{
+				id: "70F0058E60107A74"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.5d
+			shape: "rsquare"
+			id: "622A0062E934DBF2"
+			tasks: [{
+				id: "1DE2722A714C1F87"
+				type: "kill"
+				icon: {
+					id: "byg:frost_magma"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "illagers_plus:frostmancer"
+				value: 10L
+			}]
+			rewards: [{
+				id: "44C76E0E6ACB9454"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			shape: "rsquare"
+			id: "7B487FB3194965BD"
+			tasks: [{
+				id: "56110916B527DDBC"
+				type: "kill"
+				icon: {
+					id: "bloodmagic:miningsigil"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "illagers_plus:miner"
+				value: 5L
+			}]
+			rewards: [{
+				id: "51591970E5728ADE"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -8.5d
+			shape: "rsquare"
+			id: "039E4B886DBC4172"
+			tasks: [{
+				id: "489C29F09F727A7B"
+				type: "kill"
+				icon: {
+					id: "alexsmobs:chorus_on_a_stick"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "illagers_plus:hoarder"
+				value: 10L
+			}]
+			rewards: [{
+				id: "056C833A297B2606"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -8.5d
+			shape: "rsquare"
+			id: "29ECA3D284A87F12"
+			tasks: [{
+				id: "2AF8200F7DA25DD2"
+				type: "kill"
+				icon: {
+					id: "bloodmagic:sulfur"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "illagers_plus:furantur"
+				value: 10L
+			}]
+			rewards: [{
+				id: "1A57F280EE64B3D6"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			shape: "rsquare"
+			id: "3443AF23602A60B4"
+			tasks: [{
+				id: "57EDDA72136A962A"
+				type: "kill"
+				icon: {
+					id: "iceandfire:cockatrice_eye"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:cockatrice"
+				value: 10L
+			}]
+			rewards: [{
+				id: "69B65A41CD559154"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			shape: "rsquare"
+			id: "6410FDC64A118AEE"
+			tasks: [{
+				id: "3CDB9E74A7A50584"
+				type: "kill"
+				icon: {
+					id: "iceandfire:deathworm_gauntlet_yellow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:deathworm"
+				value: 10L
+			}]
+			rewards: [{
+				id: "604675D187EB0044"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			shape: "rsquare"
+			id: "2D19DB407C86A6EA"
+			tasks: [{
+				id: "6B9D2E82E974CF94"
+				type: "kill"
+				icon: {
+					id: "iceandfire:siren_tear"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:siren"
+				value: 5L
+			}]
+			rewards: [{
+				id: "19FA64F0886ACE0A"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			shape: "rsquare"
+			id: "502835E28906E3B9"
+			tasks: [{
+				id: "0FE4E4EB7CF62588"
+				type: "kill"
+				icon: {
+					id: "iceandfire:cyclops_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:cyclops"
+				value: 5L
+			}]
+			rewards: [{
+				id: "7338A0FA80F043F0"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			shape: "rsquare"
+			id: "733813358D8DFC38"
+			tasks: [{
+				id: "1E48398F38D81169"
+				type: "kill"
+				icon: {
+					id: "iceandfire:pixie_dust"
+					Count: 2b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:pixie"
+				value: 10L
+			}]
+			rewards: [{
+				id: "18998DA29AE2B168"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			shape: "rsquare"
+			id: "0D6DDB7E15779C9A"
+			tasks: [{
+				id: "2D2DB54811300D64"
+				type: "kill"
+				icon: {
+					id: "iceandfire:gorgon_head"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:gorgon"
+				value: 1L
+			}]
+			rewards: [{
+				id: "364097A2213FC006"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			shape: "rsquare"
+			id: "0CB3FE91FED8836D"
+			tasks: [{
+				id: "7F3CAE8B685DD58C"
+				type: "kill"
+				icon: {
+					id: "iceandfire:stymphalian_skull"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:stymphalian_bird"
+				value: 5L
+			}]
+			rewards: [{
+				id: "0C30E0FCD18CEC69"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			shape: "rsquare"
+			id: "2A29CAF760526181"
+			tasks: [{
+				id: "64B3CEA134978891"
+				type: "kill"
+				icon: {
+					id: "iceandfire:troll_skull"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:troll"
+				value: 3L
+			}]
+			rewards: [{
+				id: "4CEDBEC064061933"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			shape: "rsquare"
+			id: "2393A42AAD58893C"
+			tasks: [{
+				id: "28FBA3B198F71024"
+				type: "kill"
+				icon: {
+					id: "iceandfire:myrmex_desert_swarm"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:myrmex_queen"
+				value: 1L
+			}]
+			rewards: [{
+				id: "21878D97733B80D9"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			shape: "rsquare"
+			id: "6C6DC7A3DD7B0770"
+			tasks: [{
+				id: "737EDF3162913623"
+				type: "kill"
+				icon: {
+					id: "iceandfire:myrmex_desert_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:myrmex_royal"
+				value: 5L
+			}]
+			rewards: [{
+				id: "4927629E407F1640"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.5d
+			shape: "rsquare"
+			id: "2A57E486EBB847CC"
+			tasks: [{
+				id: "7A7115C3423B1719"
+				type: "kill"
+				icon: {
+					id: "bloodmagic:soulsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:myrmex_sentinel"
+				value: 10L
+			}]
+			rewards: [{
+				id: "164FC2B87AE5DC56"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			shape: "rsquare"
+			id: "1F3C4F944244E6D8"
+			tasks: [{
+				id: "7ED5C7731F1EF48B"
+				type: "kill"
+				icon: {
+					id: "iceandfire:myrmex_desert_chitin"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:myrmex_soldier"
+				value: 10L
+			}]
+			rewards: [{
+				id: "6746817EBF6AE1CB"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			shape: "rsquare"
+			id: "069953B88A7FAD28"
+			tasks: [{
+				id: "3EAC61862F5F2233"
+				type: "kill"
+				icon: {
+					id: "alexsmobs:cockroach_ootheca"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "alexsmobs:cockroach"
+				value: 10L
+			}]
+			rewards: [{
+				id: "2B7AC7CD70676F9E"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			shape: "rsquare"
+			id: "6AD883252D648333"
+			tasks: [{
+				id: "2E772B3BB96E1F3B"
+				type: "kill"
+				icon: {
+					id: "iceandfire:myrmex_desert_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:myrmex_worker"
+				value: 10L
+			}]
+			rewards: [{
+				id: "445C70C88EA5A2F8"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			shape: "rsquare"
+			id: "1E534AD4D8F6220E"
+			tasks: [{
+				id: "15A4E0EBA5CAFBD3"
+				type: "kill"
+				icon: {
+					id: "iceandfire:sea_serpent_fang"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:sea_serpent"
+				value: 10L
+			}]
+			rewards: [{
+				id: "1C008CA8E4BB8F8A"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.0d
+			shape: "rsquare"
+			id: "5B7090BFCF3EFB58"
+			tasks: [{
+				id: "74E244AAD0BD4D40"
+				type: "kill"
+				icon: {
+					id: "iceandfire:dread_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:dread_thrall"
+				value: 5L
+			}]
+			rewards: [{
+				id: "58E9406F81A56A63"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -7.5d
+			shape: "rsquare"
+			id: "4DD1FB8B0DB4538E"
+			tasks: [{
+				id: "43D126F618B0799A"
+				type: "kill"
+				icon: {
+					id: "decoration_mod:ectoplasma"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:dread_ghoul"
+				value: 10L
+			}]
+			rewards: [{
+				id: "2EE878334716A6EB"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -7.0d
+			shape: "rsquare"
+			id: "34CC3DB17957AF0C"
+			tasks: [{
+				id: "71D087AA1EF544E2"
+				type: "kill"
+				icon: {
+					id: "iceandfire:dread_shard"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:dread_beast"
+				value: 5L
+			}]
+			rewards: [{
+				id: "13025A58E4A5ECB4"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.5d
+			shape: "rsquare"
+			id: "273FC934B8D3E1F9"
+			tasks: [{
+				id: "557464DDC9EE6612"
+				type: "kill"
+				icon: {
+					id: "iceandfire:dread_torch"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:dread_scuttler"
+				value: 3L
+			}]
+			rewards: [{
+				id: "5EDA121AA5268838"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.5d
+			shape: "rsquare"
+			id: "3B404D29EE0F3CED"
+			tasks: [{
+				id: "57FB34ED26E5E791"
+				type: "kill"
+				icon: {
+					id: "iceandfire:lich_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:dread_lich"
+				value: 3L
+			}]
+			rewards: [{
+				id: "28198AAED3B58570"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -6.0d
+			shape: "rsquare"
+			id: "72172C3661BCAA7F"
+			tasks: [{
+				id: "766A7CA0B34D6C80"
+				type: "kill"
+				icon: {
+					id: "iceandfire:dread_knight_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:dread_knight"
+				value: 5L
+			}]
+			rewards: [{
+				id: "6BC6DC65AE2FC9A9"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			shape: "rsquare"
+			id: "7DB6F26A5C225899"
+			tasks: [{
+				id: "05A3DC72F5D308AD"
+				type: "kill"
+				icon: {
+					id: "iceandfire:hydra_skull"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:hydra"
+				value: 1L
+			}]
+			rewards: [{
+				id: "4600CAFD7E8AD57C"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.5d
+			shape: "rsquare"
+			id: "7D20579E96EAD291"
+			tasks: [{
+				id: "10DDD5468E60FA5C"
+				type: "kill"
+				icon: {
+					id: "iceandfire:ectoplasm"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "iceandfire:ghost"
+				value: 3L
+			}]
+			rewards: [{
+				id: "04F55E916EE31A16"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			shape: "rsquare"
+			id: "4CE600E4E1F936A5"
+			tasks: [{
+				id: "0DE12A085FE4285E"
+				type: "kill"
+				icon: {
+					id: "ttigraas:body_armor"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:armorsaurus"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3F613143D6FCED71"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			shape: "rsquare"
+			id: "6FA2ABEF15A1BECF"
+			tasks: [{
+				id: "15D5F4998E25C4B7"
+				type: "kill"
+				icon: {
+					id: "ttigraas:silver_scale"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:barghest"
+				value: 3L
+			}]
+			rewards: [{
+				id: "5B549674CB554EA4"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			shape: "rsquare"
+			id: "1284CC8E342D6415"
+			tasks: [{
+				id: "0971E78205BAD0AF"
+				type: "kill"
+				icon: {
+					id: "decoration_mod:linterna_de_papel_de_arana"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:black_spider"
+				value: 10L
+			}]
+			rewards: [{
+				id: "4C43E0B32BFE9944"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			shape: "rsquare"
+			id: "008F493E6BE86AA3"
+			tasks: [{
+				id: "34B68BBD7122761F"
+				type: "kill"
+				icon: {
+					id: "tconstruct:blaze_head"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "minecraft:blaze"
+				value: 3L
+			}]
+			rewards: [{
+				id: "72C2EDFF55E6AF0F"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			shape: "rsquare"
+			id: "7FC8CE11023A8355"
+			tasks: [{
+				id: "78CA5DFFF9071BC9"
+				type: "kill"
+				icon: {
+					id: "ttigraas:charybdis_core"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:charybdis"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0EF79976A18AAF4E"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			shape: "rsquare"
+			id: "5DFE5D143609E61E"
+			tasks: [{
+				id: "140D8D1E409C149B"
+				type: "kill"
+				icon: {
+					id: "apotheosis:boss_summoner"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:direwolf_boss"
+				value: 1L
+			}]
+			rewards: [{
+				id: "212DB7064A9AF536"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			shape: "rsquare"
+			id: "5A6D7880EE590CFD"
+			tasks: [{
+				id: "447FF925AF2AD34F"
+				type: "kill"
+				icon: {
+					id: "ars_nouveau:glyph_summon_wolves"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:direwolf"
+				value: 10L
+			}]
+			rewards: [{
+				id: "751EE86BADA86FE1"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			icon: {
+				id: "tconstruct:drowned_head"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			x: -4.5d
+			y: -0.5d
+			shape: "rsquare"
+			id: "743DF0AA3C9F527A"
+			tasks: [{
+				id: "0015CCEF61DA4300"
+				type: "kill"
+				icon: {
+					id: "tconstruct:drowned_head"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "minecraft:drowned"
+				value: 10L
+			}]
+			rewards: [{
+				id: "0C56751149DA2FF8"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:prismarine_shard"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			x: -5.5d
+			y: 0.0d
+			shape: "rsquare"
+			id: "19ECBCBF76CBE777"
+			tasks: [{
+				id: "4BB6D7057347888A"
+				type: "kill"
+				entity: "minecraft:elder_guardian"
+				value: 3L
+			}]
+			rewards: [{
+				id: "1A79CEB22A7D4AC1"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			shape: "rsquare"
+			id: "44FB88F17A673D58"
+			tasks: [{
+				id: "6E582820D47DFF01"
+				type: "kill"
+				icon: {
+					id: "tconstruct:enderman_head"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "minecraft:enderman"
+				value: 1L
+			}]
+			rewards: [{
+				id: "6925041A14A63097"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.5d
+			shape: "rsquare"
+			id: "69FB99E2BE51BC8F"
+			tasks: [{
+				id: "6CB3F593A3AC0278"
+				type: "kill"
+				icon: {
+					id: "alexsmobs:centipede_leg"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:evil_centipede"
+				value: 10L
+			}]
+			rewards: [{
+				id: "0561583C1A716107"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			shape: "rsquare"
+			id: "25244C33E9D2E5DE"
+			tasks: [{
+				id: "1C8DAA43277864E0"
+				type: "kill"
+				icon: {
+					id: "botania:goddess_charm"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "minecraft:evoker"
+				value: 1L
+			}]
+			rewards: [{
+				id: "439A9ACFDD4FE4B0"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.5d
+			shape: "rsquare"
+			id: "048B3A9F6CF0AFB7"
+			tasks: [{
+				id: "6C966036BF83219E"
+				type: "kill"
+				icon: {
+					id: "tconstruct:scythe"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.45f
+							"tconstruct:durability": 2.5f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.92f
+							"tconstruct:mining_speed": 0.9f
+							"tconstruct:attack_damage": 2.5f
+							"tconstruct:harvest_level": 1.0f
+							"tconstruct:durability": 202.5f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:necrotic"
+								level: 4s
+							}
+							{
+								name: "tconstruct:silky_aoe_shears"
+								level: 1s
+							}
+							{
+								name: "tconstruct:harvest"
+								level: 1s
+							}
+							{
+								name: "tconstruct:hoe_transform_hidden"
+								level: 1s
+							}
+							{
+								name: "tconstruct:two_handed"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:necrotic_bone"
+							"tconstruct:necrotic_bone"
+							"tconstruct:necrotic_bone"
+							"tconstruct:necrotic_bone"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "savageandravage:executioner"
+				value: 1L
+			}]
+			rewards: [{
+				id: "47B4B53C45C53351"
+				type: "loot"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.5d
+			shape: "rsquare"
+			id: "59757BCC4E1508BB"
+			tasks: [{
+				id: "5F28B6859E9239B7"
+				type: "kill"
+				icon: {
+					id: "alexsmobs:leafcutter_ant_pupa"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:giant_ant"
+				value: 3L
+			}]
+			rewards: [{
+				id: "43F8915887FB088E"
+				type: "random"
+				table_id: 8250273916098693220L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			shape: "rsquare"
+			id: "42419A6ACA9CDFB5"
+			tasks: [{
+				id: "7C879945F61B74F5"
+				type: "kill"
+				icon: {
+					id: "ttigraas:bat_wing"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:giant_bat"
+				value: 1L
+			}]
+			rewards: [{
+				id: "2B7A26FDF058A3DB"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.5d
+			shape: "rsquare"
+			id: "10A5924C94284BCA"
+			tasks: [{
+				id: "635D27BF2E1F4E11"
+				type: "kill"
+				icon: {
+					id: "botania:brew_flask"
+					Count: 1b
+					tag: {
+						brewKey: "botania:regen"
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:grave_lizard"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7CA3A69316B72BC1"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -6.5d
+			shape: "rsquare"
+			id: "57B56A9324A04993"
+			tasks: [{
+				id: "6CE55283A1145338"
+				type: "kill"
+				icon: {
+					id: "minecraft:tnt_minecart"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "savageandravage:griefer"
+				value: 1L
+			}]
+			rewards: [{
+				id: "5FB23176866536C8"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			shape: "rsquare"
+			id: "1220DE544B7BEEC0"
+			tasks: [{
+				id: "2984236DF39C87C9"
+				type: "kill"
+				icon: {
+					id: "iceandfire:tide_teal_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "minecraft:guardian"
+				value: 10L
+			}]
+			rewards: [{
+				id: "2403B191B0247727"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.5d
+			shape: "rsquare"
+			id: "2B54406F9F8F0BE6"
+			tasks: [{
+				id: "077381E5541F0074"
+				type: "kill"
+				icon: {
+					id: "ttigraas:silk"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:hell_moth"
+				value: 1L
+			}]
+			rewards: [{
+				id: "60145E7EEFD2A636"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.5d
+			shape: "rsquare"
+			id: "5B748F425308F026"
+			tasks: [{
+				id: "5339DAD5D7AA9E27"
+				type: "kill"
+				icon: {
+					id: "ttigraas:hipokte_flytrap_herb"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:hipokte_flytrap"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0C114BA44F31271D"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.5d
+			shape: "rsquare"
+			id: "71BB0A397A8781EE"
+			tasks: [{
+				id: "2D902362B2CFC827"
+				type: "kill"
+				icon: {
+					id: "mowziesmobs:ice_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "savageandravage:iceologer"
+				value: 1L
+			}]
+			rewards: [{
+				id: "2EF5076F6D402C56"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -7.0d
+			shape: "rsquare"
+			id: "6A6A7657A0A554A2"
+			tasks: [{
+				id: "398B9BC7DD44767B"
+				type: "kill"
+				icon: {
+					id: "botania:brew_flask"
+					Count: 1b
+					tag: {
+						brewKey: "botania:water_breathing"
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "minecraft:illusioner"
+				value: 1L
+			}]
+			rewards: [{
+				id: "1C78FA2CEED9CADB"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 7.5d
+			shape: "rsquare"
+			id: "602E9A88991B382A"
+			tasks: [{
+				id: "4C8BF14692E027DE"
+				type: "kill"
+				icon: {
+					id: "minecraft:slime_block"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:intelligent_slime"
+				value: 3L
+			}]
+			rewards: [{
+				id: "4BE95004C83D59A2"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.0d
+			shape: "rsquare"
+			id: "0D225CC73048406E"
+			tasks: [{
+				id: "4CAC717F6179F18A"
+				type: "kill"
+				icon: {
+					id: "tconstruct:cave_spider_head"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:knight_spider"
+				value: 3L
+			}]
+			rewards: [{
+				id: "481CBD2E998A71B3"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 6.0d
+			shape: "rsquare"
+			id: "7E8EFB23D848CC69"
+			tasks: [{
+				id: "0A48C9102C1C6F3B"
+				type: "kill"
+				icon: {
+					id: "decoration_mod:fish_tank"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:landfish"
+				value: 1L
+			}]
+			rewards: [{
+				id: "535D9179BD32FEB6"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 7.0d
+			shape: "rsquare"
+			id: "5DEBF556BC60B55D"
+			tasks: [{
+				id: "155F888802DA8C78"
+				type: "kill"
+				icon: {
+					id: "ttigraas:slime_statue"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:magic_steel_golem"
+				value: 1L
+			}]
+			rewards: [{
+				id: "327379D83A291AF4"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			shape: "rsquare"
+			id: "36F1784BE4315B0F"
+			tasks: [{
+				id: "4336F78C483E8AA4"
+				type: "kill"
+				icon: {
+					id: "ttigraas:raw_megalodon_meat"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:megalodon"
+				value: 3L
+			}]
+			rewards: [{
+				id: "544F6114006CC074"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.5d
+			shape: "rsquare"
+			id: "600A1BCF2B71745F"
+			tasks: [{
+				id: "12883FFEE0D10CCF"
+				type: "kill"
+				entity: "artifacts:mimic"
+				value: 5L
+			}]
+			rewards: [{
+				id: "21EF57E1C9ECE9CB"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 6.5d
+			shape: "rsquare"
+			id: "5FFDDA2E433D14F3"
+			tasks: [{
+				id: "7BB86C54EBB60A02"
+				type: "kill"
+				icon: {
+					id: "chipped:red_mushroom_10"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:mushdoom"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3D25A904E4511BAC"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 7.5d
+			shape: "rsquare"
+			id: "4E7A09F0BB17AAAC"
+			tasks: [{
+				id: "1042CA3C00375B6E"
+				type: "kill"
+				icon: {
+					id: "botania:cosmetic_googly_eyes"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:one_eyed_owl"
+				value: 3L
+			}]
+			rewards: [{
+				id: "5B845E52858BAAAF"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.0d
+			shape: "rsquare"
+			id: "0374D192418F2CB4"
+			tasks: [{
+				id: "3F69C607789C62BE"
+				type: "kill"
+				icon: {
+					id: "minecraft:rabbit_hide"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:one_horned_rabbit"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7546A929752554D8"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.0d
+			shape: "rsquare"
+			id: "6D0A9AFC2797AF49"
+			tasks: [{
+				id: "2C4445B05901DE3A"
+				type: "kill"
+				icon: {
+					id: "ttigraas:orc_cleaver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:orc_lord"
+				value: 1L
+			}]
+			rewards: [{
+				id: "455DFBA4957A9FBD"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 7.0d
+			shape: "rsquare"
+			id: "11A23D39AF7717B4"
+			tasks: [{
+				id: "046A0EBDECF10649"
+				type: "kill"
+				icon: {
+					id: "ttigraas:orc_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:orc"
+				value: 1L
+			}]
+			rewards: [{
+				id: "462D3142AE683052"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -6.0d
+			shape: "rsquare"
+			id: "4F3780D3EDCC0F77"
+			tasks: [{
+				id: "3B2E62892903F18C"
+				type: "kill"
+				icon: {
+					id: "artifacts:villager_hat"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "minecraft:pillager"
+				value: 10L
+			}]
+			rewards: [{
+				id: "6DF6C54446F451E1"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			shape: "rsquare"
+			id: "6434BAD0B6204DC4"
+			tasks: [{
+				id: "09053CA1FAA50C27"
+				type: "kill"
+				icon: {
+					id: "minecraft:saddle"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "minecraft:ravager"
+				value: 3L
+			}]
+			rewards: [{
+				id: "2CDDD2AABAB3B424"
+				type: "loot"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			shape: "rsquare"
+			id: "6492A0C8FC9BEE78"
+			tasks: [{
+				id: "75E68630FDCF20AE"
+				type: "kill"
+				icon: {
+					id: "minecraft:wither_skeleton_skull"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "minecraft:wither_skeleton"
+				value: 3L
+			}]
+			rewards: [{
+				id: "09E1B6CCAA0D2508"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.5d
+			shape: "rsquare"
+			id: "7687B50647846751"
+			tasks: [{
+				id: "69329DD80B679726"
+				type: "kill"
+				icon: {
+					id: "alexsmobs:shark_tooth"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:sissie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3CC2F6218D3F2AA6"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 6.5d
+			shape: "rsquare"
+			id: "2D3FEFCEB2C237B0"
+			tasks: [{
+				id: "1378C09967ECDAD9"
+				type: "kill"
+				icon: {
+					id: "ttigraas:spearhead"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:spear_toro"
+				value: 1L
+			}]
+			rewards: [{
+				id: "26AE2BB1A06E80A1"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.5d
+			shape: "rsquare"
+			id: "74C754404675DFAB"
+			tasks: [{
+				id: "2B260FB6EEE68EB2"
+				type: "kill"
+				icon: {
+					id: "ttigraas:greater_wind_spirit"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:spirit_protector_colossus"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7549993D0BDB9635"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.5d
+			shape: "rsquare"
+			id: "6F6D0ADA9CBB77CA"
+			tasks: [{
+				id: "423F25DD7842A866"
+				type: "kill"
+				icon: {
+					id: "ttigraas:tempest_fabric"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "ttigraas:tempest_serpent"
+				value: 3L
+			}]
+			rewards: [{
+				id: "61247297A3107F13"
+				type: "loot"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			shape: "rsquare"
+			id: "31633D1E80FD161B"
+			tasks: [{
+				id: "7A15FF9782071B25"
+				type: "kill"
+				icon: {
+					id: "botania:cosmetic_four_leaf_clover"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "savageandravage:trickster"
+				value: 1L
+			}]
+			rewards: [{
+				id: "5BADD7DA5057BBC1"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			shape: "rsquare"
+			id: "19D136621F18D59B"
+			tasks: [{
+				id: "75454C445429E328"
+				type: "kill"
+				icon: {
+					id: "minecraft:creeper_head"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "minecraft:creeper"
+				value: 10L
+			}]
+			rewards: [{
+				id: "67CF8D10D0E3DD84"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -2.25d
+			y: 2.25d
+			shape: "rsquare"
+			size: 1.5d
+			id: "6488C62A7DD7CB6D"
+			tasks: [{
+				id: "61855F098F6E7743"
+				type: "kill"
+				icon: {
+					id: "minecraft:wither_rose"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "66850A2FD5829B2F"
+					type: "random"
+					table_id: 342115824155654390L
+				}
+				{
+					id: "543B53973621FE51"
+					type: "item"
+					item: {
+						id: "coins:coin_platinum"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "4255643F44C1BBDC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			shape: "rsquare"
+			size: 1.5d
+			id: "66C4612D73387D2D"
+			tasks: [{
+				id: "60098A63F8CDBF5D"
+				type: "kill"
+				icon: {
+					id: "botania:gaia_pylon"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "botania:doppleganger"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "55CD0249819B3AD2"
+					type: "item"
+					item: {
+						id: "coins:coin_platinum"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "0A237B71BCBE1AE1"
+					type: "random"
+					table_id: 342115824155654390L
+				}
+				{
+					id: "5DA128D157B14275"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 1.0d
+			shape: "rsquare"
+			id: "37FAAE535701287A"
+			tasks: [{
+				id: "102C5063156C3D97"
+				type: "kill"
+				icon: {
+					id: "minecraft:magma_cream"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "minecraft:magma_cube"
+				value: 3L
+			}]
+			rewards: [{
+				id: "6582AFAFC3EA9846"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.5d
+			shape: "rsquare"
+			id: "307B22D608758B7A"
+			tasks: [{
+				id: "49AFC3584D05072E"
+				type: "kill"
+				icon: {
+					id: "tconstruct:spider_head"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "minecraft:spider"
+				value: 10L
+			}]
+			rewards: [{
+				id: "3FAEB3DA477000B0"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+		{
+			x: -8.5d
+			y: 1.5d
+			shape: "rsquare"
+			id: "4DA60CB594FB8098"
+			tasks: [{
+				id: "77BEDFAE95A1161B"
+				type: "kill"
+				icon: {
+					id: "minecraft:slime_ball"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				entity: "minecraft:slime"
+				value: 3L
+			}]
+			rewards: [{
+				id: "7B38354ED861A143"
+				type: "random"
+				table_id: 342115824155654390L
+			}]
+		}
+	]
 }

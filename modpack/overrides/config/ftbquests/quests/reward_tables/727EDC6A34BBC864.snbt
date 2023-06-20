@@ -1,0 +1,83 @@
+{
+	id: "727EDC6A34BBC864"
+	order_index: 2
+	title: "Skills"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "ttigraas:bluemagicore"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "ttigraas:greenmagicore"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "ttigraas:redmagicore"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "ttigraas:purplemagicore"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "ttigraas:yellowmagicore"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "ttigraas:medium_heal"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "ttigraas:small_heal"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "ttigraas:orichalcum_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+		}
+	]
+}
