@@ -6,9 +6,9 @@ modpack:
   
 install:
   mcVersion: 1.16.5
-  loaderVersion: 36.2.34
-  modpackUrl: https://mediafilez.forgecdn.net/files/4595/882/TensuraCraft-Legacy-v0.1.6.zip
-  installerUrl: https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.34/forge-1.16.5-36.2.34-installer.jar
+  loaderVersion: 36.2.39
+  modpackUrl: https://mediafilez.forgecdn.net/files/4598/505/TensuraCraft-Legacy-v0.1.7.zip
+  installerUrl: https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-installer.jar
 
   ignoreFiles:
     - mods/optifine*.jar
