@@ -156,6 +156,25 @@
       }
     },
     {
+      "projectID": 233071,
+      "fileID": 3330406,
+      "required": true,
+      "__meta": {
+        "name": "Crafting Tweaks"
+      }
+    },
+    {
+      "projectID": 235279,
+      "fileID": 3376782,
+      "required": true,
+      "__meta": {
+        "name": "Chisel",
+        "dependencies": [
+          267602
+        ]
+      }
+    },
+    {
       "projectID": 237307,
       "fileID": 3738137,
       "required": true,
@@ -301,7 +320,7 @@
     },
     {
       "projectID": 264231,
-      "fileID": 4434014,
+      "fileID": 4614457,
       "required": true,
       "__meta": {
         "name": "Ice and Fire: Dragons",
@@ -335,6 +354,22 @@
         "dependencies": [
           283644
         ]
+      }
+    },
+    {
+      "projectID": 272515,
+      "fileID": 3404330,
+      "required": true,
+      "__meta": {
+        "name": "Better Advancements"
+      }
+    },
+    {
+      "projectID": 273279,
+      "fileID": 3106799,
+      "required": true,
+      "__meta": {
+        "name": "AntiGhost"
       }
     },
     {
@@ -558,6 +593,14 @@
       }
     },
     {
+      "projectID": 341448,
+      "fileID": 4411581,
+      "required": true,
+      "__meta": {
+        "name": "Music Maker Mod"
+      }
+    },
+    {
       "projectID": 342584,
       "fileID": 4312565,
       "required": true,
@@ -587,12 +630,36 @@
       }
     },
     {
+      "projectID": 350727,
+      "fileID": 4515497,
+      "required": true,
+      "__meta": {
+        "name": "Joy of Painting"
+      }
+    },
+    {
       "projectID": 351264,
       "fileID": 3675495,
       "required": true,
       "__meta": {
         "name": "Kotlin for Forge",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 353051,
+      "fileID": 3600710,
+      "required": true,
+      "__meta": {
+        "name": "Game Menu Mod Option [Forge]"
+      }
+    },
+    {
+      "projectID": 353935,
+      "fileID": 4421028,
+      "required": true,
+      "__meta": {
+        "name": "Project MMO"
       }
     },
     {
@@ -609,14 +676,6 @@
       "required": true,
       "__meta": {
         "name": "Inventory HUD+"
-      }
-    },
-    {
-      "projectID": 358578,
-      "fileID": 3460553,
-      "required": true,
-      "__meta": {
-        "name": "DisenchantingForge"
       }
     },
     {
@@ -725,6 +784,14 @@
       "required": true,
       "__meta": {
         "name": "Shulker's Faithful Factories (Previously Cobbler)"
+      }
+    },
+    {
+      "projectID": 380617,
+      "fileID": 4014827,
+      "required": true,
+      "__meta": {
+        "name": "Dramatic Doors"
       }
     },
     {
@@ -889,14 +956,6 @@
       }
     },
     {
-      "projectID": 409221,
-      "fileID": 3299357,
-      "required": true,
-      "__meta": {
-        "name": "PlayerEx"
-      }
-    },
-    {
       "projectID": 410811,
       "fileID": 3510643,
       "required": true,
@@ -983,6 +1042,14 @@
       "required": true,
       "__meta": {
         "name": "When Dungeons Arise - Forge!"
+      }
+    },
+    {
+      "projectID": 443591,
+      "fileID": 3207286,
+      "required": true,
+      "__meta": {
+        "name": "[Fabric/Forge] Market Crates (1.15 to 1.19)"
       }
     },
     {
@@ -1225,6 +1292,17 @@
       }
     },
     {
+      "projectID": 535291,
+      "fileID": 4353507,
+      "required": true,
+      "__meta": {
+        "name": "MCA Reborn [Fabric/Forge]",
+        "dependencies": [
+          419699
+        ]
+      }
+    },
+    {
       "projectID": 536660,
       "fileID": 3494974,
       "required": true,
@@ -1288,6 +1366,22 @@
           400085,
           566700
         ]
+      }
+    },
+    {
+      "projectID": 568563,
+      "fileID": 4291873,
+      "required": true,
+      "__meta": {
+        "name": "[ETF] Entity Texture Features - [Fabric & Forge]"
+      }
+    },
+    {
+      "projectID": 570544,
+      "fileID": 3614822,
+      "required": true,
+      "__meta": {
+        "name": "Eating Animation [Forge]"
       }
     },
     {
