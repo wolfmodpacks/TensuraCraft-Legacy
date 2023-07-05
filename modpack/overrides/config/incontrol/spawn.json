@@ -1,0 +1,16 @@
+[
+  {
+    "mob": ["ttigraas:orc", "ttigraas:orc_lord"],
+    "seesky": true,
+    "block": "minecraft:sand",
+    "dimension": "minecraft:overworld",
+    "biome": ["minecraft:desert", "byg:mojave_desert"],
+    "result": "default"
+  },
+  {
+    "mob": ["ttigraas:orc", "ttigraas:orc_lord"],
+    "dimension": "minecraft:overworld",
+    "incontrol": true,
+    "result": "deny"
+  }
+]

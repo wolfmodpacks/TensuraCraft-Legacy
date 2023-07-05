@@ -1,0 +1,13 @@
+{
+    "type": "spawn:spawn",
+    "generator": {
+      "type": "minecraft:noise",
+      "seed": -1464245863,
+      "biome_source": {
+        "type": "minecraft:fixed",
+        "seed": -1464245863,
+        "biome": "spawn:the_void"
+      },
+      "settings": "spawn:void"
+    }
+  }
