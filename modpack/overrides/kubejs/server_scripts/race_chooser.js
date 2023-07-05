@@ -1,13 +1,42 @@
-const races = [
-    'goblin_head',
-    'lizardman',
-    'orc_head',
-    'vampire_head',
-    'human_head',
-    'slime',
-    'wight_head'
-]
+const $FTBRanksAPI = java('dev.ftb.mods.ftbranks.api.FTBRanksAPI')
 
+
+function getManager() {
+    return $FTBRanksAPI.INSTANCE.getManager()
+}
+
+function getRank(player) {
+    return getManager().getRank(player)
+}
+
+function rankAdded(player, rank) {
+    return getManager().getAddedRanks(player.getProfile()).contains(rank)
+}
+
+
+onEvent('player.tick', (event) => {
+    const currentRace = event.player.fullNBT.ForgeCaps["ttigraas:player_variables"].OriginalRace
+    const formatedRace = currentRace.toLowerCase().replace(' ', '_').replace("[", "").replace("]", "")
+
+    if (event.player.server && event.player.ticksExisted % 90 == 0) {
+        try {
+            getManager().getAllRanks().forEach(e => {
+                if (formatedRace == e.getId()) {
+                    if (rankAdded(event.player, e)) return;
+                    e.add(event.player.getProfile())
+                }
+            })
+
+            getManager().getAddedRanks(event.player.getProfile()).forEach(e => {
+                if (formatedRace !== e.getId()) {
+                    e.remove(event.player.getProfile())
+                }
+            })
+        } catch (e) {
+            //console.log(e)
+        }
+    }
+})
 
 onEvent('item.pickup', (event) => {
 

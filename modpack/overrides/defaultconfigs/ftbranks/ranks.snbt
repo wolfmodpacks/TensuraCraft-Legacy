@@ -1,19 +1,158 @@
 {
-	member: {
-		name: "Member"
-		power: 1
+	reincarnated: {
+		name: "Reincarnated"
+		power: 0
 		condition: "always_active"
-		ftbranks.name_format: "{name}:"
+		ftbranks.name_format: "&fReincarnated &r{name}:"
 	}
-	vip: {
-		name: "VIP"
-		power: 50
-		ftbranks.name_format: "&bVIP {name}&r:"
+	human: {
+		name: "Human"
+		power: 1
+		ftbranks.name_format: "&7Human &r{name}:"
 	}
-	admin: {
-		name: "Admin"
-		power: 1000
-		condition: "op"
-		ftbranks.name_format: "&2{name}&r:"
+	human_sage: {
+		name: "Human Sage"
+		power: 2
+		ftbranks.name_format: "&7Human Sage &r{name}:"
+	}
+	human_saint: {
+		name: "Human Saint"
+		power: 3
+		ftbranks.name_format: "&8Human Saint &r{name}:"
+	}
+	slime: {
+		name: "Slime"
+		power: 1
+		ftbranks.name_format: "&3Slime &r{name}:"
+	}
+	demon_slime: {
+		name: "Demon Slime"
+		power: 2
+		ftbranks.name_format: "&bDemon Slime &r{name}:"
+	}
+	goblin: {
+		name: "Goblin"
+		power: 1
+		ftbranks.name_format: "&2Goblin &r{name}:"
+	}
+	hobgoblin: {
+		name: "Hobgoblin"
+		power: 2
+		ftbranks.name_format: "&2Hobgoblin &r{name}:"
+	}
+	ogre: {
+		name: "Ogre"
+		power: 3
+		ftbranks.name_format: "&2Ogre &r{name}:"
+	}
+	kijin: {
+		name: "Kijin"
+		power: 4
+		ftbranks.name_format: "&2Kijin &r{name}:"
+	}
+	oni: {
+		name: "Oni"
+		power: 5
+		ftbranks.name_format: "&2Oni &r{name}:"
+	}
+	divine_oni: {
+		name: "Divine Oni"
+		power: 6
+		ftbranks.name_format: "&aDivine Oni &r{name}:"
+	}
+	lizardman: {
+		name: "Lizardman"
+		power: 1
+		ftbranks.name_format: "&1Lizardman &r{name}:"
+	}
+	dragonewt: {
+		name: "Dragonewt"
+		power: 2
+		ftbranks.name_format: "&1Dragonewt &r{name}:"
+	}
+	true_dragonewt: {
+		name: "True Dragonewt"
+		power: 3
+		ftbranks.name_format: "&9True Dragonewt &r{name}:"
+	}
+	orc: {
+		name: "Orc"
+		power: 1
+		ftbranks.name_format: "&6Orc &r{name}:"
+	}
+	high_orc: {
+		name: "High Orc"
+		power: 2
+		ftbranks.name_format: "&6High Orc &r{name}:"
+	}
+	orc_lord: {
+		name: "Orc Lord"
+		power: 3
+		ftbranks.name_format: "&6Orc Lord &r{name}:"
+	}
+	divine_boar: {
+		name: "Divine Boar"
+		power: 4
+		ftbranks.name_format: "&6Divine Boar &r{name}:"
+	}
+	orc_disaster: {
+		name: "Orc Disaster"
+		power: 5
+		ftbranks.name_format: "&6Orc Disaster &r{name}:"
+	}
+	lesser_demon: {
+		name: "Lesser Demon"
+		power: 1
+		ftbranks.name_format: "&4Lesser Demon &r{name}:"
+	}
+	greater_demon: {
+		name: "Greater Demon"
+		power: 2
+		ftbranks.name_format: "&4Greater Demon &r{name}:"
+	}
+	arch_demon: {
+		name: "Arch Demon"
+		power: 3
+		ftbranks.name_format: "&4Arch Demon &r{name}:"
+	}
+	demon_peer: {
+		name: "Demon Peer"
+		power: 4
+		ftbranks.name_format: "&4Demon Peer &r{name}:"
+	}
+	devil_lord: {
+		name: "Devil Lord"
+		power: 5
+		ftbranks.name_format: "&cDevil Lord &r{name}:"
+	}
+	vampire: {
+		name: "Vampire"
+		power: 1
+		ftbranks.name_format: "&eVampire &r{name}:"
+	}
+	vampire_noble: {
+		name: "Vampire Noble"
+		power: 2
+		ftbranks.name_format: "&eVampire &6Noble &r{name}:"
+	}
+	vampire_true_ancestor: {
+		name: "Vampire [True Ancestor]"
+		power: 3
+		ftbranks.name_format: "&eVampire &6True Ancestor &r{name}:"
+	}
+	wight: {
+		name: "Wight"
+		power: 1
+		ftbranks.name_format: "&8Wight &r{name}:"
+	}
+	wight_king: {
+		name: "Wight King"
+		power: 2
+		ftbranks.name_format: "&8Wight King &r{name}:"
+	}
+	death_spirit: {
+		name: "Death Spirit"
+		power: 3
+		ftbranks.name_format: "&7Death Spirit &r{name}:"
 	}
 }
