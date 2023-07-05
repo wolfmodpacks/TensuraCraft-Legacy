@@ -346,6 +346,17 @@
       }
     },
     {
+      "projectID": 268655,
+      "fileID": 3773528,
+      "required": true,
+      "__meta": {
+        "name": "Game Stages",
+        "dependencies": [
+          228525
+        ]
+      }
+    },
+    {
       "projectID": 271740,
       "fileID": 3556882,
       "required": true,
@@ -387,6 +398,14 @@
       "__meta": {
         "name": "Placebo",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 284324,
+      "fileID": 3543338,
+      "required": true,
+      "__meta": {
+        "name": "Emojiful"
       }
     },
     {
@@ -902,6 +921,14 @@
         "dependencies": [
           238222
         ]
+      }
+    },
+    {
+      "projectID": 404183,
+      "fileID": 3827554,
+      "required": true,
+      "__meta": {
+        "name": "End Remastered"
       }
     },
     {
