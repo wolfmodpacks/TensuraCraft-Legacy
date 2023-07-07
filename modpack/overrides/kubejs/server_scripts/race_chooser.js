@@ -1,6 +1,5 @@
 const $FTBRanksAPI = java('dev.ftb.mods.ftbranks.api.FTBRanksAPI')
 
-
 function getManager() {
     return $FTBRanksAPI.INSTANCE.getManager()
 }

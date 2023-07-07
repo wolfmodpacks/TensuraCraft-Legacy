@@ -4,8 +4,7 @@ onEvent('command.run', event => {
     const player = event.parseResults.context.source.func_197022_f()
     const CommandName = event.parseResults.reader.string
 
-    if (player && player.stages && player.stages.has('reincarnation')) {
-        
+    if (player && player.asKJS().isPlayer() && !player.stages.has('reincarnation')) {
         event.cancel()
     }
 
