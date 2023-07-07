@@ -39,28 +39,57 @@ onEvent('player.tick', (event) => {
 })
 
 onEvent('item.pickup', (event) => {
-
-    switch (event.item) {
-        case 'kubejs:goblin_head':
-            event.player.runCommand('race Goblin')
-            break;
-        case 'kubejs:lizardman':
-            event.player.runCommand('race Lizardman')
-            break;
-        case 'kubejs:orc_head':
-            event.player.runCommand('race Orc')
-            break;
-        case 'kubejs:vampire_head':
-            event.player.runCommand('race Vampire')
-            break;
-        case 'kubejs:human_head':
-            event.player.runCommand('race Human')
-            break;
-        case 'kubejs:slime':
-            event.player.runCommand('race Slime')
-            break;
-        case 'kubejs:wight_head':
-            event.player.runCommand('race Wight')
-            break;
+    
+    if (!event.player.stages.has('reincarnation')) {
+        event.player.stages.add('reincarnation')
     }
+
+    event.server.scheduleInTicks(10, () => {
+        const spawn = event.player
+        const player = event.player
+
+        switch (event.item) {
+            case 'kubejs:goblin_head':
+                player.runCommandSilent('race Goblin')
+                player.runCommandSilent(`clear ${event.player} kubejs:goblin_head`)
+                player.runCommand(`spawn`)
+                break;
+            case 'kubejs:lizardman':
+                player.runCommandSilent('race Lizardman')
+                player.runCommandSilent(`clear ${event.player} kubejs:lizardman`)
+                player.runCommand(`spawn`)
+                break;
+            case 'kubejs:orc_head':
+                player.runCommandSilent('race Orc')
+                player.runCommandSilent(`clear ${event.player} kubejs:orc_head`)
+                // 5% chance of obtaining self_regeneration
+                if (Math.random() < 0.05) player.give(`ttigraas:self_regeneration`)
+                player.runCommand(`spawn`)
+                break;
+            case 'kubejs:vampire_head':
+                player.runCommandSilent('race Vampire')
+                player.runCommandSilent(`clear ${event.player} kubejs:vampire_head`)
+                player.give(`ttigraas:vampirism`)
+                player.runCommand(`spawn`)
+                break;
+            case 'kubejs:human_head':
+                player.runCommandSilent('race Human')
+                player.runCommandSilent(`clear ${event.player} kubejs:human_head`)
+                player.runCommand(`spawn`)
+                break;
+            case 'kubejs:slime':
+                player.runCommandSilent('race Slime')
+                player.runCommandSilent(`clear ${event.player} kubejs:slime`)
+                player.give(`ttigraas:absorb_and_dissolve`)
+                player.give(`ttigraas:self_regeneration`)
+                player.runCommand(`spawn`)
+                break;
+            case 'kubejs:wight_head':
+                player.runCommandSilent('race Wight')
+                player.runCommandSilent(`clear ${event.player} kubejs:wight_head`)
+                player.runCommand(`spawn`)
+                break;
+        }
+
+    })
 })
