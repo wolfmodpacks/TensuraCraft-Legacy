@@ -4,7 +4,7 @@
 	#Whether advancements should be announced in chat
 	announce_advancements = true
 	#Whether command blocks should notify admins when they perform commands	
-	command_block_output = true
+	command_block_output = false
 	#No comment
 	#Range: > 0
 	death_time = 1
@@ -23,7 +23,7 @@
 	#Whether phantoms can spawn in the nighttime
 	do_insomnia = false
 	#Whether players should be able to craft only those recipes that they've unlocked first
-	do_limited_crafting = false
+	do_limited_crafting = true
 	#Whether mobs should drop items
 	do_mob_loot = true
 	#Whether mobs should naturally spawn. Does not affect monster spawners.
@@ -51,7 +51,7 @@
 	#No comment
 	instant_reincarnate = true
 	#Whether the player should keep items in their inventory after death
-	keep_inventory = true
+	keep_inventory = false
 	#Whether to log admin commands to server log
 	log_admin_commands = true
 	#No comment
@@ -109,6 +109,8 @@
 	spectators_generate_chunks = true
 	#Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgiveDeadPlayers is disabled.
 	universal_anger = false
+	#No comment
+	tf_enforced_progression = true
 
 #Configs related to difficult changes
 [difficulty]
