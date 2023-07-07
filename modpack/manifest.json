@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Wolfie",
   "name": "TensuraCraft-Legacy",
   "files": [
@@ -104,6 +104,14 @@
           306770,
           309927
         ]
+      }
+    },
+    {
+      "projectID": 227639,
+      "fileID": 3575220,
+      "required": true,
+      "__meta": {
+        "name": "The Twilight Forest"
       }
     },
     {
