@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "Wolfie",
   "name": "TensuraCraft-Legacy",
   "files": [
@@ -1513,14 +1513,6 @@
       "required": true,
       "__meta": {
         "name": "Eating Animation [Forge]"
-      }
-    },
-    {
-      "projectID": 574856,
-      "fileID": 4568759,
-      "required": true,
-      "__meta": {
-        "name": "Rubidium"
       }
     },
     {
