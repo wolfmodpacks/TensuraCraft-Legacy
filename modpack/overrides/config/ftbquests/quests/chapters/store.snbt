@@ -535,7 +535,7 @@
 					id: "258CD045581D7131"
 					type: "item"
 					item: {
-						id: "ttigraas:race_reroll_scroll"
+						id: "ttigraas:skill_reroll_scroll"
 						Count: 1b
 						ForgeCaps: {
 							"customnpcs:itemscripteddata": { }
@@ -582,8 +582,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -6.0d
+			x: 0.0d
+			y: -6.5d
 			dependencies: ["0FDEAEC4F89EB8A2"]
 			id: "500C6468D870F1B1"
 			tasks: [{
@@ -619,8 +619,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -4.0d
+			x: 0.0d
+			y: -4.5d
 			dependencies: ["61CEC334B6193061"]
 			id: "0FDEAEC4F89EB8A2"
 			tasks: [{
@@ -652,44 +652,22 @@
 		}
 		{
 			x: 0.0d
-			y: -7.0d
-			dependencies: ["500C6468D870F1B1"]
-			id: "50C846E9BD76E1CC"
-			tasks: [{
-				id: "206A8473941870C5"
-				type: "item"
-				item: {
-					id: "minecraft:ender_eye"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
-					}
-				}
-				count: 12L
-			}]
-			rewards: [
-				{
-					id: "73FCCE8305FFF2B5"
-					type: "item"
-					item: {
-						id: "coins:coin_platinum"
-						Count: 1b
-						ForgeCaps: {
-							"customnpcs:itemscripteddata": { }
-						}
-					}
-				}
-				{
-					id: "4C8824A10643A7C5"
-					type: "xp_levels"
-					xp_levels: 10
-				}
+			y: -9.0d
+			dependencies: [
+				"51A8F12D1AEE232C"
+				"7EEFDE40DEC0B43A"
+				"7AB7BAE7B9B7E5AE"
+				"1AE2E5343437D5A6"
+				"08FF83C32D25F036"
+				"23C98641BF6A86A1"
+				"43F45A39EBB93CDC"
+				"1E23B4511C3A387E"
+				"60AF8234D8CD3B8B"
+				"621BB32E1E74274D"
+				"2DF5013085D990AB"
+				"7603131D7034E6B1"
+				"500C6468D870F1B1"
 			]
-		}
-		{
-			x: 1.5d
-			y: -6.0d
-			dependencies: ["50C846E9BD76E1CC"]
 			id: "22DBA374B7D4C576"
 			tasks: [{
 				id: "228EB09FCEF2799A"
@@ -724,8 +702,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: -4.0d
+			x: 0.0d
+			y: -13.0d
 			dependencies: ["22DBA374B7D4C576"]
 			id: "02B7932B350CECF9"
 			tasks: [{
@@ -757,6 +735,234 @@
 					xp_levels: 10
 				}
 			]
+		}
+		{
+			x: -2.5d
+			y: -10.0d
+			id: "1AE2E5343437D5A6"
+			tasks: [{
+				id: "64322A4E8B822AB6"
+				type: "item"
+				item: {
+					id: "endrem:end_crystal_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -9.0d
+			id: "2DF5013085D990AB"
+			tasks: [{
+				id: "743D1E4244ED9358"
+				type: "item"
+				item: {
+					id: "endrem:witch_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -8.0d
+			id: "7AB7BAE7B9B7E5AE"
+			tasks: [{
+				id: "7964238AF0466701"
+				type: "item"
+				item: {
+					id: "endrem:corrupted_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.5d
+			id: "51A8F12D1AEE232C"
+			tasks: [{
+				id: "5C8BACC0B93B3616"
+				type: "item"
+				item: {
+					id: "endrem:black_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -11.0d
+			id: "43F45A39EBB93CDC"
+			tasks: [{
+				id: "6E4586331FDB7E25"
+				type: "item"
+				item: {
+					id: "endrem:magical_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -9.0d
+			id: "7EEFDE40DEC0B43A"
+			tasks: [{
+				id: "5A552FBCD08E4781"
+				type: "item"
+				item: {
+					id: "endrem:cold_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -10.0d
+			id: "7603131D7034E6B1"
+			tasks: [{
+				id: "60A40583FE6DEB57"
+				type: "item"
+				item: {
+					id: "endrem:wither_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -11.0d
+			id: "08FF83C32D25F036"
+			tasks: [{
+				id: "5FBA439FD82E8ADB"
+				type: "item"
+				item: {
+					id: "endrem:guardian_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -8.0d
+			id: "60AF8234D8CD3B8B"
+			tasks: [{
+				id: "53C6418475B22878"
+				type: "item"
+				item: {
+					id: "endrem:old_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.5d
+			id: "621BB32E1E74274D"
+			tasks: [{
+				id: "2F65C1997F364DBA"
+				type: "item"
+				item: {
+					id: "endrem:rogue_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -11.0d
+			id: "1E23B4511C3A387E"
+			tasks: [{
+				id: "3D5F1C436F2A057E"
+				type: "item"
+				item: {
+					id: "endrem:nether_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -11.0d
+			id: "23C98641BF6A86A1"
+			tasks: [{
+				id: "497250D1B371C9BB"
+				type: "item"
+				item: {
+					id: "endrem:lost_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
 		}
 	]
 }

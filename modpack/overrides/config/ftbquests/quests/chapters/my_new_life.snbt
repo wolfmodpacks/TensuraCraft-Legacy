@@ -21,19 +21,11 @@
 				type: "checkmark"
 				title: "Accept me"
 			}]
-			rewards: [
-				{
-					id: "5ABD5EFC0BE42C51"
-					type: "item"
-					team_reward: false
-					item: "ttigraas:race_reroll_scroll"
-				}
-				{
-					id: "652EA76A06F99EC1"
-					type: "item"
-					item: "ttigraas:skill_reroll_scroll"
-				}
-			]
+			rewards: [{
+				id: "652EA76A06F99EC1"
+				type: "item"
+				item: "ttigraas:skill_reroll_scroll"
+			}]
 		}
 		{
 			x: -1.0d
@@ -95,7 +87,13 @@
 			rewards: [{
 				id: "45D961C988916EA4"
 				type: "item"
-				item: "ttigraas:race_reroll_scroll"
+				item: {
+					id: "ttigraas:skill_reroll_scroll"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 	]

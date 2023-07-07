@@ -600,7 +600,7 @@
 				id: "071BD63DCABEDD9C"
 				type: "item"
 				item: {
-					id: "ttigraas:race_reroll_scroll"
+					id: "ttigraas:skill_reroll_scroll"
 					Count: 1b
 					ForgeCaps: {
 						"customnpcs:itemscripteddata": { }

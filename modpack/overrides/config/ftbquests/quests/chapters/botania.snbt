@@ -826,7 +826,7 @@
 					id: "175F6070E152C201"
 					type: "item"
 					item: {
-						id: "ttigraas:race_reroll_scroll"
+						id: "ttigraas:skill_reroll_scroll"
 						Count: 1b
 						ForgeCaps: {
 							"customnpcs:itemscripteddata": { }
