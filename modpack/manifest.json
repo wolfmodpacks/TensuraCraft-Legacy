@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "0.1.7",
+  "version": "0.2.0",
   "author": "Wolfie",
   "name": "TensuraCraft-Legacy",
   "files": [
@@ -203,6 +203,14 @@
       }
     },
     {
+      "projectID": 238551,
+      "fileID": 3447911,
+      "required": true,
+      "__meta": {
+        "name": "GraveStone Mod"
+      }
+    },
+    {
       "projectID": 238891,
       "fileID": 3502320,
       "required": true,
@@ -300,6 +308,14 @@
       "required": true,
       "__meta": {
         "name": "OpenBlocks Elevator"
+      }
+    },
+    {
+      "projectID": 254268,
+      "fileID": 3433163,
+      "required": true,
+      "__meta": {
+        "name": "Torchmaster"
       }
     },
     {
@@ -538,6 +554,14 @@
       }
     },
     {
+      "projectID": 319596,
+      "fileID": 4599992,
+      "required": true,
+      "__meta": {
+        "name": "Pehkui"
+      }
+    },
+    {
       "projectID": 324717,
       "fileID": 3910873,
       "required": true,
@@ -666,6 +690,22 @@
       }
     },
     {
+      "projectID": 351725,
+      "fileID": 4599793,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Bridges"
+      }
+    },
+    {
+      "projectID": 352039,
+      "fileID": 4590021,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Roofs"
+      }
+    },
+    {
       "projectID": 353051,
       "fileID": 3600710,
       "required": true,
@@ -695,6 +735,14 @@
       "required": true,
       "__meta": {
         "name": "Inventory HUD+"
+      }
+    },
+    {
+      "projectID": 359540,
+      "fileID": 4419004,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Furniture"
       }
     },
     {
@@ -732,6 +780,14 @@
       "required": true,
       "__meta": {
         "name": "spark"
+      }
+    },
+    {
+      "projectID": 363569,
+      "fileID": 4203409,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Windows"
       }
     },
     {
@@ -786,6 +842,14 @@
         "dependencies": [
           378802
         ]
+      }
+    },
+    {
+      "projectID": 378646,
+      "fileID": 4446138,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Doors"
       }
     },
     {
@@ -887,6 +951,14 @@
         "dependencies": [
           566700
         ]
+      }
+    },
+    {
+      "projectID": 400933,
+      "fileID": 4608573,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Trapdoors"
       }
     },
     {
@@ -1064,6 +1136,14 @@
       }
     },
     {
+      "projectID": 438116,
+      "fileID": 3922990,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Paintings"
+      }
+    },
+    {
       "projectID": 442508,
       "fileID": 3534647,
       "required": true,
@@ -1096,6 +1176,14 @@
       "required": true,
       "__meta": {
         "name": "Entity Culling Fabric/Forge"
+      }
+    },
+    {
+      "projectID": 453925,
+      "fileID": 4203536,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Fences and Walls"
       }
     },
     {
@@ -1222,6 +1310,14 @@
         "dependencies": [
           520110
         ]
+      }
+    },
+    {
+      "projectID": 502372,
+      "fileID": 4618173,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Lights and Lamps"
       }
     },
     {
@@ -1443,6 +1539,14 @@
       }
     },
     {
+      "projectID": 594044,
+      "fileID": 3722048,
+      "required": true,
+      "__meta": {
+        "name": "Better Loading Screen"
+      }
+    },
+    {
       "projectID": 608235,
       "fileID": 3920142,
       "required": true,
@@ -1467,6 +1571,14 @@
       "required": true,
       "__meta": {
         "name": "Entity Collision FPS Fix"
+      }
+    },
+    {
+      "projectID": 629153,
+      "fileID": 4585110,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Paths and Pavings"
       }
     },
     {
