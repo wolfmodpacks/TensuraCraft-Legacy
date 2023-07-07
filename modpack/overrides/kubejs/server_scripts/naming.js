@@ -1,9 +1,11 @@
 
 onEvent('command.run', event => {
+    if (!event.parseResults || !event.parseResults.reader || !event.parseResults.context || !event.parseResults.context.source) return;
     const player = event.parseResults.context.source.func_197022_f()
     const CommandName = event.parseResults.reader.string
-    if (player == null) return
-    if (!player.stages.has('reincarnation')) {
+
+    if (player && player.stages && player.stages.has('reincarnation')) {
+        
         event.cancel()
     }
 
