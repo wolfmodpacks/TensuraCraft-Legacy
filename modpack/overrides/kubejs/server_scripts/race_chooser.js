@@ -51,73 +51,91 @@ onEvent('item.pickup', (event) => {
     if (!event.player.stages.has('reincarnation')) {
         event.player.stages.add('reincarnation')
     }
-    event.server.runCommandSilent(`op ${event.player.name}`)
 
     event.server.scheduleInTicks(10, () => {
         const player = event.player
         switch (event.item) {
             case 'kubejs:goblin_head':
+                event.server.runCommandSilent(`op ${event.player.name}`)
                 player.runCommandSilent('race Goblin')
                 player.runCommandSilent(`clear ${event.player} kubejs:goblin_head`)
                 player.runCommand(`spawn`)
                 removeLastTeleport(event.player)
+                event.server.runCommandSilent(`deop ${event.player.name}`)
 
                 break;
             case 'kubejs:lizardman':
+                event.server.runCommandSilent(`op ${event.player.name}`)
+
                 player.runCommandSilent('race Lizardman')
                 player.runCommandSilent(`clear ${event.player} kubejs:lizardman`)
                 player.runCommand(`spawn`)
                 removeLastTeleport(event.player)
+                event.server.runCommandSilent(`deop ${event.player.name}`)
 
                 break;
 
             case 'kubejs:orc_head':
+                event.server.runCommandSilent(`op ${event.player.name}`)
+
                 player.runCommandSilent('race Orc')
                 player.runCommandSilent(`clear ${event.player} kubejs:orc_head`)
                 // 5% chance of obtaining self_regeneration
                 if (Math.random() < 0.05) player.give(`ttigraas:self_regeneration`)
                 player.runCommand(`spawn`)
                 removeLastTeleport(event.player)
+                event.server.runCommandSilent(`deop ${event.player.name}`)
 
                 break;
 
             case 'kubejs:vampire_head':
+                event.server.runCommandSilent(`op ${event.player.name}`)
+
                 player.runCommandSilent('race Vampire')
                 player.runCommandSilent(`clear ${event.player} kubejs:vampire_head`)
                 player.give(`ttigraas:vampirism`)
                 player.runCommand(`spawn`)
                 removeLastTeleport(event.player)
+                event.server.runCommandSilent(`deop ${event.player.name}`)
 
                 break;
 
             case 'kubejs:human_head':
+                event.server.runCommandSilent(`op ${event.player.name}`)
+
                 player.runCommandSilent('race Human')
                 player.runCommandSilent(`clear ${event.player} kubejs:human_head`)
                 player.runCommand(`spawn`)
                 removeLastTeleport(event.player)
+                event.server.runCommandSilent(`deop ${event.player.name}`)
 
                 break;
 
             case 'kubejs:slime':
+                event.server.runCommandSilent(`op ${event.player.name}`)
+
                 player.runCommandSilent('race Slime')
                 player.runCommandSilent(`clear ${event.player} kubejs:slime`)
                 player.give(`ttigraas:absorb_and_dissolve`)
                 player.give(`ttigraas:self_regeneration`)
                 player.runCommand(`spawn`)
                 removeLastTeleport(event.player)
+                event.server.runCommandSilent(`deop ${event.player.name}`)
 
                 break;
 
             case 'kubejs:wight_head':
+                event.server.runCommandSilent(`op ${event.player.name}`)
+
                 player.runCommandSilent('race Wight')
                 player.runCommandSilent(`clear ${event.player} kubejs:wight_head`)
                 player.runCommand(`spawn`)
                 removeLastTeleport(event.player)
+                event.server.runCommandSilent(`deop ${event.player.name}`)
 
                 break;
 
         }
-        event.server.runCommandSilent(`deop ${event.player.name}`)
 
 
     })
