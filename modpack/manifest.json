@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "Wolfie",
   "name": "TensuraCraft-Legacy",
   "files": [
@@ -722,14 +722,6 @@
       }
     },
     {
-      "projectID": 353935,
-      "fileID": 4421028,
-      "required": true,
-      "__meta": {
-        "name": "Project MMO"
-      }
-    },
-    {
       "projectID": 355248,
       "fileID": 3188216,
       "required": true,
@@ -1033,14 +1025,6 @@
         "dependencies": [
           419699
         ]
-      }
-    },
-    {
-      "projectID": 405076,
-      "fileID": 4029362,
-      "required": true,
-      "__meta": {
-        "name": "Epic Fight"
       }
     },
     {
