@@ -230,13 +230,13 @@
 	#Should every 10th level up be broadcast to everyone?
 	broadcastMilestone = true
 	#Should fireworks appear on level up?
-	levelUpFirework = true
+	levelUpFirework = false
 	#Should fireworks appear on Milestone level up, to other players?
-	milestoneLevelUpFirework = true
+	milestoneLevelUpFirework = false
 	#Should fireworks appear on Milestone level up, to anyone, by you?
 	spawnFireworksCausedByMe = true
 	#Should fireworks appear on Milestone level up, from other players?
-	spawnFireworksCausedByOthers = true
+	spawnFireworksCausedByOthers = false
 	#Should players loose Percentage of Full Levels instead of Xp above Whole Level upon death?
 	deathLoosesLevels = false
 	#Should levels be determined using an Exponential formula? (false = the original way)

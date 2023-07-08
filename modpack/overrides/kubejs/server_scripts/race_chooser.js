@@ -28,7 +28,6 @@ onEvent('player.tick', (event) => {
 
     if (event.player.server && event.player.ticksExisted % 90 == 0) {
         try {
-            if (!currentRace) return;
             getManager().getAllRanks().forEach(e => {
                 if (formatedRace == e.getId()) {
                     if (rankAdded(event.player, e)) return;
@@ -52,10 +51,10 @@ onEvent('item.pickup', (event) => {
     if (!event.player.stages.has('reincarnation')) {
         event.player.stages.add('reincarnation')
     }
+    event.server.runCommandSilent(`op ${event.player.name}`)
 
     event.server.scheduleInTicks(10, () => {
         const player = event.player
-
         switch (event.item) {
             case 'kubejs:goblin_head':
                 player.runCommandSilent('race Goblin')
@@ -118,6 +117,8 @@ onEvent('item.pickup', (event) => {
                 break;
 
         }
+        event.server.runCommandSilent(`deop ${event.player.name}`)
+
 
     })
 })
