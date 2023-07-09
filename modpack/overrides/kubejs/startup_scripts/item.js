@@ -14,7 +14,11 @@ onEvent('item.registry', event => {
 
     event.create('wight_head').displayName('Wight Race').texture('kubejs:item/wight_head')
 
-    event.create('mysterymeat').displayName('Mystery Meat').texture('kubejs:item/mysterymeat')
+    event.create('mysterymeat')
+    .displayName('Mystery Meat')
+    .texture('kubejs:item/mysterymeat')
+    .tooltip('§7§oTeleports u to the Race Hall after eating it...')
+    .glow(true)
     .food(f => {
         f.hunger(20)
         f.saturation(20)
@@ -24,4 +28,5 @@ onEvent('item.registry', event => {
             e.player.stages.remove('reincarnation')
         })
     })
+
 })
