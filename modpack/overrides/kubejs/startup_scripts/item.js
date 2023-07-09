@@ -13,4 +13,15 @@ onEvent('item.registry', event => {
     event.create('slime').displayName('Slime Race').texture('kubejs:item/slime')
 
     event.create('wight_head').displayName('Wight Race').texture('kubejs:item/wight_head')
+
+    event.create('mysterymeat').displayName('Mystery Meat').texture('kubejs:item/mysterymeat')
+    .food(f => {
+        f.hunger(20)
+        f.saturation(20)
+        f.meat()
+        f.eaten(e => {
+            e.server.runCommandSilent(`/execute as ${e.player.name} in spawn:spawn/void run tp 0 74 1`)
+            e.player.stages.remove('reincarnation')
+        })
+    })
 })

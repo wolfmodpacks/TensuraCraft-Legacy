@@ -408,6 +408,14 @@
       }
     },
     {
+      "projectID": 278141,
+      "fileID": 3725538,
+      "required": true,
+      "__meta": {
+        "name": "Spartan Weaponry"
+      }
+    },
+    {
       "projectID": 280510,
       "fileID": 3732244,
       "required": true,
@@ -1407,6 +1415,18 @@
       }
     },
     {
+      "projectID": 533570,
+      "fileID": 4626364,
+      "required": true,
+      "__meta": {
+        "name": "Spartan Weaponry: Twilight Forest",
+        "dependencies": [
+          227639,
+          278141
+        ]
+      }
+    },
+    {
       "projectID": 535291,
       "fileID": 4353507,
       "required": true,
@@ -1598,6 +1618,14 @@
       "__meta": {
         "name": "playerAnimator",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 662687,
+      "fileID": 4059371,
+      "required": true,
+      "__meta": {
+        "name": "ForgedFabric API"
       }
     },
     {
