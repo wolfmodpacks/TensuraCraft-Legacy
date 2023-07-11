@@ -34,10 +34,11 @@ function rankAdded(player, rank) {
 
 onEvent('player.tick', (event) => {
 
-    const currentRace = event.player.fullNBT.ForgeCaps["ttigraas:player_variables"].OriginalRace
-    const formatedRace = currentRace.toLowerCase().replace(' ', '_').replace("[", "").replace("]", "")
-
     if (event.player.server && event.player.ticksExisted % 90 == 0) {
+        const currentRace = event.player.fullNBT.ForgeCaps["ttigraas:player_variables"].OriginalRace
+        if (currentRace.isEmpty()) return
+        const formatedRace = currentRace.toLowerCase().replace(' ', '_').replace("[", "").replace("]", "")
+
         try {
             getManager().getAllRanks().forEach(e => {
                 if (formatedRace == e.getId()) {
