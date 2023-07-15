@@ -4,6 +4,7 @@ onEvent('player.logged_in', (event) => {
         event.server.runCommandSilent(`/execute as ${event.player.name} run isekai`)
         event.server.runCommandSilent(`/execute as ${event.player.name} in spawn:spawn/void run tp 0 74 1`)
     }
+    event.server.runCommandSilent(`/recipe give ${event.player.name} *`)
     dailyQuests(event)
 })
 
