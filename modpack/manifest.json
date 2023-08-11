@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "0.2.3",
+  "version": "0.2.4",
   "author": "Wolfie",
   "name": "TensuraCraft-Legacy",
   "files": [
@@ -430,14 +430,6 @@
       "__meta": {
         "name": "Placebo",
         "explicit": false
-      }
-    },
-    {
-      "projectID": 284324,
-      "fileID": 3543338,
-      "required": true,
-      "__meta": {
-        "name": "Emojiful"
       }
     },
     {
@@ -1637,11 +1629,37 @@
       }
     },
     {
+      "projectID": 678847,
+      "fileID": 4496213,
+      "required": true,
+      "__meta": {
+        "name": "Upgraded Netherite : Spartan Weaponry",
+        "dependencies": [
+          400085,
+          566700,
+          278141
+        ]
+      }
+    },
+    {
       "projectID": 821790,
       "fileID": 4533215,
       "required": true,
       "__meta": {
         "name": "Lightspeed - Launch optimizations"
+      }
+    },
+    {
+      "projectID": 897910,
+      "fileID": 4688654,
+      "required": true,
+      "__meta": {
+        "name": "EmoteTweaks Fork",
+        "dependencies": [
+          419699,
+          416089,
+          403422
+        ]
       }
     }
   ]
