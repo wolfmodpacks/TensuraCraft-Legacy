@@ -1,8 +1,10 @@
 onEvent('player.logged_in', (event) => {
-    if(!event.player.stages.has('reincarnation')) {
-        event.player.give('ftbquests:book')
-        event.server.runCommandSilent(`/execute as ${event.player.name} run isekai`)
-        event.server.runCommandSilent(`/execute as ${event.player.name} in spawn:spawn/void run tp 0 74 1`)
+    if (!event.server.isSinglePlayer()) {
+        if (!event.player.stages.has('reincarnation')) {
+            event.player.give('ftbquests:book')
+            event.server.runCommandSilent(`/execute as ${event.player.name} run isekai`)
+            event.server.runCommandSilent(`/execute as ${event.player.name} in spawn:spawn/void run tp 0 74 1`)
+        }
     }
     event.server.runCommandSilent(`/recipe give ${event.player.name} *`)
     dailyQuests(event)
@@ -39,11 +41,11 @@ function weeklyDailyQuests(event) {
         "265B2DDF798A1BE4", // Week 4
         "091C67754CB63B44"  // Week 5
     ];
-    
+
     if (date.getDate() >= startOfTheWeek && date.getDate() <= lastDayOfWeek) {
         const questIndex = date.getDate() - startOfTheWeek;
         const questId = questIds[questIndex];
         event.server.runCommand(`/ftbquests change_progress ${event.player.name} complete ${questId}`);
     }
-    
+
 }

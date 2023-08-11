@@ -2,10 +2,10 @@
   {
     "mob": "ttigraas:orc",
     "persecond": 0.5,
-    "attempts": 20,
+    "attempts": 10,
     "amount": {
       "minimum": 2,
-      "maximum": 5
+      "maximum": 2
     },
     "conditions": {
       "dimension": "minecraft:overworld",
@@ -17,7 +17,7 @@
   {
     "mob": "ttigraas:orc_lord",
     "persecond": 0.5,
-    "attempts": 20,
+    "attempts": 5,
     "amount": {
       "minimum": 1,
       "maximum": 1

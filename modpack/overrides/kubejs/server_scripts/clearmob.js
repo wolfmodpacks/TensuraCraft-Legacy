@@ -1,5 +1,5 @@
 let interval = 36000
-const mobsToKill = ['ttigraas:orc', 'ttigraas:orc_lord', 'ttigraas:otherworlder'];
+const mobsToKill = ['ttigraas:orc', 'ttigraas:orc_lord', 'ttigraas:otherworlder', 'minecraft:zombie', 'minecraft:skeleton', 'minecraft:spider'];
 
 let sendWarningTick = interval - (1200)
 let tickCounter = 0

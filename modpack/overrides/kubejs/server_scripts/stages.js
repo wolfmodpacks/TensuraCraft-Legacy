@@ -11,8 +11,13 @@ global.ChangeDimensionEvent = event => {
         try {
             const player = event.getEntity()
             if (event.getDimension().toString() == 'ResourceKey[minecraft:dimension / twilightforest:twilightforest]') {
-                if (!player.stages.has('twilight_access')) return event.setCanceled(true)
-                else event.setCanceled(false)
+                if (!player.stages.has('twilight_access')) {
+                    player.asKJS().tell(`§cYou need to kill the ender dragon first!`)
+                    return event.setCanceled(true)
+                }
+                else {
+                    event.setCanceled(false)
+                }
             }
 
         } catch (e) {
@@ -22,7 +27,7 @@ global.ChangeDimensionEvent = event => {
 
 global.raceCommand = event => {
     try {
-        console.log('hello world 192')
+        //console.log('hello world 192')
         console.log(event)
     } catch (e) {
         console.log(e)
