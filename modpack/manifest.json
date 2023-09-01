@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "0.2.4",
+  "version": "0.2.5",
   "author": "Wolfie",
   "name": "TensuraCraft-Legacy",
   "files": [
@@ -622,14 +622,6 @@
       "__meta": {
         "name": "Citadel",
         "explicit": false
-      }
-    },
-    {
-      "projectID": 335673,
-      "fileID": 3765084,
-      "required": true,
-      "__meta": {
-        "name": "Dank Storage"
       }
     },
     {
